@@ -1,7 +1,9 @@
 """Cálculo de 'chollos': anuncios activos con precio muy por debajo de lo
-esperado para su grupo (mismo modelo vigilado + año), ajustando por
-kilometraje cuando hay datos suficientes, y clasificación del anuncio por
-estado según palabras clave en título/descripción."""
+esperado para su grupo (mismo modelo vigilado + año + rango de potencia),
+ajustando además por kilometraje cuando hay datos suficientes, y
+clasificación del anuncio por estado según palabras clave en título/
+descripción."""
+import re
 import statistics
 from datetime import datetime, timezone
 
@@ -10,6 +12,39 @@ from . import config
 # Mínimo de anuncios con km conocido en el grupo para fiarse de una
 # regresión precio~km en vez de comparar directamente contra la mediana.
 KM_REGRESSION_MIN_SAMPLES = max(config.CHOLLO_MIN_GROUP_SIZE, 6)
+
+# Un mismo "modelo vigilado" (p.ej. "Audi A3") incluye versiones con precios
+# muy distintos entre sí (un A3 1.6 TDI de 116cv y un A3 RS3 de 400cv del
+# mismo año no son comparables). Agrupar también por potencia evita mezclar
+# la mediana/regresión de precio de versiones básicas con las de gama alta.
+# Cuando no se conoce la potencia exacta, se usa esta lista de distintivos
+# de versión de alto rendimiento (con límites de palabra, para no confundir
+# "S line"/"S tronic" -- que son acabado/caja de cambios normales, no una
+# versión distinta -- con "S3"/"RS3"/etc, que sí lo son).
+_HIGH_PERFORMANCE_PATTERN = re.compile(
+    r"\b(rs\s?\d?|s[3-8]|amg|gti|gtd|cupra|type\s?r|vrs|st(?:-line)?|m[2-8])\b",
+    re.IGNORECASE,
+)
+
+
+def _is_high_performance(text: str) -> bool:
+    return bool(text and _HIGH_PERFORMANCE_PATTERN.search(text))
+
+
+def _hp_group_key(row):
+    """Sub-clave de potencia dentro del grupo (modelo+año): bucket de
+    HP_BUCKET_WIDTH cv si se conoce la potencia, o una marca aparte para
+    versiones de alto rendimiento detectadas por texto cuando no se conoce,
+    o 'estandar' para el resto (mejor no separar de más si no hay ninguna
+    señal, o los grupos se quedan sin tamaño suficiente)."""
+    hp = row["hp"]
+    if hp:
+        bucket = int(hp // config.HP_BUCKET_WIDTH) * config.HP_BUCKET_WIDTH
+        return f"hp{bucket}"
+    text = " ".join(filter(None, [row["title"], row["description"]]))
+    if _is_high_performance(text):
+        return "alto_rendimiento_sin_cv_confirmado"
+    return "estandar"
 
 CONDITION_RULES = [
     # (etiqueta, palabras clave en minúsculas)
@@ -86,11 +121,11 @@ def compute_deals(listings, now: datetime = None):
 
     groups = {}
     for row in listings:
-        year = row["year"]
+        year = row["year"] if row["year"] else "sin_año"
         price = row["price"]
         if not price or price < config.CHOLLO_MIN_PRICE_EUR:
             continue
-        key = year if year else "sin_año"
+        key = (year, _hp_group_key(row))
         groups.setdefault(key, []).append(row)
 
     deals = []

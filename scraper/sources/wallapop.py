@@ -74,6 +74,19 @@ def _extract_price(value):
     return None
 
 
+_HP_PATTERN = re.compile(r"(\d{2,3})\s*cv\b", re.IGNORECASE)
+
+
+def _hp_from_text(*texts):
+    for text in texts:
+        if not text:
+            continue
+        m = _HP_PATTERN.search(text)
+        if m:
+            return int(m.group(1))
+    return None
+
+
 def _looks_like_item(d: dict) -> bool:
     if not isinstance(d, dict):
         return False
@@ -132,6 +145,7 @@ def _normalize(item: dict, display_model: str) -> dict:
         "price": price,
         "km": item.get("km") or item.get("kilometers"),
         "fuel": item.get("fuel") or item.get("fuelType"),
+        "hp": item.get("hp") or item.get("horsePower") or _hp_from_text(title, description),
         "province": city,
         "city": city,
         "seller_type": "professional" if item.get("isProfessional") else "private",

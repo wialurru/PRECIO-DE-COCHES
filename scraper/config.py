@@ -101,3 +101,8 @@ CHOLLOS_JSON_PATH = "chollos/latest.json"
 CHOLLO_DISCOUNT_RATIO = 0.75  # precio <= 75% de la mediana del grupo
 CHOLLO_MIN_GROUP_SIZE = 4     # mínimo de anuncios en el grupo para fiarse de la mediana
 CHOLLO_MIN_PRICE_EUR = 800    # por debajo de esto, casi seguro error/pieza/estafa: se descarta
+
+# Ancho del bucket de potencia (cv) usado para separar versiones de un mismo
+# modelo+año (p.ej. un Audi A3 116cv de un Audi A3 RS3 400cv) antes de
+# comparar precios. Ver scraper/dealscore.py.
+HP_BUCKET_WIDTH = 25

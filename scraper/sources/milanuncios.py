@@ -10,12 +10,28 @@ dos bloques:
     muy nuevos.
 """
 import json
+import re
+
 import requests
 
 from .. import config
 
 BASE_URL = "https://www.milanuncios.com/{make}-{model}-de-segunda-mano/"
 INITIAL_PROPS_MARKER = '__INITIAL_PROPS__ = JSON.parse("'
+
+# Milanuncios no da la potencia como campo estructurado (a diferencia de
+# coches.net): se busca en el título/descripción, tipo "116cv" o "116 CV".
+_HP_PATTERN = re.compile(r"(\d{2,3})\s*cv\b", re.IGNORECASE)
+
+
+def _hp_from_text(*texts):
+    for text in texts:
+        if not text:
+            continue
+        m = _HP_PATTERN.search(text)
+        if m:
+            return int(m.group(1))
+    return None
 
 
 def _extract_initial_props(html: str) -> dict:
@@ -75,6 +91,7 @@ def _normalize(ad: dict, display_model: str, make_label: str, model_label: str) 
         "city": (ad.get("city") or {}).get("name"),
         "seller_type": ad.get("sellerType"),
         "has_warranty": bool(ad.get("warrantyPeriod")),
+        "hp": _hp_from_text(ad.get("title"), ad.get("description")),
         "description": ad.get("description"),
         "title": ad.get("title"),
         "publish_date": ad.get("publishDate") or ad.get("sortDate"),

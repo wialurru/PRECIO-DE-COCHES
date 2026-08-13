@@ -17,6 +17,7 @@ CREATE TABLE IF NOT EXISTS listings (
     city TEXT,
     seller_type TEXT,
     has_warranty INTEGER,
+    hp INTEGER,
     description TEXT,
     title TEXT,
     publish_date TEXT,
@@ -43,12 +44,27 @@ CREATE TABLE IF NOT EXISTS scan_runs (
 """
 
 
+# Columnas añadidas después de la creación inicial de la tabla: CREATE TABLE
+# IF NOT EXISTS no las añade a una BD ya existente, hace falta migrarlas.
+_MIGRATIONS = [
+    ("listings", "hp", "INTEGER"),
+]
+
+
+def _migrate(conn: sqlite3.Connection):
+    for table, column, coltype in _MIGRATIONS:
+        existing = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})")}
+        if column not in existing:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {coltype}")
+
+
 @contextmanager
 def connect(db_path: str):
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     try:
         conn.executescript(SCHEMA)
+        _migrate(conn)
         yield conn
         conn.commit()
     finally:
@@ -67,12 +83,12 @@ def upsert_listing(conn: sqlite3.Connection, listing: dict, now_iso: str) -> boo
         conn.execute(
             """
             UPDATE listings SET
-                price = ?, km = ?, is_active = 1, last_seen_at = ?,
+                price = ?, km = ?, hp = ?, is_active = 1, last_seen_at = ?,
                 description = ?, title = ?
             WHERE source = ? AND source_id = ?
             """,
             (
-                listing["price"], listing["km"], now_iso,
+                listing["price"], listing["km"], listing.get("hp"), now_iso,
                 listing.get("description"), listing.get("title"),
                 listing["source"], listing["source_id"],
             ),
@@ -83,9 +99,9 @@ def upsert_listing(conn: sqlite3.Connection, listing: dict, now_iso: str) -> boo
         """
         INSERT INTO listings (
             source, source_id, display_model, make, model, year, price, km,
-            fuel, province, city, seller_type, has_warranty, description,
+            fuel, province, city, seller_type, has_warranty, hp, description,
             title, publish_date, url, first_seen_at, last_seen_at, is_active
-        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1)
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1)
         """,
         (
             listing["source"], listing["source_id"], listing["display_model"],
@@ -93,7 +109,7 @@ def upsert_listing(conn: sqlite3.Connection, listing: dict, now_iso: str) -> boo
             listing.get("price"), listing.get("km"), listing.get("fuel"),
             listing.get("province"), listing.get("city"),
             listing.get("seller_type"), int(bool(listing.get("has_warranty"))),
-            listing.get("description"), listing.get("title"),
+            listing.get("hp"), listing.get("description"), listing.get("title"),
             listing.get("publish_date"), listing.get("url"),
             now_iso, now_iso,
         ),

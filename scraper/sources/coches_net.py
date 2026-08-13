@@ -45,6 +45,7 @@ def _normalize(item: dict, display_model: str) -> dict:
         "city": (item.get("location") or {}).get("cityLiteral"),
         "seller_type": "professional" if item.get("isProfessional") else "private",
         "has_warranty": item.get("hasWarranty"),
+        "hp": item.get("hp"),
         "description": None,  # el listado no trae descripción libre, solo el detalle del anuncio la tiene
         "title": item.get("title"),
         "publish_date": item.get("creationDate") or item.get("publicationDate"),

@@ -152,9 +152,10 @@ def write_markdown(report_models, all_deals, now, path):
         "Milanuncios. Se considera **chollo** un anuncio activo, publicado hace "
         f"{config.MAX_AGE_DAYS} días o menos, con precio igual o inferior al "
         f"{int(config.CHOLLO_DISCOUNT_RATIO * 100)}% del precio esperado para su grupo "
-        "(mismo modelo vigilado + año), exigiendo al menos "
+        "(mismo modelo vigilado + año + rango de potencia, para no mezclar versiones básicas "
+        "con las de gama alta -- p.ej. un Audi A3 116cv con un A3 RS3 400cv), exigiendo al menos "
         f"{config.CHOLLO_MIN_GROUP_SIZE} anuncios comparables en ese grupo. Cuando hay suficientes "
-        "anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta por km "
+        "anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta además por km "
         "(un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, "
         "no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana."
     )
@@ -177,15 +178,16 @@ def write_markdown(report_models, all_deals, now, path):
                 continue
             lines.append(f"### {condition}")
             lines.append("")
-            lines.append("| Modelo | Año | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |")
-            lines.append("|---|---|---|---|---|---|---|---|---|---|---|")
+            lines.append("| Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |")
+            lines.append("|---|---|---|---|---|---|---|---|---|---|---|---|")
             for d in deals:
                 pct_off = int(round((1 - d["discount_ratio"]) * 100))
                 km = f"{d['km']:,} km".replace(",", ".") if d["km"] else "—"
                 age = f"{d['age_days']:.1f} d" if d["age_days"] != float("inf") else "—"
                 km_adj = "sí" if d.get("km_adjusted") else "no (mediana)"
+                hp = str(d["hp"]) if d.get("hp") else "n/d"
                 lines.append(
-                    f"| {d['display_model']} | {d['year'] or '—'} | {d['price']:,.0f} € | "
+                    f"| {d['display_model']} | {d['year'] or '—'} | {hp} | {d['price']:,.0f} € | "
                     f"{d['reference_price']:,.0f} € | {km_adj} | -{pct_off}% | {km} | "
                     f"{d.get('city') or d.get('province') or '—'} | {d['source']} | {age} | "
                     f"[Ver anuncio]({d['url']}) |"
