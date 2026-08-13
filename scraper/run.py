@@ -141,6 +141,40 @@ CONDITION_ORDER = [
 ]
 
 
+def _render_deals_tables(lines, deals):
+    """Añade a `lines` una tabla de chollos por cada categoría de estado,
+    en el orden de CONDITION_ORDER."""
+    if not deals:
+        lines.append("Ninguno en este barrido.")
+        lines.append("")
+        return
+    by_condition = {}
+    for deal in deals:
+        by_condition.setdefault(deal["condition"], []).append(deal)
+
+    for condition in CONDITION_ORDER:
+        condition_deals = by_condition.get(condition, [])
+        if not condition_deals:
+            continue
+        lines.append(f"### {condition}")
+        lines.append("")
+        lines.append("| Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |")
+        lines.append("|---|---|---|---|---|---|---|---|---|---|---|---|")
+        for d in condition_deals:
+            pct_off = int(round((1 - d["discount_ratio"]) * 100))
+            km = f"{d['km']:,} km".replace(",", ".") if d["km"] else "—"
+            age = f"{d['age_days']:.1f} d" if d["age_days"] != float("inf") else "—"
+            km_adj = "sí" if d.get("km_adjusted") else "no (mediana)"
+            hp = str(d["hp"]) if d.get("hp") else "n/d"
+            lines.append(
+                f"| {d['display_model']} | {d['year'] or '—'} | {hp} | {d['price']:,.0f} € | "
+                f"{d['reference_price']:,.0f} € | {km_adj} | -{pct_off}% | {km} | "
+                f"{d.get('city') or d.get('province') or '—'} | {d['source']} | {age} | "
+                f"[Ver anuncio]({d['url']}) |"
+            )
+        lines.append("")
+
+
 def write_markdown(report_models, all_deals, now, path):
     lines = []
     lines.append("# Chollos detectados — coches de segunda mano (España)")
@@ -162,37 +196,19 @@ def write_markdown(report_models, all_deals, now, path):
     lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append(f"## Chollos activos ({len(all_deals)})")
+
+    budget_deals = [d for d in all_deals if d["price"] <= config.USER_MAX_BUDGET_EUR]
+    rest_deals = [d for d in all_deals if d["price"] > config.USER_MAX_BUDGET_EUR]
+
+    lines.append(f"## 🎯 Dentro de presupuesto (≤ {config.USER_MAX_BUDGET_EUR:,.0f} €) — {len(budget_deals)}".replace(",", "."))
     lines.append("")
+    _render_deals_tables(lines, budget_deals)
 
-    if not all_deals:
-        lines.append("No se han detectado chollos que cumplan el criterio en este barrido.")
-    else:
-        by_condition = {}
-        for deal in all_deals:
-            by_condition.setdefault(deal["condition"], []).append(deal)
-
-        for condition in CONDITION_ORDER:
-            deals = by_condition.get(condition, [])
-            if not deals:
-                continue
-            lines.append(f"### {condition}")
-            lines.append("")
-            lines.append("| Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |")
-            lines.append("|---|---|---|---|---|---|---|---|---|---|---|---|")
-            for d in deals:
-                pct_off = int(round((1 - d["discount_ratio"]) * 100))
-                km = f"{d['km']:,} km".replace(",", ".") if d["km"] else "—"
-                age = f"{d['age_days']:.1f} d" if d["age_days"] != float("inf") else "—"
-                km_adj = "sí" if d.get("km_adjusted") else "no (mediana)"
-                hp = str(d["hp"]) if d.get("hp") else "n/d"
-                lines.append(
-                    f"| {d['display_model']} | {d['year'] or '—'} | {hp} | {d['price']:,.0f} € | "
-                    f"{d['reference_price']:,.0f} € | {km_adj} | -{pct_off}% | {km} | "
-                    f"{d.get('city') or d.get('province') or '—'} | {d['source']} | {age} | "
-                    f"[Ver anuncio]({d['url']}) |"
-                )
-            lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append(f"## Resto de chollos (> {config.USER_MAX_BUDGET_EUR:,.0f} €, fuera de presupuesto) — {len(rest_deals)}".replace(",", "."))
+    lines.append("")
+    _render_deals_tables(lines, rest_deals)
 
     lines.append("---")
     lines.append("")
@@ -220,6 +236,7 @@ def write_json(report_models, all_deals, now, path):
         "generated_at": now.isoformat(),
         "max_age_days": config.MAX_AGE_DAYS,
         "discount_ratio": config.CHOLLO_DISCOUNT_RATIO,
+        "max_budget_eur": config.USER_MAX_BUDGET_EUR,
         "deals": all_deals,
         "models": [
             {"model": m["model"], "active_listings": m["active_listings"],

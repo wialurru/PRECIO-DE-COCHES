@@ -167,20 +167,36 @@ silencio, mirar `SELECT * FROM scan_runs ORDER BY id DESC`).
 
 ## Lógica de "chollo" (`dealscore.py`)
 
-Agrupa anuncios activos por `(display_model, year)`. Si el grupo tiene al
-menos `CHOLLO_MIN_GROUP_SIZE` (4) anuncios con precio válido, calcula la
-mediana. **El precio de referencia se ajusta por kilometraje** cuando el
-grupo tiene suficientes anuncios con km conocido (`KM_REGRESSION_MIN_SAMPLES`,
-6): se ajusta una regresión lineal simple precio~km (`statistics.linear_regression`,
-sin dependencias extra) y se compara cada anuncio contra el precio esperado
-para SU kilometraje, no contra la mediana bruta del grupo — así un coche con
-300.000 km no compite en igualdad con uno de 50.000 km. Si la pendiente sale
-positiva (no tiene sentido) o no hay grupo suficiente, cae de vuelta a la
-mediana simple. Un anuncio es chollo si `precio <= precio_esperado *
-CHOLLO_DISCOUNT_RATIO` (0.75, 25% o más por debajo) **y** se publicó hace
-`MAX_AGE_DAYS` (15) días o menos. Se clasifica por "estado" con palabras
-clave simples sobre título+descripción (buen estado/garantía, necesita
-reparación, para piezas, sin especificar) — ver `CONDITION_RULES`.
+Agrupa anuncios activos por `(display_model, year, bucket_de_potencia)`.
+**El agrupamiento por potencia es importante**: un mismo "modelo vigilado"
+(p.ej. "Audi A3") mezcla versiones con precios muy distintos entre sí (un
+1.6 TDI de 116cv y un RS3 de 400cv del mismo año no son comparables). Se
+saca la potencia real de `hp` en coches.net, o por regex de título/
+descripción en Milanuncios/Wallapop (`"116cv"` etc.); si no hay número pero
+el texto tiene un distintivo de gama alta (RS, S3-S8, AMG, GTI, Cupra, Type
+R, M2-M8...) se aísla en un bucket aparte igualmente, en vez de mezclarlo
+con las versiones normales. Esto aplica a **todos** los modelos vigilados,
+no solo a los que tienen variantes deportivas obvias.
+
+Si el grupo tiene al menos `CHOLLO_MIN_GROUP_SIZE` (4) anuncios con precio
+válido, calcula la mediana. **El precio de referencia se ajusta además por
+kilometraje** cuando el grupo tiene suficientes anuncios con km conocido
+(`KM_REGRESSION_MIN_SAMPLES`, 6): se ajusta una regresión lineal simple
+precio~km (`statistics.linear_regression`, sin dependencias extra) y se
+compara cada anuncio contra el precio esperado para SU kilometraje, no
+contra la mediana bruta del grupo — así un coche con 300.000 km no compite
+en igualdad con uno de 50.000 km. Si la pendiente sale positiva (no tiene
+sentido) o no hay grupo suficiente, cae de vuelta a la mediana simple. Un
+anuncio es chollo si `precio <= precio_esperado * CHOLLO_DISCOUNT_RATIO`
+(0.75, 25% o más por debajo) **y** se publicó hace `MAX_AGE_DAYS` (15) días
+o menos. Se clasifica por "estado" con palabras clave simples sobre
+título+descripción (buen estado/garantía, necesita reparación, para
+piezas, sin especificar) — ver `CONDITION_RULES`.
+
+**Presupuesto del usuario**: `config.USER_MAX_BUDGET_EUR` (5.000€ ahora
+mismo). El informe (`chollos/latest.md`) separa primero los chollos que
+entran en ese presupuesto y luego el resto, para no enterrar lo que de
+verdad le sirve al usuario entre coches que no puede permitirse.
 
 ## Comandos útiles
 
