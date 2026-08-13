@@ -1,0 +1,8 @@
+# Dependencias extra solo para el escaneo de Wallapop (scraper/run_wallapop.py).
+# Aparte de requirements.txt a propósito: es una dependencia pesada (navegador
+# Chromium completo) que el pipeline automático de GitHub Actions no necesita.
+#
+# Instalación:
+#   pip install -r requirements.txt -r requirements-wallapop.txt
+#   playwright install chromium
+playwright>=1.40
