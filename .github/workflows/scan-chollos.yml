@@ -1,0 +1,44 @@
+name: Escaneo de chollos de coches
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan-chollos
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar escáner
+        run: python -m scraper.run
+
+      - name: Commit y push de resultados
+        run: |
+          git config user.name "chollos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/precios.db chollos/latest.md chollos/latest.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios que commitear."
+          else
+            git commit -m "Actualizar chollos ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
