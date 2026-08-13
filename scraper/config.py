@@ -106,3 +106,15 @@ CHOLLO_MIN_PRICE_EUR = 800    # por debajo de esto, casi seguro error/pieza/esta
 # todo, los chollos que entran dentro de esto -- no tiene sentido enseñar en
 # primer plano un BMW Serie 1 rebajado a 12.000€ si el límite son 5.000€.
 USER_MAX_BUDGET_EUR = 5000
+
+# Provincias que quedan totalmente fuera del escáner (nunca se guardan en
+# BD): el usuario no quiere anuncios de las islas por el coste/logística de
+# traer el coche a la península. Nombres tal cual los devuelven coches.net
+# y Milanuncios (ver `province` en scraper/db.py).
+EXCLUDED_PROVINCES = {"Baleares", "Las Palmas", "Sta. C. Tenerife", "Tenerife"}
+
+# El usuario vive en Cataluña: el informe destaca primero los chollos de
+# estas provincias (dentro de presupuesto), sin descartar el resto de
+# España -- a diferencia de las islas, esto es una preferencia, no una
+# exclusión.
+USER_PRIORITY_PROVINCES = {"Barcelona", "Girona", "Lleida", "Tarragona"}

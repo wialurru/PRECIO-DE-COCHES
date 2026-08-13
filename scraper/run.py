@@ -86,6 +86,12 @@ def scan_model(conn, session, display_model, cn_make_id, cn_model_id, ma_make_sl
     else:
         ma_listings = []  # sin página propia en Milanuncios para este modelo (no es un fallo)
 
+    # Las islas quedan fuera del todo: ni se guardan en BD ni cuentan para
+    # nada. Se filtran aquí, antes de guardar nada, no solo al generar el
+    # informe -- así tampoco engordan la BD ni distorsionan las medianas.
+    cn_listings = [l for l in cn_listings if l.get("province") not in config.EXCLUDED_PROVINCES]
+    ma_listings = [l for l in ma_listings if l.get("province") not in config.EXCLUDED_PROVINCES]
+
     for listing in cn_listings + ma_listings:
         seen_ids_by_source[listing["source"]].add(listing["source_id"])
         is_new = db.upsert_listing(conn, listing, now)
@@ -197,16 +203,38 @@ def write_markdown(report_models, all_deals, now, path):
     lines.append("---")
     lines.append("")
 
-    budget_deals = [d for d in all_deals if d["price"] <= config.USER_MAX_BUDGET_EUR]
-    rest_deals = [d for d in all_deals if d["price"] > config.USER_MAX_BUDGET_EUR]
+    def in_budget(d):
+        return d["price"] <= config.USER_MAX_BUDGET_EUR
 
-    lines.append(f"## 🎯 Dentro de presupuesto (≤ {config.USER_MAX_BUDGET_EUR:,.0f} €) — {len(budget_deals)}".replace(",", "."))
+    def in_priority_zone(d):
+        return (d.get("province") or d.get("city")) in config.USER_PRIORITY_PROVINCES
+
+    priority_deals = [d for d in all_deals if in_budget(d) and in_priority_zone(d)]
+    budget_rest_deals = [d for d in all_deals if in_budget(d) and not in_priority_zone(d)]
+    rest_deals = [d for d in all_deals if not in_budget(d)]
+
+    provincias = ", ".join(sorted(config.USER_PRIORITY_PROVINCES))
+    budget_fmt = f"{config.USER_MAX_BUDGET_EUR:,.0f}".replace(",", ".")
+    lines.append(
+        f"## 🎯 Prioritarios: en Cataluña ({provincias}) y dentro de presupuesto "
+        f"(≤ {budget_fmt} €) — {len(priority_deals)}"
+    )
     lines.append("")
-    _render_deals_tables(lines, budget_deals)
+    _render_deals_tables(lines, priority_deals)
 
     lines.append("---")
     lines.append("")
-    lines.append(f"## Resto de chollos (> {config.USER_MAX_BUDGET_EUR:,.0f} €, fuera de presupuesto) — {len(rest_deals)}".replace(",", "."))
+    lines.append(
+        f"## Dentro de presupuesto, fuera de Cataluña — {len(budget_rest_deals)}"
+    )
+    lines.append("")
+    _render_deals_tables(lines, budget_rest_deals)
+
+    lines.append("---")
+    lines.append("")
+    lines.append(
+        f"## Resto de chollos (> {budget_fmt} €, fuera de presupuesto) — {len(rest_deals)}"
+    )
     lines.append("")
     _render_deals_tables(lines, rest_deals)
 

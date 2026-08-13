@@ -75,6 +75,9 @@ def main():
                     time.sleep(config.REQUEST_DELAY_SECONDS)
                     continue
 
+                # Las islas quedan fuera del todo, igual que en run.py.
+                listings = [l for l in listings if l.get("province") not in config.EXCLUDED_PROVINCES]
+
                 seen_ids = set()
                 for listing in listings:
                     seen_ids.add(listing["source_id"])

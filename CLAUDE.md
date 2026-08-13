@@ -221,6 +221,17 @@ mismo). El informe (`chollos/latest.md`) separa primero los chollos que
 entran en ese presupuesto y luego el resto, para no enterrar lo que de
 verdad le sirve al usuario entre coches que no puede permitirse.
 
+**Geografía**: el usuario vive en Cataluña y no quiere anuncios de las
+islas (coste/logística de traer el coche a la península). `config.
+EXCLUDED_PROVINCES` (Baleares, Las Palmas, Sta. C. Tenerife/Tenerife) se
+filtra **antes de guardar nada** en `run.py`/`run_wallapop.py` -- no es
+solo un filtro del informe, esos anuncios ni entran en la BD. Si se añade
+un modelo o se toca el pipeline, mantener ese filtro ahí, no solo en el
+informe. `config.USER_PRIORITY_PROVINCES` (Barcelona, Girona, Lleida,
+Tarragona) es distinto: no excluye nada, solo hace que el informe
+destaque primero (sección "🎯 Prioritarios") los chollos que además de
+entrar en presupuesto están en esas provincias.
+
 ## Comandos útiles
 
 ```bash
