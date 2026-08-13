@@ -167,16 +167,39 @@ silencio, mirar `SELECT * FROM scan_runs ORDER BY id DESC`).
 
 ## Lógica de "chollo" (`dealscore.py`)
 
-Agrupa anuncios activos por `(display_model, year, bucket_de_potencia)`.
+Agrupa anuncios activos por `(display_model, year, alto_rendimiento_o_estandar)`.
 **El agrupamiento por potencia es importante**: un mismo "modelo vigilado"
 (p.ej. "Audi A3") mezcla versiones con precios muy distintos entre sí (un
 1.6 TDI de 116cv y un RS3 de 400cv del mismo año no son comparables). Se
 saca la potencia real de `hp` en coches.net, o por regex de título/
-descripción en Milanuncios/Wallapop (`"116cv"` etc.); si no hay número pero
-el texto tiene un distintivo de gama alta (RS, S3-S8, AMG, GTI, Cupra, Type
-R, M2-M8...) se aísla en un bucket aparte igualmente, en vez de mezclarlo
-con las versiones normales. Esto aplica a **todos** los modelos vigilados,
-no solo a los que tienen variantes deportivas obvias.
+descripción en Milanuncios/Wallapop (`"116cv"` etc.).
+
+**Importante — por qué es solo un split binario (alto rendimiento / estándar)
+y no un bucket fino por cv:** la primera versión de este fix usaba buckets
+de 25cv, y resultó que coches.net trae la potencia exacta en ~100% de sus
+anuncios (Milanuncios solo ~60%), así que con un bucket tan fino los
+anuncios de coches.net (solo ~35-40 por modelo, 2 páginas) quedaban
+repartidos en decenas de grupos de 1-2 anuncios cada uno, casi ninguno
+llegaba al mínimo para calcular una mediana fiable, y de facto coches.net
+desaparecía del informe de chollos (pasó de aportar una parte proporcional
+de chollos a solo un puñado). Con el split binario actual -- un anuncio es
+"alto_rendimiento" si el texto lleva un distintivo de versión deportiva
+conocido (RS, S3-S8, AMG, GTI, Cupra, Type R, M2-M8...) o si su potencia
+supera en `HIGH_PERFORMANCE_HP_RATIO` (1.6x) la mediana de potencia de ese
+mismo modelo+año; si no, va a "estandar" -- los grupos vuelven a tener
+tamaño razonable en las dos fuentes y se sigue evitando mezclar un RS3 con
+un A3 normal. Ojo si se retoca esto: **hay que verificar el tamaño de los
+grupos resultantes contra la BD real antes de asumir que una idea más fina
+funciona mejor**, aquí ya salió mal una vez por no comprobarlo.
+
+Aun con este fix, Milanuncios sigue aportando bastantes más chollos que
+coches.net (más o menos proporcional a que tiene más del doble de anuncios
+activos, y a que los vendedores particulares tienen precios más dispersos
+que los profesionales de coches.net, que tienden a precios ya ajustados a
+mercado). Si en algún momento parece que coches.net vuelve a estar
+infrarrepresentado de forma desproporcionada a su volumen de anuncios,
+revisar primero el tamaño de grupos igual que aquí, antes de tocar el
+umbral de descuento o el mínimo de grupo.
 
 Si el grupo tiene al menos `CHOLLO_MIN_GROUP_SIZE` (4) anuncios con precio
 válido, calcula la mediana. **El precio de referencia se ajusta además por

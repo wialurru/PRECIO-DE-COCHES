@@ -106,8 +106,3 @@ CHOLLO_MIN_PRICE_EUR = 800    # por debajo de esto, casi seguro error/pieza/esta
 # todo, los chollos que entran dentro de esto -- no tiene sentido enseñar en
 # primer plano un BMW Serie 1 rebajado a 12.000€ si el límite son 5.000€.
 USER_MAX_BUDGET_EUR = 5000
-
-# Ancho del bucket de potencia (cv) usado para separar versiones de un mismo
-# modelo+año (p.ej. un Audi A3 116cv de un Audi A3 RS3 400cv) antes de
-# comparar precios. Ver scraper/dealscore.py.
-HP_BUCKET_WIDTH = 25

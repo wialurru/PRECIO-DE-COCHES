@@ -15,35 +15,43 @@ KM_REGRESSION_MIN_SAMPLES = max(config.CHOLLO_MIN_GROUP_SIZE, 6)
 
 # Un mismo "modelo vigilado" (p.ej. "Audi A3") incluye versiones con precios
 # muy distintos entre sí (un A3 1.6 TDI de 116cv y un A3 RS3 de 400cv del
-# mismo año no son comparables). Agrupar también por potencia evita mezclar
-# la mediana/regresión de precio de versiones básicas con las de gama alta.
-# Cuando no se conoce la potencia exacta, se usa esta lista de distintivos
-# de versión de alto rendimiento (con límites de palabra, para no confundir
-# "S line"/"S tronic" -- que son acabado/caja de cambios normales, no una
-# versión distinta -- con "S3"/"RS3"/etc, que sí lo son).
+# mismo año no son comparables). Se separa solo esa minoría de versiones de
+# alto rendimiento del resto -- NO se hace un bucket fino por cada cv,
+# porque coches.net trae la potencia exacta en ~100% de sus anuncios y
+# Milanuncios en ~60%, y con solo ~35-40 anuncios de coches.net por modelo
+# (2 páginas), un bucket de 25cv fragmenta los grupos hasta dejarlos casi
+# todos por debajo del mínimo para calcular una mediana fiable -- eso
+# vaciaba de facto coches.net del informe de chollos. Con dos categorías
+# (alto rendimiento / estándar) los grupos vuelven a tener tamaño decente
+# y se sigue evitando mezclar un RS3 con un A3 normal.
 _HIGH_PERFORMANCE_PATTERN = re.compile(
     r"\b(rs\s?\d?|s[3-8]|amg|gti|gtd|cupra|type\s?r|vrs|st(?:-line)?|m[2-8])\b",
     re.IGNORECASE,
 )
 
+# Un anuncio con potencia conocida se considera "alto rendimiento" si supera
+# en esta proporción la potencia típica (mediana) del resto de anuncios de
+# ese mismo modelo+año -- p.ej. si la mediana del grupo son 116cv, hace
+# falta al menos 116*1.6 ≈ 186cv para separarlo aparte.
+HIGH_PERFORMANCE_HP_RATIO = 1.6
 
-def _is_high_performance(text: str) -> bool:
+
+def _is_high_performance_text(text: str) -> bool:
     return bool(text and _HIGH_PERFORMANCE_PATTERN.search(text))
 
 
-def _hp_group_key(row):
-    """Sub-clave de potencia dentro del grupo (modelo+año): bucket de
-    HP_BUCKET_WIDTH cv si se conoce la potencia, o una marca aparte para
-    versiones de alto rendimiento detectadas por texto cuando no se conoce,
-    o 'estandar' para el resto (mejor no separar de más si no hay ninguna
-    señal, o los grupos se quedan sin tamaño suficiente)."""
-    hp = row["hp"]
-    if hp:
-        bucket = int(hp // config.HP_BUCKET_WIDTH) * config.HP_BUCKET_WIDTH
-        return f"hp{bucket}"
+def _hp_group_key(row, typical_hp):
+    """Sub-clave de potencia dentro del grupo (modelo+año): 'alto_rendimiento'
+    si el texto lleva un distintivo de versión deportiva conocido, o si su
+    potencia supera claramente la típica del grupo; 'estandar' en cualquier
+    otro caso (incluido cuando no se sabe la potencia -- mejor no separar de
+    más si no hay ninguna señal, o los grupos se quedan sin tamaño suficiente)."""
     text = " ".join(filter(None, [row["title"], row["description"]]))
-    if _is_high_performance(text):
-        return "alto_rendimiento_sin_cv_confirmado"
+    if _is_high_performance_text(text):
+        return "alto_rendimiento"
+    hp = row["hp"]
+    if hp and typical_hp and hp >= typical_hp * HIGH_PERFORMANCE_HP_RATIO:
+        return "alto_rendimiento"
     return "estandar"
 
 CONDITION_RULES = [
@@ -119,14 +127,24 @@ def compute_deals(listings, now: datetime = None):
     """
     now = now or datetime.now(timezone.utc)
 
-    groups = {}
+    # Primera pasada: agrupar por año y sacar la potencia típica (mediana)
+    # de cada año, para poder detectar luego qué anuncios se salen de lo
+    # normal en ese año concreto (ver _hp_group_key).
+    by_year = {}
     for row in listings:
-        year = row["year"] if row["year"] else "sin_año"
         price = row["price"]
         if not price or price < config.CHOLLO_MIN_PRICE_EUR:
             continue
-        key = (year, _hp_group_key(row))
-        groups.setdefault(key, []).append(row)
+        year = row["year"] if row["year"] else "sin_año"
+        by_year.setdefault(year, []).append(row)
+
+    groups = {}
+    for year, rows in by_year.items():
+        hp_values = [r["hp"] for r in rows if r["hp"]]
+        typical_hp = statistics.median(hp_values) if hp_values else None
+        for row in rows:
+            key = (year, _hp_group_key(row, typical_hp))
+            groups.setdefault(key, []).append(row)
 
     deals = []
     group_stats = {}
