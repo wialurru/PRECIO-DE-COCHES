@@ -76,8 +76,16 @@ MAX_PAGES_PER_SOURCE = 2
 # Antigüedad máxima (días) para considerar un anuncio "reciente"
 MAX_AGE_DAYS = 15
 
-# Pausa entre peticiones HTTP (segundos) para no saturar los servidores
-REQUEST_DELAY_SECONDS = 1.2
+# Pausa entre peticiones HTTP (segundos) para no saturar los servidores.
+# Se aplica con jitter aleatorio: REQUEST_DELAY_SECONDS +/- REQUEST_DELAY_JITTER
+REQUEST_DELAY_SECONDS = 1.5
+REQUEST_DELAY_JITTER = 0.6
+
+# Reintentos por fuente si la petición falla (403, timeout, bloqueo anti-bot,
+# típico en runners de GitHub Actions cuyas IPs a veces están en listas
+# negras de estos sitios) antes de darla por perdida en este barrido.
+MAX_RETRIES_PER_SOURCE = 2
+RETRY_BACKOFF_SECONDS = 6
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "

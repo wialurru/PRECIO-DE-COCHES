@@ -5,6 +5,7 @@ chollos (chollos/latest.md y chollos/latest.json).
 Uso: python -m scraper.run
 """
 import json
+import random
 import sys
 import time
 import traceback
@@ -20,37 +21,70 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat()
 
 
+def sleep_with_jitter():
+    delay = config.REQUEST_DELAY_SECONDS + random.uniform(-config.REQUEST_DELAY_JITTER, config.REQUEST_DELAY_JITTER)
+    time.sleep(max(0.2, delay))
+
+
 def build_session() -> requests.Session:
     s = requests.Session()
     s.headers.update({
         "User-Agent": config.USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
         "Accept-Language": "es-ES,es;q=0.9",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
     })
+    # "Calentar" la sesión visitando la home de cada sitio primero, para que
+    # el servidor entregue cookies válidas antes de pedir páginas de listado
+    # (una petición directa a una URL profunda sin cookies dispara el
+    # bloqueo anti-bot con más facilidad).
+    for url in ("https://www.coches.net/", "https://www.milanuncios.com/"):
+        try:
+            s.get(url, timeout=15)
+        except requests.RequestException as exc:
+            print(f"  [warmup] no se pudo calentar sesión en {url}: {exc}", file=sys.stderr)
     return s
+
+
+def _fetch_with_retries(fn, label, display_model, stats):
+    """Ejecuta fn() con reintentos. Devuelve (listings, ok). ok=False si todos
+    los intentos fallan -- en ese caso NO se debe tocar el estado de is_active
+    en BD, porque no sabemos si el anuncio sigue existiendo o solo estamos
+    bloqueados en este barrido."""
+    last_exc = None
+    for attempt in range(1, config.MAX_RETRIES_PER_SOURCE + 1):
+        try:
+            return fn(), True
+        except Exception as exc:  # noqa: BLE001 - queremos capturar cualquier fallo de red/parseo
+            last_exc = exc
+            if attempt < config.MAX_RETRIES_PER_SOURCE:
+                time.sleep(config.RETRY_BACKOFF_SECONDS)
+    print(f"  [{label}] ERROR en {display_model} tras {config.MAX_RETRIES_PER_SOURCE} intentos: {last_exc}",
+          file=sys.stderr)
+    stats["errors"] += 1
+    return [], False
 
 
 def scan_model(conn, session, display_model, cn_make_id, cn_model_id, ma_make_slug, ma_model_slug, stats):
     seen_ids_by_source = {"coches_net": set(), "milanuncios": set()}
+    fetch_ok = {"coches_net": False, "milanuncios": False}
     now = now_iso()
 
-    try:
-        cn_listings = coches_net.fetch_listings(display_model, cn_make_id, cn_model_id, session)
-    except Exception as exc:
-        print(f"  [coches.net] ERROR en {display_model}: {exc}", file=sys.stderr)
-        cn_listings = []
-        stats["errors"] += 1
-    time.sleep(config.REQUEST_DELAY_SECONDS)
+    cn_listings, fetch_ok["coches_net"] = _fetch_with_retries(
+        lambda: coches_net.fetch_listings(display_model, cn_make_id, cn_model_id, session),
+        "coches.net", display_model, stats,
+    )
+    sleep_with_jitter()
 
     if ma_make_slug and ma_model_slug:
-        try:
-            ma_listings = milanuncios.fetch_listings(display_model, ma_make_slug, ma_model_slug, session)
-        except Exception as exc:
-            print(f"  [milanuncios] ERROR en {display_model}: {exc}", file=sys.stderr)
-            ma_listings = []
-            stats["errors"] += 1
-        time.sleep(config.REQUEST_DELAY_SECONDS)
+        ma_listings, fetch_ok["milanuncios"] = _fetch_with_retries(
+            lambda: milanuncios.fetch_listings(display_model, ma_make_slug, ma_model_slug, session),
+            "milanuncios", display_model, stats,
+        )
+        sleep_with_jitter()
     else:
-        ma_listings = []  # sin página propia en Milanuncios para este modelo
+        ma_listings = []  # sin página propia en Milanuncios para este modelo (no es un fallo)
 
     for listing in cn_listings + ma_listings:
         seen_ids_by_source[listing["source"]].add(listing["source_id"])
@@ -59,10 +93,17 @@ def scan_model(conn, session, display_model, cn_make_id, cn_model_id, ma_make_sl
         if is_new:
             stats["new_listings"] += 1
 
-    for source in ("coches_net", "milanuncios"):
-        db.mark_inactive_not_seen_since(conn, source, display_model, seen_ids_by_source[source], now)
+    # Solo se marcan como inactivos los anuncios no vistos si la fuente
+    # respondió correctamente en este barrido. Si hubo bloqueo/error, se deja
+    # el estado tal cual estaba: es preferible un dato desactualizado a
+    # vaciar el histórico por un bloqueo temporal de IP.
+    if fetch_ok["coches_net"]:
+        db.mark_inactive_not_seen_since(conn, "coches_net", display_model, seen_ids_by_source["coches_net"], now)
+    if ma_make_slug and fetch_ok["milanuncios"]:
+        db.mark_inactive_not_seen_since(conn, "milanuncios", display_model, seen_ids_by_source["milanuncios"], now)
 
-    print(f"  {display_model}: coches.net={len(cn_listings)} milanuncios={len(ma_listings)}")
+    status = "OK" if (fetch_ok["coches_net"] and (fetch_ok["milanuncios"] or not ma_make_slug)) else "PARCIAL"
+    print(f"  [{status}] {display_model}: coches.net={len(cn_listings)} milanuncios={len(ma_listings)}")
 
 
 def generate_report(conn, all_models):
