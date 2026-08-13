@@ -83,6 +83,29 @@ cubre).
 
 `Wallapop` es un caso aparte, ver siguiente sección.
 
+### Cobertura por barrido: páginas por modelo y fuente
+
+`coches.net` **no tiene ninguna opción de ordenar por fecha de publicación**
+en su API pública -- se comprobó su enum completo `SORT_FIELDS` en su JS
+(cc, precio, km, cv, año, título, relevancia, random: nada de fecha), así
+que no hay forma de pedir "solo lo nuevo desde el último barrido". Se pide
+siempre un número fijo de páginas bajo relevancia: `config.COCHES_NET_MAX_PAGES`.
+
+`Milanuncios` sí soporta `?orden=date` (verificado contra su bundle JS:
+`CRITERIA.DATE = "date"`), pero **no es un orden cronológico estricto** --
+se comprobó con datos reales que el % de anuncios <15 días por página
+fluctúa sin bajar de forma monótona (14% a 97% entre páginas consecutivas,
+probablemente por anuncios destacados/de pago intercalados). Por eso
+tampoco se intenta "parar en cuanto una página parece vieja" (se probó y
+sacaba anuncios de hasta 2023 antes de topar con el límite de seguridad,
+sin ahorrar tiempo real). Se usa igualmente `orden=date` porque en conjunto
+sí sesga hacia lo reciente, pero con `config.MILANUNCIOS_MAX_PAGES` fijo
+(más alto que en coches.net, porque aquí el sesgo sí ayuda). Si en el
+futuro se quiere una paginación realmente adaptativa, haría falta
+encontrar antes una señal de corte más fiable que el % de frescura por
+página -- no asumir que existe sin comprobarlo con datos reales, aquí ya
+se intentó una vez y no funcionó.
+
 ## Wallapop: estado y qué falta
 
 Wallapop bloquea con 403 (CloudFront) **cualquier petición HTTP directa**,

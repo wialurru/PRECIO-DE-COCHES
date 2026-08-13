@@ -69,12 +69,23 @@ EXTRA_MODELS = [
 
 ALL_MODELS = TOP_MODELS + EXTRA_MODELS
 
-# Cuántas páginas de resultados pedir por modelo y fuente en cada pasada.
-# coches.net: ~35 anuncios/página. Milanuncios: ~41 anuncios/página.
-MAX_PAGES_PER_SOURCE = 2
-
 # Antigüedad máxima (días) para considerar un anuncio "reciente"
 MAX_AGE_DAYS = 15
+
+# coches.net no tiene ninguna opción de ordenar por fecha de publicación en
+# su API pública (se comprobó su enum completo SORT_FIELDS: cc, precio, km,
+# cv, año, título, relevancia, random -- nada de fecha), así que se pide
+# siempre un número fijo de páginas bajo orden por relevancia. ~35 anuncios/
+# página.
+COCHES_NET_MAX_PAGES = 3
+
+# Milanuncios sí soporta pedir los resultados por fecha de publicación
+# descendente (?orden=date, ver sources/milanuncios.py) -- pero no es un
+# orden cronológico estricto (anuncios destacados/de pago se cuelan fuera
+# de orden), así que tampoco se intenta "parar en cuanto ya son viejos":
+# se pide un número fijo de páginas, más alto que en coches.net porque el
+# sesgo hacia lo reciente sí ayuda en conjunto. ~41 anuncios/página.
+MILANUNCIOS_MAX_PAGES = 6
 
 # Pausa entre peticiones HTTP (segundos) para no saturar los servidores.
 # Se aplica con jitter aleatorio: REQUEST_DELAY_SECONDS +/- REQUEST_DELAY_JITTER

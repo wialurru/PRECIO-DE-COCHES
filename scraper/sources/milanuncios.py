@@ -8,6 +8,16 @@ dos bloques:
   - adCarouselList: en la página de categoría suele traer un carrusel de
     "Anuncios recientes de particulares", útil como señal extra de anuncios
     muy nuevos.
+
+A diferencia de coches.net (que no tiene ninguna opción de orden por fecha
+en su API -- se comprobó su enum SORT_FIELDS completo: cc/precio/km/cv/año/
+título/relevancia/random, sin fecha), Milanuncios sí soporta pedir los
+resultados por fecha de publicación descendente (`?orden=date`, verificado
+contra su propio bundle JS: `CRITERIA.DATE = "date"`). Se usa ese orden para
+sesgar la cobertura hacia lo más reciente, aunque -- ver nota en
+`fetch_listings` -- no es un orden cronológico estricto (hay anuncios
+destacados/de pago intercalados), así que se pide un número fijo de
+páginas bajo ese orden en vez de intentar "parar en cuanto ya son viejos".
 """
 import json
 import re
@@ -101,13 +111,25 @@ def _normalize(ad: dict, display_model: str, make_label: str, model_label: str) 
 
 def fetch_listings(display_model: str, make_slug: str, model_slug: str, session: requests.Session,
                     max_pages: int = None) -> list:
-    max_pages = max_pages or config.MAX_PAGES_PER_SOURCE
+    """Nota sobre `orden=date`: sesga los resultados hacia lo más reciente,
+    pero no es un orden cronológico estricto (se comprobó con datos reales:
+    la proporción de anuncios <15 días por página fluctúa entre el 14% y el
+    97% sin bajar de forma monótona, probablemente por anuncios destacados/
+    de pago intercalados). Por eso NO se para en cuanto una página parece
+    'vieja' -- sería fácil cortar antes de tiempo y perderse anuncios
+    recientes que aparecen más adelante. Simplemente se piden más páginas
+    que antes (bajo ese orden, que en conjunto sí ayuda) hasta un tope fijo,
+    parando antes solo si la propia paginación se acaba (última página con
+    menos de 30 anuncios)."""
+    max_pages = max_pages or config.MILANUNCIOS_MAX_PAGES
     url = BASE_URL.format(make=make_slug, model=model_slug)
     results = {}
     make_label, model_label = make_slug.title(), model_slug.upper() if len(model_slug) <= 3 else model_slug.title()
 
     for page in range(1, max_pages + 1):
-        params = {"pagina": page} if page > 1 else {}
+        params = {"orden": "date"}
+        if page > 1:
+            params["pagina"] = page
         resp = session.get(url, params=params, timeout=20)
         resp.raise_for_status()
         data = _extract_initial_props(resp.text)
@@ -128,7 +150,7 @@ def fetch_listings(display_model: str, make_slug: str, model_slug: str, session:
                 norm = _normalize(ad, display_model, make_label, model_label)
                 results[norm["source_id"]] = norm
 
-        if len(ads) < 30:  # última página (resultsPerPage ronda 41)
+        if len(ads) < 30:  # última página real (resultsPerPage ronda 41)
             break
 
     return list(results.values())

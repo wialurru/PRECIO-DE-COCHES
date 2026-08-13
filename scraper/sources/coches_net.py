@@ -55,7 +55,7 @@ def _normalize(item: dict, display_model: str) -> dict:
 
 def fetch_listings(display_model: str, make_id: int, model_id: int, session: requests.Session,
                     max_pages: int = None) -> list:
-    max_pages = max_pages or config.MAX_PAGES_PER_SOURCE
+    max_pages = max_pages or config.COCHES_NET_MAX_PAGES
     results = []
     for page in range(1, max_pages + 1):
         params = {"makeId": make_id, "modelId": model_id, "page": page}
