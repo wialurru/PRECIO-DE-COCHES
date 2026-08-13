@@ -151,9 +151,12 @@ def write_markdown(report_models, all_deals, now, path):
         f"Se vigilan {len(report_models)} modelos (top de rotación + modelos extra) en coches.net y "
         "Milanuncios. Se considera **chollo** un anuncio activo, publicado hace "
         f"{config.MAX_AGE_DAYS} días o menos, con precio igual o inferior al "
-        f"{int(config.CHOLLO_DISCOUNT_RATIO * 100)}% de la mediana de precios de su grupo "
+        f"{int(config.CHOLLO_DISCOUNT_RATIO * 100)}% del precio esperado para su grupo "
         "(mismo modelo vigilado + año), exigiendo al menos "
-        f"{config.CHOLLO_MIN_GROUP_SIZE} anuncios comparables en ese grupo."
+        f"{config.CHOLLO_MIN_GROUP_SIZE} anuncios comparables en ese grupo. Cuando hay suficientes "
+        "anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta por km "
+        "(un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, "
+        "no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana."
     )
     lines.append("")
     lines.append("---")
@@ -174,15 +177,16 @@ def write_markdown(report_models, all_deals, now, path):
                 continue
             lines.append(f"### {condition}")
             lines.append("")
-            lines.append("| Modelo | Año | Precio | Mediana grupo | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |")
-            lines.append("|---|---|---|---|---|---|---|---|---|---|")
+            lines.append("| Modelo | Año | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |")
+            lines.append("|---|---|---|---|---|---|---|---|---|---|---|")
             for d in deals:
                 pct_off = int(round((1 - d["discount_ratio"]) * 100))
                 km = f"{d['km']:,} km".replace(",", ".") if d["km"] else "—"
                 age = f"{d['age_days']:.1f} d" if d["age_days"] != float("inf") else "—"
+                km_adj = "sí" if d.get("km_adjusted") else "no (mediana)"
                 lines.append(
                     f"| {d['display_model']} | {d['year'] or '—'} | {d['price']:,.0f} € | "
-                    f"{d['group_median']:,.0f} € | -{pct_off}% | {km} | "
+                    f"{d['reference_price']:,.0f} € | {km_adj} | -{pct_off}% | {km} | "
                     f"{d.get('city') or d.get('province') or '—'} | {d['source']} | {age} | "
                     f"[Ver anuncio]({d['url']}) |"
                 )

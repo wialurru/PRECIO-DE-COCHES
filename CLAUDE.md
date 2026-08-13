@@ -169,11 +169,18 @@ silencio, mirar `SELECT * FROM scan_runs ORDER BY id DESC`).
 
 Agrupa anuncios activos por `(display_model, year)`. Si el grupo tiene al
 menos `CHOLLO_MIN_GROUP_SIZE` (4) anuncios con precio válido, calcula la
-mediana. Un anuncio es chollo si `precio <= mediana * CHOLLO_DISCOUNT_RATIO`
-(0.75, o sea 25% o más por debajo de la mediana del grupo) **y** se publicó
-hace `MAX_AGE_DAYS` (15) días o menos. Se clasifica por "estado" con
-palabras clave simples sobre título+descripción (buen estado/garantía,
-necesita reparación, para piezas, sin especificar) — ver `CONDITION_RULES`.
+mediana. **El precio de referencia se ajusta por kilometraje** cuando el
+grupo tiene suficientes anuncios con km conocido (`KM_REGRESSION_MIN_SAMPLES`,
+6): se ajusta una regresión lineal simple precio~km (`statistics.linear_regression`,
+sin dependencias extra) y se compara cada anuncio contra el precio esperado
+para SU kilometraje, no contra la mediana bruta del grupo — así un coche con
+300.000 km no compite en igualdad con uno de 50.000 km. Si la pendiente sale
+positiva (no tiene sentido) o no hay grupo suficiente, cae de vuelta a la
+mediana simple. Un anuncio es chollo si `precio <= precio_esperado *
+CHOLLO_DISCOUNT_RATIO` (0.75, 25% o más por debajo) **y** se publicó hace
+`MAX_AGE_DAYS` (15) días o menos. Se clasifica por "estado" con palabras
+clave simples sobre título+descripción (buen estado/garantía, necesita
+reparación, para piezas, sin especificar) — ver `CONDITION_RULES`.
 
 ## Comandos útiles
 
