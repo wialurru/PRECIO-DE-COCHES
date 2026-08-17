@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:16:50.316561+00:00",
+  "generated_at": "2026-08-17T00:28:17.314444+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -30,7 +30,7 @@
       "group_median": 27850.0,
       "reference_price": 30118.189385051304,
       "km_adjusted": true,
-      "age_days": 3.3182096824189817,
+      "age_days": 3.576161046805556,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -59,7 +59,7 @@
       "group_median": 4070.0,
       "reference_price": 4362.879840548188,
       "km_adjusted": true,
-      "age_days": 3.4372837564930556,
+      "age_days": 3.6952351208796297,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -88,7 +88,7 @@
       "group_median": 9000.0,
       "reference_price": 9316.321483209405,
       "km_adjusted": true,
-      "age_days": 9.170871719456018,
+      "age_days": 9.428823083842593,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -117,7 +117,7 @@
       "group_median": 4950.0,
       "reference_price": 4950.0,
       "km_adjusted": false,
-      "age_days": 3.3513462564930556,
+      "age_days": 3.6092976208796297,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -146,7 +146,7 @@
       "group_median": 5445.0,
       "reference_price": 5229.614394734596,
       "km_adjusted": true,
-      "age_days": 5.236080052789352,
+      "age_days": 5.494031417175926,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -175,7 +175,7 @@
       "group_median": 2625.0,
       "reference_price": 2625.0,
       "km_adjusted": false,
-      "age_days": 5.203996719456018,
+      "age_days": 5.461948083842593,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -204,7 +204,7 @@
       "group_median": 11870.0,
       "reference_price": 11421.759615165978,
       "km_adjusted": true,
-      "age_days": 5.2464041268634265,
+      "age_days": 5.50435549125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -233,7 +233,7 @@
       "group_median": 3490.0,
       "reference_price": 3490.0,
       "km_adjusted": false,
-      "age_days": 3.345003663900463,
+      "age_days": 3.6029550282870373,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -262,7 +262,7 @@
       "group_median": 3000.0,
       "reference_price": 2645.7490956728343,
       "km_adjusted": true,
-      "age_days": 5.260177275011574,
+      "age_days": 5.518128639398149,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -291,7 +291,7 @@
       "group_median": 4744.5,
       "reference_price": 4915.161195904145,
       "km_adjusted": true,
-      "age_days": 8.292121719456018,
+      "age_days": 8.550073083842593,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -320,7 +320,7 @@
       "group_median": 3449.5,
       "reference_price": 4272.548404832795,
       "km_adjusted": true,
-      "age_days": 3.237584682418982,
+      "age_days": 3.495536046805556,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -349,7 +349,7 @@
       "group_median": 2625.0,
       "reference_price": 3012.9021054303466,
       "km_adjusted": true,
-      "age_days": 3.3036842194560188,
+      "age_days": 3.561635583842593,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -378,7 +378,7 @@
       "group_median": 8645.0,
       "reference_price": 8593.956585917716,
       "km_adjusted": true,
-      "age_days": 3.3750499601967596,
+      "age_days": 3.6330013245833337,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -407,7 +407,7 @@
       "group_median": 3500.0,
       "reference_price": 4111.642499288841,
       "km_adjusted": true,
-      "age_days": 7.992110145381944,
+      "age_days": 8.25006150976852,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -436,7 +436,7 @@
       "group_median": 9650.0,
       "reference_price": 8207.036309242336,
       "km_adjusted": true,
-      "age_days": 5.120003663900463,
+      "age_days": 5.377955028287038,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -465,7 +465,7 @@
       "group_median": 2200.0,
       "reference_price": 2313.398269813777,
       "km_adjusted": true,
-      "age_days": 6.933730515752314,
+      "age_days": 7.191681880138889,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -494,7 +494,7 @@
       "group_median": 3800.0,
       "reference_price": 3886.425425339344,
       "km_adjusted": true,
-      "age_days": 3.390918015752315,
+      "age_days": 3.648869380138889,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -523,7 +523,7 @@
       "group_median": 2647.5,
       "reference_price": 3218.374522816307,
       "km_adjusted": true,
-      "age_days": 3.337168015752315,
+      "age_days": 3.595119380138889,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -552,7 +552,7 @@
       "group_median": 2499.0,
       "reference_price": 4625.609816552927,
       "km_adjusted": true,
-      "age_days": 3.618880978715278,
+      "age_days": 3.876832343101852,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -581,7 +581,7 @@
       "group_median": 3845.0,
       "reference_price": 3843.0277321817225,
       "km_adjusted": true,
-      "age_days": 3.4161147750115743,
+      "age_days": 3.6740661393981484,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -610,7 +610,7 @@
       "group_median": 2500.0,
       "reference_price": 3041.1727795429974,
       "km_adjusted": true,
-      "age_days": 5.3070407009375,
+      "age_days": 5.564992065324074,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -639,7 +639,7 @@
       "group_median": 4300.0,
       "reference_price": 3269.514536084367,
       "km_adjusted": true,
-      "age_days": 6.325871719456018,
+      "age_days": 6.583823083842593,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -668,7 +668,7 @@
       "group_median": 3100.0,
       "reference_price": 3015.8807594208156,
       "km_adjusted": true,
-      "age_days": 4.472885608344908,
+      "age_days": 4.730836972731482,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -697,7 +697,7 @@
       "group_median": 6750.0,
       "reference_price": 6750.0,
       "km_adjusted": false,
-      "age_days": 9.150188849085648,
+      "age_days": 9.408140213472223,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -726,7 +726,7 @@
       "group_median": 2499.0,
       "reference_price": 2499.0,
       "km_adjusted": false,
-      "age_days": 3.5343092194560186,
+      "age_days": 3.7922605838425927,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -755,7 +755,7 @@
       "group_median": 4070.0,
       "reference_price": 4208.778901803613,
       "km_adjusted": true,
-      "age_days": 3.347168015752315,
+      "age_days": 3.605119380138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -784,7 +784,7 @@
       "group_median": 2499.0,
       "reference_price": 2312.547034198,
       "km_adjusted": true,
-      "age_days": 5.25522357130787,
+      "age_days": 5.513174935694445,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -813,7 +813,7 @@
       "group_median": 6990.0,
       "reference_price": 6990.0,
       "km_adjusted": false,
-      "age_days": 6.364992089826388,
+      "age_days": 6.6229434542129635,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -842,7 +842,7 @@
       "group_median": 3490.0,
       "reference_price": 3490.0,
       "km_adjusted": false,
-      "age_days": 4.309424960196759,
+      "age_days": 4.567376324583334,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -871,7 +871,7 @@
       "group_median": 7295.0,
       "reference_price": 8707.798502439307,
       "km_adjusted": true,
-      "age_days": 8.879077737974537,
+      "age_days": 9.137029102361112,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -900,7 +900,7 @@
       "group_median": 3800.0,
       "reference_price": 3800.0,
       "km_adjusted": false,
-      "age_days": 3.342468941678241,
+      "age_days": 3.600420306064815,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -929,7 +929,7 @@
       "group_median": 7500.0,
       "reference_price": 7500.0,
       "km_adjusted": false,
-      "age_days": 12.285061534270833,
+      "age_days": 12.543012898657405,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -958,7 +958,7 @@
       "group_median": 4990.0,
       "reference_price": 5063.53540172635,
       "km_adjusted": true,
-      "age_days": 6.512607830567129,
+      "age_days": 6.770559194953704,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -987,7 +987,7 @@
       "group_median": 5500.0,
       "reference_price": 5500.0,
       "km_adjusted": false,
-      "age_days": 6.115466626863426,
+      "age_days": 6.37341799125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1016,7 +1016,7 @@
       "group_median": 15747.5,
       "reference_price": 15033.931147733758,
       "km_adjusted": true,
-      "age_days": 3.9098994972337966,
+      "age_days": 4.16785086162037,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -1045,7 +1045,7 @@
       "group_median": 4650.0,
       "reference_price": 5407.721577726218,
       "km_adjusted": true,
-      "age_days": 3.2697606083449076,
+      "age_days": 3.5277119727314816,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1074,7 +1074,7 @@
       "group_median": 8500.0,
       "reference_price": 8500.0,
       "km_adjusted": false,
-      "age_days": 6.231230515752315,
+      "age_days": 6.489181880138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1103,37 +1103,8 @@
       "group_median": 7499.0,
       "reference_price": 7443.465187613143,
       "km_adjusted": true,
-      "age_days": 7.102283756493055,
+      "age_days": 7.36023512087963,
       "condition": "Buen estado / revisado / con garantía"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "608249793",
-      "display_model": "Skoda Octavia",
-      "make": "Skoda",
-      "model": "Octavia",
-      "year": 2006,
-      "price": 1450.0,
-      "km": 300000,
-      "fuel": "diesel",
-      "province": "Valladolid",
-      "city": "Pedrajas de San Esteban",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": "Se vende skoda octavia teine itv pasada  ruedas 80% teine aire condocuonado  coche lista para trabajar  marcado  545mil km creo teine motor cambiado 300mil km mejor y brobar  643477601",
-      "title": "Skoda - Octavia",
-      "publish_date": "2026-08-01T20:17:54Z",
-      "url": "https://www.milanuncios.com/skoda-de-segunda-mano/skoda-octavia-608249793.htm",
-      "first_seen_at": "2026-08-13T12:05:17.064047+00:00",
-      "last_seen_at": "2026-08-13T15:06:15.822996+00:00",
-      "is_active": 1,
-      "hp": null,
-      "discount_ratio": 0.4706385949898634,
-      "group_median": 2500.0,
-      "reference_price": 3080.920297306323,
-      "km_adjusted": true,
-      "age_days": 14.915929589826389,
-      "condition": "Estado no especificado por el vendedor"
     },
     {
       "source": "milanuncios",
@@ -1161,7 +1132,7 @@
       "group_median": 9800.0,
       "reference_price": 5660.4232690027875,
       "km_adjusted": true,
-      "age_days": 6.143591626863426,
+      "age_days": 6.40154299125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1190,7 +1161,7 @@
       "group_median": 1650.0,
       "reference_price": 1650.0,
       "km_adjusted": false,
-      "age_days": 3.180906441678241,
+      "age_days": 3.438857806064815,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1219,7 +1190,7 @@
       "group_median": 27490.0,
       "reference_price": 27490.0,
       "km_adjusted": false,
-      "age_days": 6.132202737974537,
+      "age_days": 6.3901541023611115,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1248,7 +1219,7 @@
       "group_median": 27490.0,
       "reference_price": 27490.0,
       "km_adjusted": false,
-      "age_days": 6.144274497233796,
+      "age_days": 6.40222586162037,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1277,7 +1248,7 @@
       "group_median": 3450.0,
       "reference_price": 3450.0,
       "km_adjusted": false,
-      "age_days": 3.4554087564930556,
+      "age_days": 3.7133601208796296,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1306,7 +1277,7 @@
       "group_median": 8000.0,
       "reference_price": 8116.140735358281,
       "km_adjusted": true,
-      "age_days": 5.0373763490856485,
+      "age_days": 5.295327713472222,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1335,7 +1306,7 @@
       "group_median": 1700.0,
       "reference_price": 2012.60405741631,
       "km_adjusted": true,
-      "age_days": 9.466624034270833,
+      "age_days": 9.724575398657407,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -1364,7 +1335,7 @@
       "group_median": 2225.0,
       "reference_price": 2605.521115807527,
       "km_adjusted": true,
-      "age_days": 6.373325423159722,
+      "age_days": 6.631276787546296,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1393,7 +1364,7 @@
       "group_median": 3000.0,
       "reference_price": 3000.0,
       "km_adjusted": false,
-      "age_days": 3.296762923159722,
+      "age_days": 3.5547142875462967,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -1422,7 +1393,7 @@
       "group_median": 3200.0,
       "reference_price": 2998.420125302394,
       "km_adjusted": true,
-      "age_days": 3.3265082935300927,
+      "age_days": 3.5844596579166668,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1451,7 +1422,7 @@
       "group_median": 4950.0,
       "reference_price": 4950.0,
       "km_adjusted": false,
-      "age_days": 4.182249034270834,
+      "age_days": 4.4402003986574075,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1480,7 +1451,7 @@
       "group_median": 2200.0,
       "reference_price": 2933.715918063726,
       "km_adjusted": true,
-      "age_days": 3.728255978715278,
+      "age_days": 3.986207343101852,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1509,7 +1480,7 @@
       "group_median": 5250.0,
       "reference_price": 3318.7000220683567,
       "km_adjusted": true,
-      "age_days": 9.363163386122684,
+      "age_days": 9.621114750509259,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1538,7 +1509,7 @@
       "group_median": 3500.0,
       "reference_price": 3500.0,
       "km_adjusted": false,
-      "age_days": 3.177677275011574,
+      "age_days": 3.4356286393981486,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1567,7 +1538,7 @@
       "group_median": 5247.5,
       "reference_price": 5247.5,
       "km_adjusted": false,
-      "age_days": 4.325269867604167,
+      "age_days": 4.583221231990741,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1596,7 +1567,7 @@
       "group_median": 2800.0,
       "reference_price": 2905.6446517264203,
       "km_adjusted": true,
-      "age_days": 5.972283756493056,
+      "age_days": 6.23023512087963,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1625,7 +1596,7 @@
       "group_median": 19995.0,
       "reference_price": 17388.98796562489,
       "km_adjusted": true,
-      "age_days": 13.060686534270832,
+      "age_days": 13.318637898657407,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -1654,7 +1625,7 @@
       "group_median": 2647.5,
       "reference_price": 3455.752191565489,
       "km_adjusted": true,
-      "age_days": 8.341693478715277,
+      "age_days": 8.599644843101853,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1683,7 +1654,7 @@
       "group_median": 7000.0,
       "reference_price": 6125.7761957241,
       "km_adjusted": true,
-      "age_days": 5.081924960196759,
+      "age_days": 5.339876324583334,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1712,7 +1683,7 @@
       "group_median": 5490.0,
       "reference_price": 5723.996557838696,
       "km_adjusted": true,
-      "age_days": 3.579378663900463,
+      "age_days": 3.8373300282870373,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1741,8 +1712,37 @@
       "group_median": 4070.0,
       "reference_price": 4000.289396443306,
       "km_adjusted": true,
-      "age_days": 13.956045330567129,
+      "age_days": 14.213996694953703,
       "condition": "Buen estado / revisado / con garantía"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609876787",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2014,
+      "price": 6000.0,
+      "km": 222000,
+      "fuel": "diesel",
+      "province": "Madrid",
+      "city": "Alcorcón",
+      "seller_type": "private",
+      "has_warranty": 0,
+      "description": "Espwraxular golf sportsvan consume agua oeeo va muy bien funciona bien ",
+      "title": "Volkswagen - Golf sportsvan",
+      "publish_date": "2026-08-13T05:43:24Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609876787.htm",
+      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": null,
+      "discount_ratio": 0.5253287430213746,
+      "group_median": 12990.0,
+      "reference_price": 11421.419596216292,
+      "km_adjusted": true,
+      "age_days": 3.7811726208796297,
+      "condition": "Estado no especificado por el vendedor"
     },
     {
       "source": "milanuncios",
@@ -1770,7 +1770,7 @@
       "group_median": 15600.0,
       "reference_price": 15600.0,
       "km_adjusted": false,
-      "age_days": 3.341531441678241,
+      "age_days": 3.599482806064815,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1799,36 +1799,7 @@
       "group_median": 2200.0,
       "reference_price": 2060.230852290258,
       "km_adjusted": true,
-      "age_days": 3.9597374601967594,
-      "condition": "Estado no especificado por el vendedor"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609876787",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2014,
-      "price": 6000.0,
-      "km": 222000,
-      "fuel": "diesel",
-      "province": "Madrid",
-      "city": "Alcorcón",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": "Espwraxular golf sportsvan consume agua oeeo va muy bien funciona bien ",
-      "title": "Volkswagen - Golf sportsvan",
-      "publish_date": "2026-08-13T05:43:24Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609876787.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": null,
-      "discount_ratio": 0.5339314628210193,
-      "group_median": 12245.0,
-      "reference_price": 11237.39733991154,
-      "km_adjusted": true,
-      "age_days": 3.5232212564930556,
+      "age_days": 4.217688824583334,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1857,7 +1828,7 @@
       "group_median": 2800.0,
       "reference_price": 2800.0,
       "km_adjusted": false,
-      "age_days": 6.1276657009374995,
+      "age_days": 6.385617065324074,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1886,7 +1857,7 @@
       "group_median": 11277.0,
       "reference_price": 11162.373055109116,
       "km_adjusted": true,
-      "age_days": 3.949031441678241,
+      "age_days": 4.206982806064815,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -1915,7 +1886,7 @@
       "group_median": 4000.0,
       "reference_price": 4164.74396060527,
       "km_adjusted": true,
-      "age_days": 3.253707367604167,
+      "age_days": 3.511658731990741,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -1944,7 +1915,7 @@
       "group_median": 22447.5,
       "reference_price": 14756.576441268546,
       "km_adjusted": true,
-      "age_days": 12.66803607130787,
+      "age_days": 12.925987435694443,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -1973,7 +1944,7 @@
       "group_median": 22447.5,
       "reference_price": 14756.576441268546,
       "km_adjusted": true,
-      "age_days": 12.751369404641203,
+      "age_days": 13.009320769027777,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -2002,7 +1973,7 @@
       "group_median": 3200.0,
       "reference_price": 2728.904975820921,
       "km_adjusted": true,
-      "age_days": 3.3094481083449074,
+      "age_days": 3.5673994727314815,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2031,7 +2002,7 @@
       "group_median": 4900.0,
       "reference_price": 6181.588012401133,
       "km_adjusted": true,
-      "age_days": 4.987376349085649,
+      "age_days": 5.245327713472222,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2060,7 +2031,7 @@
       "group_median": 2625.0,
       "reference_price": 2625.0,
       "km_adjusted": false,
-      "age_days": 4.318070793530093,
+      "age_days": 4.576022157916666,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2089,7 +2060,7 @@
       "group_median": 19900.0,
       "reference_price": 27111.12033148913,
       "km_adjusted": true,
-      "age_days": 13.343070793530092,
+      "age_days": 13.601022157916665,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2118,7 +2089,7 @@
       "group_median": 19990.0,
       "reference_price": 25270.797007337867,
       "km_adjusted": true,
-      "age_days": 6.103927275011573,
+      "age_days": 6.361878639398149,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2147,7 +2118,7 @@
       "group_median": 2500.0,
       "reference_price": 2656.099631269622,
       "km_adjusted": true,
-      "age_days": 3.316832367604167,
+      "age_days": 3.574783731990741,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2176,7 +2147,7 @@
       "group_median": 2099.5,
       "reference_price": 2207.727304536557,
       "km_adjusted": true,
-      "age_days": 9.249100886122685,
+      "age_days": 9.50705225050926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2205,7 +2176,7 @@
       "group_median": 2199.5,
       "reference_price": 2612.0773408646537,
       "km_adjusted": true,
-      "age_days": 3.1422490342708334,
+      "age_days": 3.4002003986574074,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2234,7 +2205,7 @@
       "group_median": 13850.0,
       "reference_price": 23948.176391373483,
       "km_adjusted": true,
-      "age_days": 3.39823283056713,
+      "age_days": 3.656184194953704,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2263,7 +2234,7 @@
       "group_median": 7945.0,
       "reference_price": 12076.365093473234,
       "km_adjusted": true,
-      "age_days": 6.359320793530092,
+      "age_days": 6.617272157916667,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -2292,7 +2263,7 @@
       "group_median": 2225.0,
       "reference_price": 2585.315363727591,
       "km_adjusted": true,
-      "age_days": 10.385188849085647,
+      "age_days": 10.643140213472222,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2321,7 +2292,7 @@
       "group_median": 2200.0,
       "reference_price": 1723.0512317063435,
       "km_adjusted": true,
-      "age_days": 3.3596217194560185,
+      "age_days": 3.617573083842593,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2350,7 +2321,7 @@
       "group_median": 3999.0,
       "reference_price": 5139.950863471366,
       "km_adjusted": true,
-      "age_days": 12.121485145381945,
+      "age_days": 12.379436509768517,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2379,7 +2350,7 @@
       "group_median": 2625.0,
       "reference_price": 2234.6673419739955,
       "km_adjusted": true,
-      "age_days": 4.3369365342708335,
+      "age_days": 4.594887898657408,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2408,7 +2379,7 @@
       "group_median": 5490.0,
       "reference_price": 5131.8977048332345,
       "km_adjusted": true,
-      "age_days": 7.310466626863425,
+      "age_days": 7.5684179912500005,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2437,8 +2408,37 @@
       "group_median": 6000.0,
       "reference_price": 6000.0,
       "km_adjusted": false,
-      "age_days": 10.518279126863426,
+      "age_days": 10.77623049125,
       "condition": "Estado no especificado por el vendedor"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609934588",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2007,
+      "price": 4950.0,
+      "km": 98184,
+      "fuel": "diesel",
+      "province": "Málaga",
+      "city": "San Pedro de Alcantara",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": "vehiculo PERFECTO ESTADO DE \"\" 1 SOLO PROPIETARIO \"\",  SOLO 98.000 kilometros   TIENE RECIEN REALIZADO CAMBIO CORREA DISTRIBUCION Y BOMBA DE AGUA, REVISADO T CAMBIADO ACCESORIOS SISTEMA AIRE AONDICIONADO Y CARGA DEL MISMO, REVISION DE FILTRO Y CAMBIO ACEITE HACE 3 MESES Y AÑO 2025 CAMBIO DE EMBRAGUE. (TODO CON FACTURA). GAANTIA 1 AÑO Y TRANSFERENCIA Incluida.\n",
+      "title": "VOLKSWAGEN Golf Plus 1.9 TDI Sportline",
+      "publish_date": "2026-08-13T11:24:40Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-plus-1-9-tdi-sportline-609934588.htm",
+      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": null,
+      "discount_ratio": 0.5839609919013883,
+      "group_median": 4650.0,
+      "reference_price": 8476.593588696232,
+      "km_adjusted": true,
+      "age_days": 3.544181880138889,
+      "condition": "Buen estado / revisado / con garantía"
     },
     {
       "source": "milanuncios",
@@ -2466,7 +2466,7 @@
       "group_median": 7990.0,
       "reference_price": 8546.202633243785,
       "km_adjusted": true,
-      "age_days": 12.000316163900463,
+      "age_days": 12.258267528287035,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -2495,7 +2495,7 @@
       "group_median": 5099.5,
       "reference_price": 2039.8000000000002,
       "km_adjusted": true,
-      "age_days": 11.237330052789352,
+      "age_days": 11.495281417175926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2524,7 +2524,7 @@
       "group_median": 7000.0,
       "reference_price": 7271.339861173146,
       "km_adjusted": true,
-      "age_days": 3.189725886122685,
+      "age_days": 3.4476772505092597,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2553,7 +2553,7 @@
       "group_median": 1690.0,
       "reference_price": 1690.0,
       "km_adjusted": false,
-      "age_days": 3.3515082935300926,
+      "age_days": 3.6094596579166667,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2582,7 +2582,7 @@
       "group_median": 3800.0,
       "reference_price": 1602.6890321581604,
       "km_adjusted": true,
-      "age_days": 3.2363809787152777,
+      "age_days": 3.4943323431018523,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -2611,7 +2611,7 @@
       "group_median": 9240.0,
       "reference_price": 8264.819551533174,
       "km_adjusted": true,
-      "age_days": 6.168776812048611,
+      "age_days": 6.426728176435185,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2640,7 +2640,7 @@
       "group_median": 2350.0,
       "reference_price": 3370.9085967909045,
       "km_adjusted": true,
-      "age_days": 3.254216626863426,
+      "age_days": 3.51216799125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2669,7 +2669,7 @@
       "group_median": 21499.0,
       "reference_price": 21499.0,
       "km_adjusted": false,
-      "age_days": 3.47198283056713,
+      "age_days": 3.729934194953704,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2698,7 +2698,7 @@
       "group_median": 3200.0,
       "reference_price": 2522.8173439599714,
       "km_adjusted": true,
-      "age_days": 3.2923069046412037,
+      "age_days": 3.550258269027778,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2727,36 +2727,7 @@
       "group_median": 8250.0,
       "reference_price": 6330.779223732356,
       "km_adjusted": true,
-      "age_days": 3.183128663900463,
-      "condition": "Buen estado / revisado / con garantía"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609934588",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2007,
-      "price": 4950.0,
-      "km": 98184,
-      "fuel": "diesel",
-      "province": "Málaga",
-      "city": "San Pedro de Alcantara",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": "vehiculo PERFECTO ESTADO DE \"\" 1 SOLO PROPIETARIO \"\",  SOLO 98.000 kilometros   TIENE RECIEN REALIZADO CAMBIO CORREA DISTRIBUCION Y BOMBA DE AGUA, REVISADO T CAMBIADO ACCESORIOS SISTEMA AIRE AONDICIONADO Y CARGA DEL MISMO, REVISION DE FILTRO Y CAMBIO ACEITE HACE 3 MESES Y AÑO 2025 CAMBIO DE EMBRAGUE. (TODO CON FACTURA). GAANTIA 1 AÑO Y TRANSFERENCIA Incluida.\n",
-      "title": "VOLKSWAGEN Golf Plus 1.9 TDI Sportline",
-      "publish_date": "2026-08-13T11:24:40Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-plus-1-9-tdi-sportline-609934588.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": null,
-      "discount_ratio": 0.601181909363519,
-      "group_median": 4800.0,
-      "reference_price": 8233.780695830726,
-      "km_adjusted": true,
-      "age_days": 3.286230515752315,
+      "age_days": 3.441080028287037,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2785,7 +2756,7 @@
       "group_median": 10994.5,
       "reference_price": 6485.317866852505,
       "km_adjusted": true,
-      "age_days": 3.5025962564930557,
+      "age_days": 3.76054762087963,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -2814,7 +2785,7 @@
       "group_median": 3200.0,
       "reference_price": 3656.2993191951964,
       "km_adjusted": true,
-      "age_days": 7.422584682418981,
+      "age_days": 7.680536046805556,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2843,7 +2814,7 @@
       "group_median": 7000.0,
       "reference_price": 6313.845868224292,
       "km_adjusted": true,
-      "age_days": 5.1582675527893525,
+      "age_days": 5.416218917175926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2872,7 +2843,7 @@
       "group_median": 2800.0,
       "reference_price": 3311.2497143383484,
       "km_adjusted": true,
-      "age_days": 14.19036246019676,
+      "age_days": 14.448313824583332,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2901,7 +2872,7 @@
       "group_median": 2775.0,
       "reference_price": 4204.006308453261,
       "km_adjusted": true,
-      "age_days": 5.7979782009375,
+      "age_days": 6.055929565324075,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2930,7 +2901,7 @@
       "group_median": 2625.0,
       "reference_price": 2963.558046269808,
       "km_adjusted": true,
-      "age_days": 4.156589312048611,
+      "age_days": 4.414540676435186,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -2959,7 +2930,7 @@
       "group_median": 2800.0,
       "reference_price": 2793.700493950434,
       "km_adjusted": true,
-      "age_days": 7.075721256493055,
+      "age_days": 7.3336726208796295,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -2988,7 +2959,7 @@
       "group_median": 8199.5,
       "reference_price": 7379.021615437858,
       "km_adjusted": true,
-      "age_days": 3.857468941678241,
+      "age_days": 4.115420306064815,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3017,7 +2988,7 @@
       "group_median": 3799.5,
       "reference_price": 3439.684508291798,
       "km_adjusted": true,
-      "age_days": 11.382341626863425,
+      "age_days": 11.64029299125,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3046,7 +3017,7 @@
       "group_median": 7900.0,
       "reference_price": 8954.601904070478,
       "km_adjusted": true,
-      "age_days": 7.168880978715277,
+      "age_days": 7.426832343101852,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3075,7 +3046,7 @@
       "group_median": 2495.0,
       "reference_price": 2435.9279898321984,
       "km_adjusted": true,
-      "age_days": 3.483140237974537,
+      "age_days": 3.741091602361111,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -3104,7 +3075,7 @@
       "group_median": 2500.0,
       "reference_price": 3222.2448049092573,
       "km_adjusted": true,
-      "age_days": 9.275559219456017,
+      "age_days": 9.533510583842594,
       "condition": "Para piezas / no arranca / accidentado"
     },
     {
@@ -3133,7 +3104,7 @@
       "group_median": 6980.0,
       "reference_price": 5637.8889401664455,
       "km_adjusted": true,
-      "age_days": 10.075860145381943,
+      "age_days": 10.333811509768518,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3162,7 +3133,7 @@
       "group_median": 9900.0,
       "reference_price": 9633.982159182502,
       "km_adjusted": true,
-      "age_days": 8.0517282009375,
+      "age_days": 8.309679565324075,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3191,7 +3162,7 @@
       "group_median": 3675.0,
       "reference_price": 3683.2882657932623,
       "km_adjusted": true,
-      "age_days": 6.92903144167824,
+      "age_days": 7.186982806064815,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3220,7 +3191,7 @@
       "group_median": 8850.0,
       "reference_price": 7982.8726818116875,
       "km_adjusted": true,
-      "age_days": 6.857144867604166,
+      "age_days": 7.115096231990741,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3249,7 +3220,7 @@
       "group_median": 3800.0,
       "reference_price": 3987.0206860365147,
       "km_adjusted": true,
-      "age_days": 8.853672645381945,
+      "age_days": 9.11162400976852,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3278,7 +3249,36 @@
       "group_median": 8600.0,
       "reference_price": 8763.117103426232,
       "km_adjusted": true,
-      "age_days": 4.33073283056713,
+      "age_days": 4.588684194953704,
+      "condition": "Buen estado / revisado / con garantía"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609934255",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2012,
+      "price": 5990.0,
+      "km": 100000,
+      "fuel": "diesel",
+      "province": "Sevilla",
+      "city": "Sevilla",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": "AUTOMOCION SEVILLA SL ofrecemos la mejor garantía, y los precios más competitivos del mercado. Empresa dedicada al sector del automóvil con más de 25 años de experiencias, todos nuestros vehículos se encuentran en perfecto estado, tanto de interior como de exterior, los kilometrajes son certificados, vehículos procedentes de particular, 12 meses de garantía, permitimos prueba mecánica, descuento renove , posibilidad de transporte a toda España, consúltenos precio de transporte y descuentos, lo entregamos con la itv pasada y totalmente desinfectado como nuevo. Posibilidad de financiación.\nExtras: , Llantas de aleación, climatizador, limitador de velocidad, velocidad crucero,, etc.\n\nPara cualquier consulta o aclaración, no dude en ponerse en contacto con nosotros vía telefónica, whatsapp o correo electrónico.\n\nEste anuncio no es vinculante, puede contener errores, se muestra a titulo informativo y no es contractual.\nVOLKSWAGEN GOLF EN SEVILLA ",
+      "title": "VOLKSWAGEN Golf Variant 1.6 TDI 105cv DP",
+      "publish_date": "2026-08-13T11:19:49Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-variant-1-6-tdi-105cv-dp-609934255.htm",
+      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": 105,
+      "discount_ratio": 0.6276486152058972,
+      "group_median": 7490.0,
+      "reference_price": 9543.556465961465,
+      "km_adjusted": true,
+      "age_days": 3.5475499356944447,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3307,7 +3307,7 @@
       "group_median": 6845.0,
       "reference_price": 7162.295984999011,
       "km_adjusted": true,
-      "age_days": 10.2411032009375,
+      "age_days": 10.499054565324075,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3336,7 +3336,7 @@
       "group_median": 1900.0,
       "reference_price": 1900.0,
       "km_adjusted": false,
-      "age_days": 11.182225886122685,
+      "age_days": 11.44017725050926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3365,36 +3365,7 @@
       "group_median": 4945.0,
       "reference_price": 4741.536899772385,
       "km_adjusted": true,
-      "age_days": 7.106890237974537,
-      "condition": "Buen estado / revisado / con garantía"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609934255",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2012,
-      "price": 5990.0,
-      "km": 100000,
-      "fuel": "diesel",
-      "province": "Sevilla",
-      "city": "Sevilla",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": "AUTOMOCION SEVILLA SL ofrecemos la mejor garantía, y los precios más competitivos del mercado. Empresa dedicada al sector del automóvil con más de 25 años de experiencias, todos nuestros vehículos se encuentran en perfecto estado, tanto de interior como de exterior, los kilometrajes son certificados, vehículos procedentes de particular, 12 meses de garantía, permitimos prueba mecánica, descuento renove , posibilidad de transporte a toda España, consúltenos precio de transporte y descuentos, lo entregamos con la itv pasada y totalmente desinfectado como nuevo. Posibilidad de financiación.\nExtras: , Llantas de aleación, climatizador, limitador de velocidad, velocidad crucero,, etc.\n\nPara cualquier consulta o aclaración, no dude en ponerse en contacto con nosotros vía telefónica, whatsapp o correo electrónico.\n\nEste anuncio no es vinculante, puede contener errores, se muestra a titulo informativo y no es contractual.\nVOLKSWAGEN GOLF EN SEVILLA ",
-      "title": "VOLKSWAGEN Golf Variant 1.6 TDI 105cv DP",
-      "publish_date": "2026-08-13T11:19:49Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-variant-1-6-tdi-105cv-dp-609934255.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": 105,
-      "discount_ratio": 0.6326737326475331,
-      "group_median": 7740.0,
-      "reference_price": 9467.755164947033,
-      "km_adjusted": true,
-      "age_days": 3.2895985713078706,
+      "age_days": 7.364841602361111,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3423,7 +3394,7 @@
       "group_median": 38900.0,
       "reference_price": 38900.0,
       "km_adjusted": false,
-      "age_days": 5.264471256493056,
+      "age_days": 5.52242262087963,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3452,7 +3423,7 @@
       "group_median": 2644.5,
       "reference_price": 3149.029184693461,
       "km_adjusted": true,
-      "age_days": 3.9700731083449075,
+      "age_days": 4.228024472731482,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3481,7 +3452,7 @@
       "group_median": 10990.0,
       "reference_price": 10990.0,
       "km_adjusted": false,
-      "age_days": 5.008452737974538,
+      "age_days": 5.266404102361111,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3510,7 +3481,7 @@
       "group_median": 8250.0,
       "reference_price": 8939.914248042445,
       "km_adjusted": true,
-      "age_days": 3.446080052789352,
+      "age_days": 3.7040314171759263,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3539,7 +3510,7 @@
       "group_median": 3000.0,
       "reference_price": 3914.9883625424104,
       "km_adjusted": true,
-      "age_days": 3.452966626863426,
+      "age_days": 3.71091799125,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3568,7 +3539,7 @@
       "group_median": 12500.0,
       "reference_price": 12500.0,
       "km_adjusted": false,
-      "age_days": 11.989760608344907,
+      "age_days": 12.24771197273148,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3597,7 +3568,7 @@
       "group_median": 5995.0,
       "reference_price": 4685.687243990423,
       "km_adjusted": true,
-      "age_days": 3.220767552789352,
+      "age_days": 3.478718917175926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3626,7 +3597,7 @@
       "group_median": 15699.5,
       "reference_price": 15613.254262878498,
       "km_adjusted": true,
-      "age_days": 12.505397182418982,
+      "age_days": 12.763348546805554,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3655,7 +3626,7 @@
       "group_median": 3899.5,
       "reference_price": 3667.7337192600858,
       "km_adjusted": true,
-      "age_days": 7.687422645381944,
+      "age_days": 7.945374009768519,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3684,7 +3655,7 @@
       "group_median": 4650.0,
       "reference_price": 5131.459703191349,
       "km_adjusted": true,
-      "age_days": 6.7979550527893515,
+      "age_days": 7.055906417175926,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3713,7 +3684,7 @@
       "group_median": 5099.5,
       "reference_price": 2332.933754131296,
       "km_adjusted": true,
-      "age_days": 8.177202737974536,
+      "age_days": 8.43515410236111,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3742,7 +3713,7 @@
       "group_median": 7900.0,
       "reference_price": 7416.188768567857,
       "km_adjusted": true,
-      "age_days": 13.690501349085647,
+      "age_days": 13.948452713472221,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3771,7 +3742,7 @@
       "group_median": 16900.0,
       "reference_price": 16900.0,
       "km_adjusted": false,
-      "age_days": 10.02590644167824,
+      "age_days": 10.283857806064814,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3800,7 +3771,7 @@
       "group_median": 6300.0,
       "reference_price": 6044.329458579795,
       "km_adjusted": true,
-      "age_days": 3.4080244972337965,
+      "age_days": 3.6659758616203706,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3829,7 +3800,7 @@
       "group_median": 3990.0,
       "reference_price": 3554.4811238707252,
       "km_adjusted": true,
-      "age_days": 3.75667033056713,
+      "age_days": 4.0146216949537035,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3858,7 +3829,7 @@
       "group_median": 3200.0,
       "reference_price": 2934.9926076818715,
       "km_adjusted": true,
-      "age_days": 3.6158717194560186,
+      "age_days": 3.8738230838425927,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3887,7 +3858,7 @@
       "group_median": 9900.0,
       "reference_price": 9226.237682161,
       "km_adjusted": true,
-      "age_days": 4.067005978715278,
+      "age_days": 4.324957343101852,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -3916,7 +3887,7 @@
       "group_median": 1690.0,
       "reference_price": 1690.0,
       "km_adjusted": false,
-      "age_days": 3.14823283056713,
+      "age_days": 3.406184194953704,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -3945,7 +3916,7 @@
       "group_median": 11490.0,
       "reference_price": 9190.738648419581,
       "km_adjusted": true,
-      "age_days": 3.428059219456019,
+      "age_days": 3.686010583842593,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -3974,7 +3945,7 @@
       "group_median": 3949.5,
       "reference_price": 4277.800144075911,
       "km_adjusted": true,
-      "age_days": 9.164934219456018,
+      "age_days": 9.422885583842593,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4003,7 +3974,7 @@
       "group_median": 3000.0,
       "reference_price": 3819.2016925367593,
       "km_adjusted": true,
-      "age_days": 6.310096256493055,
+      "age_days": 6.5680476208796295,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4032,7 +4003,7 @@
       "group_median": 4800.0,
       "reference_price": 5346.090859085087,
       "km_adjusted": true,
-      "age_days": 10.081913386122684,
+      "age_days": 10.339864750509259,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4061,7 +4032,7 @@
       "group_median": 3900.0,
       "reference_price": 4579.641601914459,
       "km_adjusted": true,
-      "age_days": 4.402341626863426,
+      "age_days": 4.66029299125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4090,7 +4061,7 @@
       "group_median": 2775.0,
       "reference_price": 4578.511000147055,
       "km_adjusted": true,
-      "age_days": 9.68741107130787,
+      "age_days": 9.945362435694445,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4119,7 +4090,7 @@
       "group_median": 3800.0,
       "reference_price": 4346.759724488431,
       "km_adjusted": true,
-      "age_days": 9.151230515752314,
+      "age_days": 9.409181880138888,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4148,7 +4119,7 @@
       "group_median": 12000.0,
       "reference_price": 14485.295367055576,
       "km_adjusted": true,
-      "age_days": 6.92590644167824,
+      "age_days": 7.183857806064815,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4177,8 +4148,37 @@
       "group_median": 3100.0,
       "reference_price": 2743.269507051221,
       "km_adjusted": true,
-      "age_days": 3.2837883861226853,
+      "age_days": 3.5417397505092594,
       "condition": "Estado no especificado por el vendedor"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609924458",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2007,
+      "price": 4800.0,
+      "km": 288000,
+      "fuel": "diesel",
+      "province": "Córdoba",
+      "city": "Santaella",
+      "seller_type": "private",
+      "has_warranty": 0,
+      "description": "Coche en buen estado. motor muy bueno y duradero, carrocería con algunos desperfectos estéticos, mejor ver y probar. ",
+      "title": "Volkswagen - Golf",
+      "publish_date": "2026-08-13T10:24:04Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609924458.htm",
+      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": null,
+      "discount_ratio": 0.656684520309835,
+      "group_median": 4650.0,
+      "reference_price": 7309.445938721499,
+      "km_adjusted": true,
+      "age_days": 3.5862652134722226,
+      "condition": "Buen estado / revisado / con garantía"
     },
     {
       "source": "milanuncios",
@@ -4206,7 +4206,7 @@
       "group_median": 11794.5,
       "reference_price": 10790.327308002365,
       "km_adjusted": true,
-      "age_days": 3.4597606083449075,
+      "age_days": 3.7177119727314816,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4235,7 +4235,7 @@
       "group_median": 11794.5,
       "reference_price": 10790.327308002365,
       "km_adjusted": true,
-      "age_days": 3.3764851453819444,
+      "age_days": 3.6344365097685185,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4264,7 +4264,7 @@
       "group_median": 2225.0,
       "reference_price": 2656.5406398093673,
       "km_adjusted": true,
-      "age_days": 3.249934219456019,
+      "age_days": 3.507885583842593,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4293,7 +4293,7 @@
       "group_median": 3500.0,
       "reference_price": 5309.806533380748,
       "km_adjusted": true,
-      "age_days": 14.298672645381943,
+      "age_days": 14.556624009768518,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4322,7 +4322,7 @@
       "group_median": 8250.0,
       "reference_price": 8341.48878375114,
       "km_adjusted": true,
-      "age_days": 11.870015237974537,
+      "age_days": 12.127966602361111,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4351,7 +4351,7 @@
       "group_median": 6050.0,
       "reference_price": 6050.0,
       "km_adjusted": false,
-      "age_days": 11.109957367604165,
+      "age_days": 11.367908731990742,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4380,7 +4380,7 @@
       "group_median": 6500.0,
       "reference_price": 7325.7095619925185,
       "km_adjusted": true,
-      "age_days": 10.326948108344906,
+      "age_days": 10.584899472731482,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4409,7 +4409,7 @@
       "group_median": 3999.0,
       "reference_price": 4512.355218199398,
       "km_adjusted": true,
-      "age_days": 3.1767629231597225,
+      "age_days": 3.4347142875462966,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4438,7 +4438,7 @@
       "group_median": 2199.5,
       "reference_price": 2716.1740169454706,
       "km_adjusted": true,
-      "age_days": 8.303672645381944,
+      "age_days": 8.561624009768519,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4467,36 +4467,7 @@
       "group_median": 3500.0,
       "reference_price": 4521.540721478178,
       "km_adjusted": true,
-      "age_days": 7.199957367604166,
-      "condition": "Buen estado / revisado / con garantía"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609924458",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2007,
-      "price": 4800.0,
-      "km": 288000,
-      "fuel": "diesel",
-      "province": "Córdoba",
-      "city": "Santaella",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": "Coche en buen estado. motor muy bueno y duradero, carrocería con algunos desperfectos estéticos, mejor ver y probar. ",
-      "title": "Volkswagen - Golf",
-      "publish_date": "2026-08-13T10:24:04Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609924458.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": null,
-      "discount_ratio": 0.6635090217036078,
-      "group_median": 4800.0,
-      "reference_price": 7234.264859994895,
-      "km_adjusted": true,
-      "age_days": 3.328313849085648,
+      "age_days": 7.457908731990741,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4525,7 +4496,7 @@
       "group_median": 7990.0,
       "reference_price": 12039.980687298197,
       "km_adjusted": true,
-      "age_days": 10.879471256493055,
+      "age_days": 11.13742262087963,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4554,7 +4525,7 @@
       "group_median": 7990.0,
       "reference_price": 12039.980687298197,
       "km_adjusted": true,
-      "age_days": 10.962793015752315,
+      "age_days": 11.220744380138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4583,7 +4554,7 @@
       "group_median": 1650.0,
       "reference_price": 1650.0,
       "km_adjusted": false,
-      "age_days": 4.163649497233797,
+      "age_days": 4.42160086162037,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4612,7 +4583,7 @@
       "group_median": 10994.5,
       "reference_price": 11229.41319977969,
       "km_adjusted": true,
-      "age_days": 4.466461997233797,
+      "age_days": 4.72441336162037,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4641,7 +4612,7 @@
       "group_median": 2994.5,
       "reference_price": 2994.5,
       "km_adjusted": false,
-      "age_days": 8.252306904641204,
+      "age_days": 8.510258269027778,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4670,7 +4641,7 @@
       "group_median": 13000.0,
       "reference_price": 13000.0,
       "km_adjusted": false,
-      "age_days": 3.8622258861226855,
+      "age_days": 4.1201772505092595,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4699,7 +4670,7 @@
       "group_median": 8500.0,
       "reference_price": 8209.226913897124,
       "km_adjusted": true,
-      "age_days": 10.015894867604166,
+      "age_days": 10.27384623199074,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4728,7 +4699,7 @@
       "group_median": 16740.0,
       "reference_price": 23722.40818108435,
       "km_adjusted": true,
-      "age_days": 11.380084682418982,
+      "age_days": 11.638036046805556,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4757,7 +4728,7 @@
       "group_median": 19995.0,
       "reference_price": 20661.51969970456,
       "km_adjusted": true,
-      "age_days": 3.2239504231597222,
+      "age_days": 3.4819017875462963,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4786,7 +4757,7 @@
       "group_median": 19995.0,
       "reference_price": 20661.51969970456,
       "km_adjusted": true,
-      "age_days": 3.3071217194560187,
+      "age_days": 3.565073083842593,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4815,7 +4786,7 @@
       "group_median": 13000.0,
       "reference_price": 14101.000808765211,
       "km_adjusted": true,
-      "age_days": 5.112885608344907,
+      "age_days": 5.370836972731482,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4844,7 +4815,7 @@
       "group_median": 2775.0,
       "reference_price": 3113.057858736558,
       "km_adjusted": true,
-      "age_days": 11.863904126863426,
+      "age_days": 12.12185549125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4873,7 +4844,7 @@
       "group_median": 2500.0,
       "reference_price": 2650.565177463901,
       "km_adjusted": true,
-      "age_days": 5.144783756493056,
+      "age_days": 5.40273512087963,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4902,7 +4873,7 @@
       "group_median": 6940.0,
       "reference_price": 6487.294138859175,
       "km_adjusted": true,
-      "age_days": 8.298082367604167,
+      "age_days": 8.556033731990741,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4931,7 +4902,7 @@
       "group_median": 7945.0,
       "reference_price": 7069.859533667379,
       "km_adjusted": true,
-      "age_days": 3.212364775011574,
+      "age_days": 3.4703161393981485,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -4960,7 +4931,7 @@
       "group_median": 2225.0,
       "reference_price": 2650.984057987385,
       "km_adjusted": true,
-      "age_days": 3.424529126863426,
+      "age_days": 3.68248049125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -4989,7 +4960,7 @@
       "group_median": 2499.0,
       "reference_price": 2499.0,
       "km_adjusted": false,
-      "age_days": 13.210455052789351,
+      "age_days": 13.468406417175924,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5018,7 +4989,7 @@
       "group_median": 22447.5,
       "reference_price": 19090.612518844333,
       "km_adjusted": true,
-      "age_days": 4.441334682418981,
+      "age_days": 4.699286046805556,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5047,7 +5018,7 @@
       "group_median": 5999.5,
       "reference_price": 5859.963190247012,
       "km_adjusted": true,
-      "age_days": 5.153973571307871,
+      "age_days": 5.4119249356944445,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5076,7 +5047,7 @@
       "group_median": 2200.0,
       "reference_price": 2200.0,
       "km_adjusted": false,
-      "age_days": 4.882966626863426,
+      "age_days": 5.14091799125,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5105,7 +5076,7 @@
       "group_median": 7099.5,
       "reference_price": 10251.361195228581,
       "km_adjusted": true,
-      "age_days": 5.381786071307871,
+      "age_days": 5.639737435694444,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5134,7 +5105,7 @@
       "group_median": 2644.5,
       "reference_price": 2121.7785175565477,
       "km_adjusted": true,
-      "age_days": 5.374621719456019,
+      "age_days": 5.632573083842593,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5163,7 +5134,7 @@
       "group_median": 5900.0,
       "reference_price": 6143.46837036539,
       "km_adjusted": true,
-      "age_days": 6.884679589826388,
+      "age_days": 7.142630954212963,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5192,7 +5163,7 @@
       "group_median": 1900.0,
       "reference_price": 1900.0,
       "km_adjusted": false,
-      "age_days": 3.232515237974537,
+      "age_days": 3.4904666023611113,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5221,7 +5192,7 @@
       "group_median": 4950.0,
       "reference_price": 4950.0,
       "km_adjusted": false,
-      "age_days": 3.620941163900463,
+      "age_days": 3.8788925282870372,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5250,7 +5221,7 @@
       "group_median": 9120.0,
       "reference_price": 4292.795743756678,
       "km_adjusted": true,
-      "age_days": 5.026600886122686,
+      "age_days": 5.284552250509259,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5279,7 +5250,7 @@
       "group_median": 2225.0,
       "reference_price": 2613.0982728375034,
       "km_adjusted": true,
-      "age_days": 12.374783756493056,
+      "age_days": 12.632735120879628,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5308,7 +5279,7 @@
       "group_median": 12497.0,
       "reference_price": 10953.539155747661,
       "km_adjusted": true,
-      "age_days": 11.015871719456017,
+      "age_days": 11.273823083842593,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5337,7 +5308,7 @@
       "group_median": 4990.0,
       "reference_price": 5072.1384152583005,
       "km_adjusted": true,
-      "age_days": 4.391242089826389,
+      "age_days": 4.649193454212964,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5366,7 +5337,7 @@
       "group_median": 1700.0,
       "reference_price": 1950.1879145002483,
       "km_adjusted": true,
-      "age_days": 13.434274497233796,
+      "age_days": 13.692225861620368,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5395,7 +5366,7 @@
       "group_median": 9990.0,
       "reference_price": 12272.873251951933,
       "km_adjusted": true,
-      "age_days": 3.1630013490856483,
+      "age_days": 3.4209527134722224,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -5424,7 +5395,7 @@
       "group_median": 13595.0,
       "reference_price": 13713.164950364258,
       "km_adjusted": true,
-      "age_days": 7.929193478715277,
+      "age_days": 8.187144843101851,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5453,7 +5424,7 @@
       "group_median": 4300.0,
       "reference_price": 4038.923262762999,
       "km_adjusted": true,
-      "age_days": 3.2516356083449076,
+      "age_days": 3.5095869727314817,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5482,7 +5453,7 @@
       "group_median": 12595.0,
       "reference_price": 14416.989940597385,
       "km_adjusted": true,
-      "age_days": 3.3993902379745373,
+      "age_days": 3.6573416023611114,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5511,7 +5482,7 @@
       "group_median": 2800.0,
       "reference_price": 2881.1412055136416,
       "km_adjusted": true,
-      "age_days": 6.090246719456018,
+      "age_days": 6.348198083842592,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5540,7 +5511,7 @@
       "group_median": 17445.0,
       "reference_price": 18689.789579017022,
       "km_adjusted": true,
-      "age_days": 3.250894867604167,
+      "age_days": 3.508846231990741,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5569,7 +5540,7 @@
       "group_median": 19095.0,
       "reference_price": 16801.972653385186,
       "km_adjusted": true,
-      "age_days": 4.274864775011574,
+      "age_days": 4.5328161393981485,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5598,7 +5569,7 @@
       "group_median": 8200.0,
       "reference_price": 7167.645996151331,
       "km_adjusted": true,
-      "age_days": 5.157561534270833,
+      "age_days": 5.415512898657408,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5627,7 +5598,7 @@
       "group_median": 2800.0,
       "reference_price": 2793.700493950434,
       "km_adjusted": true,
-      "age_days": 3.3612883861226854,
+      "age_days": 3.6192397505092595,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5656,36 +5627,7 @@
       "group_median": 7000.0,
       "reference_price": 6441.520137231662,
       "km_adjusted": true,
-      "age_days": 5.308394867604167,
-      "condition": "Buen estado / revisado / con garantía"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609925906",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2009,
-      "price": 4400.0,
-      "km": 360000,
-      "fuel": "diesel",
-      "province": "Castellón",
-      "city": "Almazora/Almassora",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": "Volkswagen Golf GT Sport Automático Diésel\n?? Volkswagen Golf GT Sport\n?? Cambio automático\n? Diésel\n?? 360.000 km\n? ITV hasta diciembre de 2026\n??? 1 año de garantía en caja y motor\nUn Golf cómodo, fiable y listo para seguir rodando. Ideal para quien busca un automático con un buen equipamiento y garantía.\n?? Más información y visitas: FN Autos\n?? Castellón – Almazora",
-      "title": "VOLKSWAGEN Golf 2.0 TDI 140cv GT Sport D",
-      "publish_date": "2026-08-13T10:31:16Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-2-0-tdi-140cv-gt-sport-d-609925906.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": 140,
-      "discount_ratio": 0.698967434471803,
-      "group_median": 6295.0,
-      "reference_price": 6295.0,
-      "km_adjusted": false,
-      "age_days": 3.323313849085648,
+      "age_days": 5.566346231990741,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5714,7 +5656,7 @@
       "group_median": 10495.0,
       "reference_price": 10721.803539458313,
       "km_adjusted": true,
-      "age_days": 3.854367089826389,
+      "age_days": 4.112318454212963,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5743,7 +5685,7 @@
       "group_median": 16740.0,
       "reference_price": 24287.80290967462,
       "km_adjusted": true,
-      "age_days": 12.280941163900463,
+      "age_days": 12.538892528287036,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5772,7 +5714,7 @@
       "group_median": 7720.0,
       "reference_price": 7826.993845487422,
       "km_adjusted": true,
-      "age_days": 14.231647182418982,
+      "age_days": 14.489598546805555,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5801,7 +5743,7 @@
       "group_median": 24900.0,
       "reference_price": 26322.37096303368,
       "km_adjusted": true,
-      "age_days": 3.4927119972337963,
+      "age_days": 3.7506633616203704,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5830,7 +5772,7 @@
       "group_median": 14744.5,
       "reference_price": 18172.740808610037,
       "km_adjusted": true,
-      "age_days": 3.378001349085648,
+      "age_days": 3.6359527134722223,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -5859,7 +5801,7 @@
       "group_median": 1700.0,
       "reference_price": 1700.0,
       "km_adjusted": false,
-      "age_days": 4.9764619972337965,
+      "age_days": 5.234413361620371,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5888,7 +5830,7 @@
       "group_median": 1700.0,
       "reference_price": 1700.0,
       "km_adjusted": false,
-      "age_days": 3.951554589826389,
+      "age_days": 4.209505954212963,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5917,7 +5859,7 @@
       "group_median": 5480.0,
       "reference_price": 5480.0,
       "km_adjusted": false,
-      "age_days": 6.262700423159722,
+      "age_days": 6.520651787546297,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -5946,7 +5888,7 @@
       "group_median": 7490.0,
       "reference_price": 8219.237015395844,
       "km_adjusted": true,
-      "age_days": 7.110119404641203,
+      "age_days": 7.368070769027778,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -5975,7 +5917,7 @@
       "group_median": 3490.0,
       "reference_price": 3510.401133396397,
       "km_adjusted": true,
-      "age_days": 3.1923532009375,
+      "age_days": 3.4503045653240743,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6004,7 +5946,7 @@
       "group_median": 5500.0,
       "reference_price": 5194.122633378256,
       "km_adjusted": true,
-      "age_days": 4.2561032009375,
+      "age_days": 4.5140545653240745,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6033,7 +5975,7 @@
       "group_median": 5500.0,
       "reference_price": 4207.196296912362,
       "km_adjusted": true,
-      "age_days": 8.438568478715277,
+      "age_days": 8.696519843101852,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6062,7 +6004,7 @@
       "group_median": 4945.0,
       "reference_price": 6305.718880388877,
       "km_adjusted": true,
-      "age_days": 11.019644867604166,
+      "age_days": 11.27759623199074,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6091,7 +6033,7 @@
       "group_median": 4744.5,
       "reference_price": 3991.986624656276,
       "km_adjusted": true,
-      "age_days": 3.2399110713078705,
+      "age_days": 3.4978624356944445,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6120,7 +6062,7 @@
       "group_median": 13990.0,
       "reference_price": 13286.837552121047,
       "km_adjusted": true,
-      "age_days": 10.341901812048611,
+      "age_days": 10.599853176435186,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6149,7 +6091,7 @@
       "group_median": 4600.0,
       "reference_price": 4600.0,
       "km_adjusted": false,
-      "age_days": 12.202445793530092,
+      "age_days": 12.460397157916665,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6178,7 +6120,7 @@
       "group_median": 13945.0,
       "reference_price": 14608.254436796286,
       "km_adjusted": true,
-      "age_days": 3.3525731083449077,
+      "age_days": 3.610524472731482,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6207,7 +6149,7 @@
       "group_median": 7945.0,
       "reference_price": 5139.598090362373,
       "km_adjusted": true,
-      "age_days": 3.9111379231597225,
+      "age_days": 4.169089287546297,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6236,7 +6178,7 @@
       "group_median": 5500.0,
       "reference_price": 4857.68459169533,
       "km_adjusted": true,
-      "age_days": 3.1939041268634263,
+      "age_days": 3.4518554912500004,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6265,7 +6207,7 @@
       "group_median": 4300.0,
       "reference_price": 5967.377852340705,
       "km_adjusted": true,
-      "age_days": 10.32417033056713,
+      "age_days": 10.582121694953704,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -6294,7 +6236,7 @@
       "group_median": 13424.5,
       "reference_price": 13876.630294640021,
       "km_adjusted": true,
-      "age_days": 6.938464312048611,
+      "age_days": 7.196415676435185,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6323,7 +6265,7 @@
       "group_median": 29990.0,
       "reference_price": 33063.630901558696,
       "km_adjusted": true,
-      "age_days": 6.4319018120486104,
+      "age_days": 6.689853176435185,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6352,7 +6294,7 @@
       "group_median": 4850.0,
       "reference_price": 4850.0,
       "km_adjusted": false,
-      "age_days": 3.3764735713078706,
+      "age_days": 3.6344249356944447,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6381,7 +6323,7 @@
       "group_median": 4945.0,
       "reference_price": 3033.371640605422,
       "km_adjusted": true,
-      "age_days": 13.267063849085648,
+      "age_days": 13.525015213472221,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6410,7 +6352,7 @@
       "group_median": 4200.0,
       "reference_price": 4149.462662242613,
       "km_adjusted": true,
-      "age_days": 3.795918015752315,
+      "age_days": 4.053869380138889,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6439,7 +6381,7 @@
       "group_median": 9945.0,
       "reference_price": 10374.461649038036,
       "km_adjusted": true,
-      "age_days": 5.387480515752315,
+      "age_days": 5.645431880138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6468,7 +6410,7 @@
       "group_median": 6990.0,
       "reference_price": 7592.591936065468,
       "km_adjusted": true,
-      "age_days": 6.244019867604166,
+      "age_days": 6.501971231990741,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6497,36 +6439,7 @@
       "group_median": 5700.0,
       "reference_price": 7172.867977817266,
       "km_adjusted": true,
-      "age_days": 11.250755978715278,
-      "condition": "Buen estado / revisado / con garantía"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609905718",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2010,
-      "price": 5000.0,
-      "km": 225850,
-      "fuel": "diesel",
-      "province": "Málaga",
-      "city": "Ronda",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": "Volkswagen Golf VI 1.6 TDI 105 CV – 2010 – Muy cuidado\n\nSe vende Volkswagen Golf VI 1.6 TDI de 105 CV, año 2010, en muy buen estado tanto de interior como de mecánica. Coche fiable, cómodo y con un consumo muy reducido, ideal para uso diario o viajes largos.\n",
-      "title": "Volkswagen - Golf",
-      "publish_date": "2026-08-13T09:18:08Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609905718.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": 105,
-      "discount_ratio": 0.7256894049346879,
-      "group_median": 6890.0,
-      "reference_price": 6890.0,
-      "km_adjusted": false,
-      "age_days": 3.3741008861226853,
+      "age_days": 11.508707343101852,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6555,7 +6468,7 @@
       "group_median": 7790.0,
       "reference_price": 6856.091749193496,
       "km_adjusted": true,
-      "age_days": 7.346080052789351,
+      "age_days": 7.604031417175926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6584,7 +6497,7 @@
       "group_median": 5490.0,
       "reference_price": 5490.0,
       "km_adjusted": false,
-      "age_days": 10.501948108344907,
+      "age_days": 10.759899472731481,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6613,7 +6526,7 @@
       "group_median": 8970.0,
       "reference_price": 7957.777887486312,
       "km_adjusted": true,
-      "age_days": 5.229390237974537,
+      "age_days": 5.487341602361111,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6642,7 +6555,7 @@
       "group_median": 16740.0,
       "reference_price": 21919.928131928238,
       "km_adjusted": true,
-      "age_days": 4.127642552789352,
+      "age_days": 4.385593917175926,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6671,7 +6584,7 @@
       "group_median": 2737.5,
       "reference_price": 2737.5,
       "km_adjusted": false,
-      "age_days": 3.263591626863426,
+      "age_days": 3.52154299125,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6700,7 +6613,7 @@
       "group_median": 14900.0,
       "reference_price": 12999.772254080981,
       "km_adjusted": true,
-      "age_days": 10.112989775011574,
+      "age_days": 10.370941139398148,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6729,7 +6642,7 @@
       "group_median": 6940.0,
       "reference_price": 6558.607067267632,
       "km_adjusted": true,
-      "age_days": 3.29573283056713,
+      "age_days": 3.553684194953704,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6758,7 +6671,7 @@
       "group_median": 5500.0,
       "reference_price": 5463.879261394295,
       "km_adjusted": true,
-      "age_days": 6.477758293530092,
+      "age_days": 6.735709657916667,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6787,8 +6700,37 @@
       "group_median": 6495.0,
       "reference_price": 4229.151639050741,
       "km_adjusted": true,
-      "age_days": 3.225755978715278,
+      "age_days": 3.483707343101852,
       "condition": "Estado no especificado por el vendedor"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609925906",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2009,
+      "price": 4400.0,
+      "km": 360000,
+      "fuel": "diesel",
+      "province": "Castellón",
+      "city": "Almazora/Almassora",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": "Volkswagen Golf GT Sport Automático Diésel\n?? Volkswagen Golf GT Sport\n?? Cambio automático\n? Diésel\n?? 360.000 km\n? ITV hasta diciembre de 2026\n??? 1 año de garantía en caja y motor\nUn Golf cómodo, fiable y listo para seguir rodando. Ideal para quien busca un automático con un buen equipamiento y garantía.\n?? Más información y visitas: FN Autos\n?? Castellón – Almazora",
+      "title": "VOLKSWAGEN Golf 2.0 TDI 140cv GT Sport D",
+      "publish_date": "2026-08-13T10:31:16Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-2-0-tdi-140cv-gt-sport-d-609925906.htm",
+      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": 140,
+      "discount_ratio": 0.7333333333333333,
+      "group_median": 6000.0,
+      "reference_price": 6000.0,
+      "km_adjusted": false,
+      "age_days": 3.5812652134722223,
+      "condition": "Buen estado / revisado / con garantía"
     },
     {
       "source": "coches_net",
@@ -6816,7 +6758,7 @@
       "group_median": 5290.0,
       "reference_price": 5179.811467267467,
       "km_adjusted": true,
-      "age_days": 12.976496719456017,
+      "age_days": 13.234448083842592,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6845,7 +6787,7 @@
       "group_median": 4895.0,
       "reference_price": 4766.480104661465,
       "km_adjusted": true,
-      "age_days": 4.814563849085649,
+      "age_days": 5.072515213472222,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6874,7 +6816,7 @@
       "group_median": 8970.0,
       "reference_price": 9394.386789238772,
       "km_adjusted": true,
-      "age_days": 4.053047645381945,
+      "age_days": 4.310999009768519,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6903,7 +6845,7 @@
       "group_median": 9900.0,
       "reference_price": 9348.577032495105,
       "km_adjusted": true,
-      "age_days": 3.251577737974537,
+      "age_days": 3.5095291023611113,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -6932,7 +6874,7 @@
       "group_median": 2995.0,
       "reference_price": 4071.1929907751173,
       "km_adjusted": true,
-      "age_days": 3.732654126863426,
+      "age_days": 3.99060549125,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6961,7 +6903,7 @@
       "group_median": 2099.5,
       "reference_price": 1902.7197486789923,
       "km_adjusted": true,
-      "age_days": 10.306022182418982,
+      "age_days": 10.563973546805556,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -6990,7 +6932,7 @@
       "group_median": 29990.0,
       "reference_price": 29208.59258661639,
       "km_adjusted": true,
-      "age_days": 3.428105515752315,
+      "age_days": 3.686056880138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7019,7 +6961,7 @@
       "group_median": 3449.5,
       "reference_price": 3395.1139340808036,
       "km_adjusted": true,
-      "age_days": 4.051404126863426,
+      "age_days": 4.30935549125,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -7048,7 +6990,7 @@
       "group_median": 4895.0,
       "reference_price": 6110.008799936704,
       "km_adjusted": true,
-      "age_days": 7.939668015752314,
+      "age_days": 8.197619380138889,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -7077,7 +7019,7 @@
       "group_median": 12399.5,
       "reference_price": 12201.10768187133,
       "km_adjusted": true,
-      "age_days": 6.983140237974537,
+      "age_days": 7.241091602361111,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7106,7 +7048,7 @@
       "group_median": 7500.0,
       "reference_price": 8808.995515132554,
       "km_adjusted": true,
-      "age_days": 3.9913346824189815,
+      "age_days": 4.2492860468055556,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7135,7 +7077,7 @@
       "group_median": 7745.0,
       "reference_price": 7438.6434478556,
       "km_adjusted": true,
-      "age_days": 12.111855515752314,
+      "age_days": 12.369806880138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7164,7 +7106,7 @@
       "group_median": 10499.0,
       "reference_price": 10701.588297558592,
       "km_adjusted": true,
-      "age_days": 3.3763115342708336,
+      "age_days": 3.6342628986574077,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7193,7 +7135,7 @@
       "group_median": 19095.0,
       "reference_price": 21259.18939429697,
       "km_adjusted": true,
-      "age_days": 11.289471256493055,
+      "age_days": 11.54742262087963,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7222,7 +7164,7 @@
       "group_median": 2300.0,
       "reference_price": 2300.0,
       "km_adjusted": false,
-      "age_days": 3.405952737974537,
+      "age_days": 3.663904102361111,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7251,7 +7193,7 @@
       "group_median": 4847.5,
       "reference_price": 5000.618443024282,
       "km_adjusted": true,
-      "age_days": 3.2835106083449075,
+      "age_days": 3.5414619727314816,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -7280,7 +7222,7 @@
       "group_median": 7500.0,
       "reference_price": 6679.586836217677,
       "km_adjusted": true,
-      "age_days": 11.823973571307869,
+      "age_days": 12.081924935694445,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7309,7 +7251,7 @@
       "group_median": 19995.0,
       "reference_price": 15106.424027463918,
       "km_adjusted": true,
-      "age_days": 9.395918015752315,
+      "age_days": 9.65386938013889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7338,8 +7280,37 @@
       "group_median": 8490.0,
       "reference_price": 9164.574569497192,
       "km_adjusted": true,
-      "age_days": 6.018082367604167,
+      "age_days": 6.276033731990741,
       "condition": "Buen estado / revisado / con garantía"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609909779",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2014,
+      "price": 9900.0,
+      "km": 150000,
+      "fuel": "diesel",
+      "province": "Alicante",
+      "city": "Urbanizacion la Colina",
+      "seller_type": "private",
+      "has_warranty": 0,
+      "description": "## Volkswagen Golf Sportsvan Advance 1.6 TDI DSG 110 CV – Automático – 2014 - ITV al dia\n\nVendo **Volkswagen Golf Sportsvan Advance 1.6 TDI 110 CV BlueMotion, automático DSG de 7 velocidades**, año 2014, con **150.000 km**. Telefono 633 28 18 79\n\nVehículo muy cómodo, espacioso y especialmente económico. **Consume poquísimo**, siendo una opción ideal tanto para uso diario como para viajar. Destaca por su gran habitabilidad, posición de conducción elevada, bajo consumo y excelente capacidad de maletero.\n\n### Características principales\n\n* Motor **1.6 TDI diésel – 110 CV**\n* Cambio **automático DSG de 7 velocidades**\n* Acabado **Advance**\n* Tecnología BlueMotion / Start&amp;Stop\n* 5 puertas / 5 plazas\n* Climatizador automático bizona\n* Sensores de aparcamiento delanteros y traseros\n* Control de velocidad\n* Volante multifunción\n* Bluetooth y sistema multimedia\n* Ordenador de abordo\n* Detector de fatiga\n* Llantas de aleación\n* Banqueta trasera desplazable\n* Amplio maletero de aproximadamente **500–590 litros**\n\n### Mantenimiento reciente\n\n✅ **Distribución cambiada hace 6 meses**\n✅ **Aceite y mantenimiento realizados hace 6 meses**\n✅ **Neumáticos delanteros nuevos**\n✅ **Neumáticos traseros en perfecto estado**\n\nEl **interior está impecable y muy cuidado**.\n\nExteriormente presenta **un par de pequeños rasguños propios del uso**, pero en términos generales el coche se encuentra **en muy buen estado**.\n\nActualmente no necesita inversiones importantes de mantenimiento, ya que la distribución, el aceite y los neumáticos delanteros se han realizado recientemente.\n\nSe vende por **traslado al extranjero**, no por problemas con el vehículo.\n\n📍 **La Nucía – Alicante**\n📅 Año: **2014**\n🚗 Kilómetros: **150.000 km**\n⛽ Diésel – consumo muy reducido\n⚙️ Automático DSG 7 velocidades\n💨 110 CV\n💶 **Precio: 9.900 €**\n\nSe puede ver y probar sin compromiso.\n**Por favor, personas realmente interesadas.**\n",
+      "title": "Volkswagen - Golf sportsvan",
+      "publish_date": "2026-08-13T09:40:56Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609909779.htm",
+      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": 110,
+      "discount_ratio": 0.7437425635501582,
+      "group_median": 12990.0,
+      "reference_price": 13311.057461527602,
+      "km_adjusted": true,
+      "age_days": 3.6162189171759263,
+      "condition": "Necesita reparación / revisión pendiente"
     },
     {
       "source": "milanuncios",
@@ -7367,7 +7338,7 @@
       "group_median": 3200.0,
       "reference_price": 4301.731679363857,
       "km_adjusted": true,
-      "age_days": 4.104494404641204,
+      "age_days": 4.362445769027778,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7396,7 +7367,7 @@
       "group_median": 9200.0,
       "reference_price": 11151.058912851837,
       "km_adjusted": true,
-      "age_days": 5.417445793530093,
+      "age_days": 5.675397157916667,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7425,7 +7396,7 @@
       "group_median": 8000.0,
       "reference_price": 8039.7038140239765,
       "km_adjusted": true,
-      "age_days": 3.364043015752315,
+      "age_days": 3.621994380138889,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7454,7 +7425,7 @@
       "group_median": 2995.0,
       "reference_price": 3084.71602724728,
       "km_adjusted": true,
-      "age_days": 12.13440181204861,
+      "age_days": 12.392353176435185,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7483,7 +7454,7 @@
       "group_median": 2899.5,
       "reference_price": 3350.915801678405,
       "km_adjusted": true,
-      "age_days": 9.031172645381943,
+      "age_days": 9.28912400976852,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -7512,7 +7483,7 @@
       "group_median": 2644.5,
       "reference_price": 3074.7701003221177,
       "km_adjusted": true,
-      "age_days": 4.158892552789352,
+      "age_days": 4.416843917175926,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7541,8 +7512,37 @@
       "group_median": 10350.0,
       "reference_price": 11346.156340704252,
       "km_adjusted": true,
-      "age_days": 6.372816163900462,
+      "age_days": 6.630767528287037,
       "condition": "Buen estado / revisado / con garantía"
+    },
+    {
+      "source": "milanuncios",
+      "source_id": "609663136",
+      "display_model": "Volkswagen Golf",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2022,
+      "price": 10300.0,
+      "km": 223000,
+      "fuel": "diesel",
+      "province": "Madrid",
+      "city": "Alcalá de Henares",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": "* nacional \n* Distribución cambiada \n* Control crucero \n* Llantas de aluminio \n* Volante multifunción \n* Climatizador digital \n* Ranchera \n* Motor 2.0 tdi 6 velocidades \n* Algún rasguño típico de hay su precio ",
+      "title": "VOLKSWAGEN Golf 2.0 TDI 85kW 115CV Varia",
+      "publish_date": "2026-08-11T14:21:43Z",
+      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-2-0-tdi-85kw-115cv-varia-609663136.htm",
+      "first_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
+      "is_active": 1,
+      "hp": 115,
+      "discount_ratio": 0.7485340914250034,
+      "group_median": 18895.0,
+      "reference_price": 13760.228315575618,
+      "km_adjusted": true,
+      "age_days": 5.42123049125,
+      "condition": "Estado no especificado por el vendedor"
     },
     {
       "source": "milanuncios",
@@ -7570,7 +7570,7 @@
       "group_median": 8600.0,
       "reference_price": 4809.350556042719,
       "km_adjusted": true,
-      "age_days": 9.817468941678241,
+      "age_days": 10.075420306064816,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -7599,7 +7599,7 @@
       "group_median": 11399.0,
       "reference_price": 12690.492734896528,
       "km_adjusted": true,
-      "age_days": 7.886936534270832,
+      "age_days": 8.144887898657407,
       "condition": "Buen estado / revisado / con garantía"
     },
     {
@@ -7628,36 +7628,7 @@
       "group_median": 4500.0,
       "reference_price": 4541.042981882487,
       "km_adjusted": true,
-      "age_days": 4.018753663900463,
-      "condition": "Necesita reparación / revisión pendiente"
-    },
-    {
-      "source": "milanuncios",
-      "source_id": "609909779",
-      "display_model": "Volkswagen Golf",
-      "make": "Volkswagen",
-      "model": "Golf",
-      "year": 2014,
-      "price": 9900.0,
-      "km": 150000,
-      "fuel": "diesel",
-      "province": "Alicante",
-      "city": "Urbanizacion la Colina",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": "## Volkswagen Golf Sportsvan Advance 1.6 TDI DSG 110 CV – Automático – 2014 - ITV al dia\n\nVendo **Volkswagen Golf Sportsvan Advance 1.6 TDI 110 CV BlueMotion, automático DSG de 7 velocidades**, año 2014, con **150.000 km**. Telefono 633 28 18 79\n\nVehículo muy cómodo, espacioso y especialmente económico. **Consume poquísimo**, siendo una opción ideal tanto para uso diario como para viajar. Destaca por su gran habitabilidad, posición de conducción elevada, bajo consumo y excelente capacidad de maletero.\n\n### Características principales\n\n* Motor **1.6 TDI diésel – 110 CV**\n* Cambio **automático DSG de 7 velocidades**\n* Acabado **Advance**\n* Tecnología BlueMotion / Start&amp;Stop\n* 5 puertas / 5 plazas\n* Climatizador automático bizona\n* Sensores de aparcamiento delanteros y traseros\n* Control de velocidad\n* Volante multifunción\n* Bluetooth y sistema multimedia\n* Ordenador de abordo\n* Detector de fatiga\n* Llantas de aleación\n* Banqueta trasera desplazable\n* Amplio maletero de aproximadamente **500–590 litros**\n\n### Mantenimiento reciente\n\n✅ **Distribución cambiada hace 6 meses**\n✅ **Aceite y mantenimiento realizados hace 6 meses**\n✅ **Neumáticos delanteros nuevos**\n✅ **Neumáticos traseros en perfecto estado**\n\nEl **interior está impecable y muy cuidado**.\n\nExteriormente presenta **un par de pequeños rasguños propios del uso**, pero en términos generales el coche se encuentra **en muy buen estado**.\n\nActualmente no necesita inversiones importantes de mantenimiento, ya que la distribución, el aceite y los neumáticos delanteros se han realizado recientemente.\n\nSe vende por **traslado al extranjero**, no por problemas con el vehículo.\n\n📍 **La Nucía – Alicante**\n📅 Año: **2014**\n🚗 Kilómetros: **150.000 km**\n⛽ Diésel – consumo muy reducido\n⚙️ Automático DSG 7 velocidades\n💨 110 CV\n💶 **Precio: 9.900 €**\n\nSe puede ver y probar sin compromiso.\n**Por favor, personas realmente interesadas.**\n",
-      "title": "Volkswagen - Golf sportsvan",
-      "publish_date": "2026-08-13T09:40:56Z",
-      "url": "https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609909779.htm",
-      "first_seen_at": "2026-08-13T12:01:04.783441+00:00",
-      "last_seen_at": "2026-08-13T14:58:44.017575+00:00",
-      "is_active": 1,
-      "hp": 110,
-      "discount_ratio": 0.7498383992435074,
-      "group_median": 12245.0,
-      "reference_price": 13202.844786273756,
-      "km_adjusted": true,
-      "age_days": 3.358267552789352,
+      "age_days": 4.276705028287037,
       "condition": "Necesita reparación / revisión pendiente"
     },
     {
@@ -7686,15 +7657,15 @@
       "group_median": 15600.0,
       "reference_price": 15600.0,
       "km_adjusted": false,
-      "age_days": 6.373290700937499,
+      "age_days": 6.6312420653240745,
       "condition": "Buen estado / revisado / con garantía"
     }
   ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 272,
-      "recent_listings": 131,
+      "active_listings": 267,
+      "recent_listings": 130,
       "deal_count": 15
     },
     {
@@ -7736,25 +7707,25 @@
     {
       "model": "Opel Corsa",
       "active_listings": 271,
-      "recent_listings": 109,
+      "recent_listings": 108,
       "deal_count": 4
     },
     {
       "model": "Opel Astra",
       "active_listings": 270,
-      "recent_listings": 112,
+      "recent_listings": 111,
       "deal_count": 10
     },
     {
       "model": "Opel Mokka",
       "active_listings": 224,
-      "recent_listings": 79,
+      "recent_listings": 78,
       "deal_count": 3
     },
     {
       "model": "Peugeot 208",
       "active_listings": 289,
-      "recent_listings": 105,
+      "recent_listings": 104,
       "deal_count": 9
     },
     {
@@ -7766,7 +7737,7 @@
     {
       "model": "Peugeot 2008",
       "active_listings": 269,
-      "recent_listings": 90,
+      "recent_listings": 89,
       "deal_count": 4
     },
     {
@@ -7784,7 +7755,7 @@
     {
       "model": "Renault Megane",
       "active_listings": 274,
-      "recent_listings": 104,
+      "recent_listings": 103,
       "deal_count": 12
     },
     {
@@ -7826,19 +7797,19 @@
     {
       "model": "Toyota RAV4",
       "active_listings": 280,
-      "recent_listings": 110,
+      "recent_listings": 108,
       "deal_count": 2
     },
     {
       "model": "Nissan Qashqai",
       "active_listings": 282,
-      "recent_listings": 122,
+      "recent_listings": 120,
       "deal_count": 7
     },
     {
       "model": "Nissan X-Trail",
       "active_listings": 272,
-      "recent_listings": 65,
+      "recent_listings": 62,
       "deal_count": 4
     },
     {
@@ -7886,7 +7857,7 @@
     {
       "model": "Audi A3",
       "active_listings": 282,
-      "recent_listings": 111,
+      "recent_listings": 110,
       "deal_count": 7
     },
     {
@@ -7916,8 +7887,8 @@
     {
       "model": "Skoda Octavia",
       "active_listings": 288,
-      "recent_listings": 108,
-      "deal_count": 9
+      "recent_listings": 107,
+      "deal_count": 8
     },
     {
       "model": "Dacia Sandero",
@@ -7934,7 +7905,7 @@
     {
       "model": "Chevrolet Captiva",
       "active_listings": 228,
-      "recent_listings": 61,
+      "recent_listings": 60,
       "deal_count": 10
     }
   ]
