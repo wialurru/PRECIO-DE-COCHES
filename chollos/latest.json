@@ -1,20 +1,50 @@
 {
-  "generated_at": "2026-08-28T16:25:26.370048+00:00",
+  "generated_at": "2026-08-28T21:35:38.239175+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71310718",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2010,
+      "price": 6500.0,
+      "km": 260000,
+      "fuel": "Diésel",
+      "province": "Madrid",
+      "city": "Majadahonda",
+      "seller_type": "private",
+      "has_warranty": 0,
+      "description": null,
+      "title": "VOLKSWAGEN Golf 2.0 TDI DSG 6 vel GTD",
+      "publish_date": "2026-08-18T07:34:08Z",
+      "url": "https://www.coches.net/volkswagen-golf-20-tdi-170cv-dsg-6-vel-gtd-3p-diesel-2010-en-madrid-71310718-covo.aspx",
+      "first_seen_at": "2026-08-22T18:07:10.147524+00:00",
+      "last_seen_at": "2026-08-28T21:25:33.267973+00:00",
+      "is_active": 1,
+      "hp": 170,
+      "discount_ratio": 0.5562687205819427,
+      "group_median": 11685.0,
+      "reference_price": 11685.0,
+      "km_adjusted": false,
+      "age_days": 10.584377768229167,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 277,
-      "recent_listings": 12,
-      "deal_count": 0
+      "active_listings": 276,
+      "recent_listings": 9,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
       "active_listings": 241,
-      "recent_listings": 1,
+      "recent_listings": 0,
       "deal_count": 0
     },
     {
@@ -38,7 +68,7 @@
     {
       "model": "Seat Ibiza",
       "active_listings": 284,
-      "recent_listings": 1,
+      "recent_listings": 0,
       "deal_count": 0
     },
     {
@@ -140,7 +170,7 @@
     {
       "model": "Toyota RAV4",
       "active_listings": 280,
-      "recent_listings": 1,
+      "recent_listings": 0,
       "deal_count": 0
     },
     {
@@ -212,7 +242,7 @@
     {
       "model": "Mercedes-Benz Clase A",
       "active_listings": 285,
-      "recent_listings": 4,
+      "recent_listings": 0,
       "deal_count": 0
     },
     {
