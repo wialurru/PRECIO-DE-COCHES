@@ -1,157 +1,153 @@
 # Chollos detectados — coches de segunda mano (España)
 
-Última actualización: 2026-08-27 21:25 UTC
+Última actualización: 2026-08-28 03:19 UTC
 
 Se vigilan 41 modelos (top de rotación + modelos extra) en coches.net y Milanuncios. Se considera **chollo** un anuncio activo, publicado hace 15 días o menos, con precio igual o inferior al 75% del precio esperado para su grupo (mismo modelo vigilado + año + rango de potencia, para no mezclar versiones básicas con las de gama alta -- p.ej. un Audi A3 116cv con un A3 RS3 400cv), exigiendo al menos 4 anuncios comparables en ese grupo. Cuando hay suficientes anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta además por km (un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana.
 
 ---
 
-## 🎯 Prioritarios: en Cataluña (Barcelona, Girona, Lleida, Tarragona) y dentro de presupuesto (≤ 5.000 €) — 8
+## 🎯 Prioritarios: en Cataluña (Barcelona, Girona, Lleida, Tarragona) y dentro de presupuesto (≤ 5.000 €) — 7
 
 ### Buen estado / revisado / con garantía
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Ford Fiesta | 2005 | n/d | 1,500 € | 2,934 € | sí | -49% | — | La Canonja | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-fiesta-609843009.htm) |
-| Seat Leon | 2017 | n/d | 3,900 € | 6,485 € | sí | -40% | 261.000 km | Vic | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609880954.htm) |
-| Ford Focus | 2005 | 110 | 1,800 € | 2,651 € | sí | -32% | 250.000 km | El Bonaire | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609895902.htm) |
+| Seat Leon | 2017 | n/d | 3,900 € | 6,485 € | sí | -40% | 261.000 km | Vic | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609880954.htm) |
+| Ford Focus | 2005 | 110 | 1,800 € | 2,651 € | sí | -32% | 250.000 km | El Bonaire | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609895902.htm) |
 
 ### Estado no especificado por el vendedor
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Seat Ibiza | 2007 | n/d | 1,100 € | 3,490 € | no (mediana) | -68% | 198.000 km | Amposta | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609917634.htm) |
-| Nissan Qashqai | 2013 | 150 | 4,800 € | 7,070 € | sí | -32% | 296.000 km | Barcelona | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/nissan-de-segunda-mano/nissan-qashqai-609940964.htm) |
-| Opel Astra | 2012 | n/d | 3,100 € | 4,229 € | sí | -27% | 220.000 km | Lloret de Mar | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-astra-609940517.htm) |
-| Dacia Sandero | 2012 | n/d | 3,700 € | 5,001 € | sí | -26% | 142.800 km | Mataro | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/dacia-de-segunda-mano/dacia-sandero-609934924.htm) |
+| Seat Ibiza | 2007 | n/d | 1,100 € | 3,490 € | no (mediana) | -68% | 198.000 km | Amposta | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609917634.htm) |
+| Nissan Qashqai | 2013 | 150 | 4,800 € | 7,070 € | sí | -32% | 296.000 km | Barcelona | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/nissan-de-segunda-mano/nissan-qashqai-609940964.htm) |
+| Opel Astra | 2012 | n/d | 3,100 € | 4,229 € | sí | -27% | 220.000 km | Lloret de Mar | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-astra-609940517.htm) |
+| Dacia Sandero | 2012 | n/d | 3,700 € | 5,001 € | sí | -26% | 142.800 km | Mataro | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/dacia-de-segunda-mano/dacia-sandero-609934924.htm) |
 
 ### Necesita reparación / revisión pendiente
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Seat Ibiza | 2006 | n/d | 1,500 € | 3,000 € | no (mediana) | -50% | 350 km | Vilassar de Mar | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609932304.htm) |
+| Seat Ibiza | 2006 | n/d | 1,500 € | 3,000 € | no (mediana) | -50% | 350 km | Vilassar de Mar | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609932304.htm) |
 
 ---
 
-## Dentro de presupuesto, fuera de Cataluña — 54
+## Dentro de presupuesto, fuera de Cataluña — 50
 
 ### Buen estado / revisado / con garantía
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Ford Fiesta | 2007 | n/d | 1,000 € | 3,013 € | sí | -67% | 160.000 km | Onda | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-fiesta-609929940.htm) |
-| Peugeot 208 | 2010 | 75 | 1,500 € | 3,843 € | sí | -61% | 179.000 km | Vitoria/Gasteiz | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609897682.htm) |
-| Volkswagen Golf | 2013 | n/d | 3,000 € | 7,677 € | sí | -61% | 198.000 km | Trebujena | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609905513.htm) |
-| Peugeot 308 | 2010 | n/d | 1,800 € | 4,209 € | sí | -57% | 201.000 km | Vigo | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-609916204.htm) |
-| Seat Leon | 2003 | n/d | 1,700 € | 3,800 € | no (mediana) | -55% | 238.000 km | Rociana del Condado | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609919010.htm) |
-| Audi A3 | 2007 | 105 | 2,500 € | 5,408 € | sí | -54% | 224.000 km | Cádiz | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/audi-de-segunda-mano/audi-a3-609938219.htm) |
-| Peugeot 308 | 2013 | 98 | 3,000 € | 5,724 € | sí | -48% | 153.000 km | Balerma | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-5p-access-1-4-vti-98-609870258.htm) |
-| Citroen C4 | 2007 | n/d | 1,499 € | 2,729 € | sí | -45% | 280.000 km | Puebla de San Julian | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609928696.htm) |
-| Renault Megane | 2004 | n/d | 1,500 € | 2,612 € | sí | -43% | 200.000 km | Utiel | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609944428.htm) |
-| Renault Megane | 2006 | 85 | 1,999 € | 3,371 € | sí | -41% | 190.000 km | Humanes | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609938910.htm) |
-| Citroen C4 | 2016 | 120 | 3,790 € | 6,331 € | sí | -40% | 338.000 km | Alcalá de Henares | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-picasso-bluehdi-120cv-live-ed-609942221.htm) |
-| Peugeot 308 | 2014 | 130 | 3,900 € | 6,044 € | sí | -35% | 195.000 km | Madrid | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-609899057.htm) |
-| Volkswagen Golf | 2009 | 140 | 4,400 € | 6,600 € | no (mediana) | -33% | 360.000 km | Almazora/Almassora | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-2-0-tdi-140cv-gt-sport-d-609925906.htm) |
-| Toyota Corolla | 2005 | n/d | 1,950 € | 2,794 € | sí | -30% | 300.000 km | Alzira/Alcira | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/toyota-de-segunda-mano/toyota-corolla-609909146.htm) |
-| BMW Serie 1 | 2009 | n/d | 4,800 € | 6,559 € | sí | -27% | 229.000 km | Pegalajar | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/bmw-de-segunda-mano/bmw-serie-1-609932792.htm) |
-| Citroen C3 | 2005 | n/d | 1,700 € | 2,300 € | no (mediana) | -26% | 185.000 km | Aznalcazar | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c3-609899398.htm) |
+| Ford Fiesta | 2007 | n/d | 1,000 € | 3,013 € | sí | -67% | 160.000 km | Onda | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-fiesta-609929940.htm) |
+| Peugeot 208 | 2010 | 75 | 1,500 € | 3,843 € | sí | -61% | 179.000 km | Vitoria/Gasteiz | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609897682.htm) |
+| Volkswagen Golf | 2013 | n/d | 3,000 € | 7,677 € | sí | -61% | 198.000 km | Trebujena | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609905513.htm) |
+| Peugeot 308 | 2010 | n/d | 1,800 € | 4,209 € | sí | -57% | 201.000 km | Vigo | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-609916204.htm) |
+| Seat Leon | 2003 | n/d | 1,700 € | 3,800 € | no (mediana) | -55% | 238.000 km | Rociana del Condado | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609919010.htm) |
+| Audi A3 | 2007 | 105 | 2,500 € | 5,408 € | sí | -54% | 224.000 km | Cádiz | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/audi-de-segunda-mano/audi-a3-609938219.htm) |
+| Peugeot 308 | 2013 | 98 | 3,000 € | 5,724 € | sí | -48% | 153.000 km | Balerma | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-5p-access-1-4-vti-98-609870258.htm) |
+| Citroen C4 | 2007 | n/d | 1,499 € | 2,729 € | sí | -45% | 280.000 km | Puebla de San Julian | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609928696.htm) |
+| Renault Megane | 2004 | n/d | 1,500 € | 2,612 € | sí | -43% | 200.000 km | Utiel | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609944428.htm) |
+| Renault Megane | 2006 | 85 | 1,999 € | 3,371 € | sí | -41% | 190.000 km | Humanes | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609938910.htm) |
+| Citroen C4 | 2016 | 120 | 3,790 € | 6,331 € | sí | -40% | 338.000 km | Alcalá de Henares | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-picasso-bluehdi-120cv-live-ed-609942221.htm) |
+| Peugeot 308 | 2014 | 130 | 3,900 € | 6,044 € | sí | -35% | 195.000 km | Madrid | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-609899057.htm) |
+| Volkswagen Golf | 2009 | 140 | 4,400 € | 6,600 € | no (mediana) | -33% | 360.000 km | Almazora/Almassora | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-2-0-tdi-140cv-gt-sport-d-609925906.htm) |
+| Toyota Corolla | 2005 | n/d | 1,950 € | 2,794 € | sí | -30% | 300.000 km | Alzira/Alcira | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/toyota-de-segunda-mano/toyota-corolla-609909146.htm) |
+| BMW Serie 1 | 2009 | n/d | 4,800 € | 6,559 € | sí | -27% | 229.000 km | Pegalajar | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/bmw-de-segunda-mano/bmw-serie-1-609932792.htm) |
+| Citroen C3 | 2005 | n/d | 1,700 € | 2,300 € | no (mediana) | -26% | 185.000 km | Aznalcazar | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c3-609899398.htm) |
 
 ### Estado no especificado por el vendedor
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Peugeot 308 | 2010 | n/d | 1,099 € | 4,363 € | sí | -75% | 150.000 km | Córdoba | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-609893580.htm) |
-| Volkswagen Golf | 2004 | n/d | 1,250 € | 3,218 € | sí | -61% | 266.000 km | Marbella | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609921180.htm) |
-| Renault Megane | 2007 | n/d | 1,800 € | 4,626 € | sí | -61% | 110.000 km | Valencia | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609862785.htm) |
-| Opel Astra | 2005 | n/d | 1,000 € | 2,499 € | no (mediana) | -60% | 370.000 km | Yeles | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-astra-609874762.htm) |
-| Volkswagen Polo | 2001 | n/d | 800 € | 1,650 € | no (mediana) | -52% | 408.900 km | Arahal | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-polo-609942299.htm) |
-| Ford Focus | 2004 | n/d | 1,700 € | 3,450 € | no (mediana) | -51% | 153.200 km | Jerez de la Frontera | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609890653.htm) |
-| Volkswagen Polo | 2007 | n/d | 1,500 € | 2,998 € | sí | -50% | 265.266 km | Arahal | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-polo-609925032.htm) |
-| Renault Clio | 2007 | n/d | 1,800 € | 3,500 € | no (mediana) | -49% | 230.000 km | Alicante/Alacant | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-clio-609942568.htm) |
-| Seat Ibiza | 2005 | n/d | 1,500 € | 2,656 € | sí | -44% | 196.000 km | Colonia Covibar | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609926951.htm) |
-| Renault Megane | 2005 | n/d | 1,000 € | 1,723 € | sí | -42% | 312.000 km | Paracuellos de Jarama | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609909526.htm) |
-| Peugeot 2008 | 2015 | n/d | 4,300 € | 7,271 € | sí | -41% | 137.000 km | Jerez de la Frontera | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-2008-609942047.htm) |
-| Renault Megane | 2002 | n/d | 1,000 € | 1,690 € | no (mediana) | -41% | 210.000 km | Villafranca de los Barros | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609913439.htm) |
-| Citroen C4 | 2007 | n/d | 1,499 € | 2,523 € | sí | -41% | 300.000 km | Marmolejo | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609933923.htm) |
-| Seat Leon | 2014 | n/d | 4,500 € | 7,379 € | sí | -39% | 295.000 km | Arjonilla | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609816897.htm) |
-| Ford Focus | 2009 | 90 | 2,500 € | 3,915 € | sí | -36% | 320 km | Miguel Esteban | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609890990.htm) |
-| BMW Serie 1 | 2007 | n/d | 3,000 € | 4,686 € | sí | -36% | 290.000 km | La Solana | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/bmw-de-segunda-mano/bmw-serie-1-609940699.htm) |
-| Peugeot 208 | 2006 | n/d | 2,300 € | 3,554 € | sí | -35% | 196.000 km | Beniparrell | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609836652.htm) |
-| Citroen C4 | 2007 | 90 | 1,900 € | 2,935 € | sí | -35% | 260.000 km | Baena | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609863409.htm) |
-| Renault Megane | 2002 | n/d | 1,100 € | 1,690 € | no (mediana) | -35% | 170.000 km | Utrera | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-classic-authentique-1-4-1-609944146.htm) |
-| Audi A3 | 2005 | 105 | 1,800 € | 2,743 € | sí | -34% | 480.000 km | Villamiel de Toledo | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/audi-de-segunda-mano/audi-a3-609934879.htm) |
-| Ford Focus | 2005 | 136 | 1,750 € | 2,657 € | sí | -34% | 239.000 km | Puertollano | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-c-max-609939584.htm) |
-| Citroen C4 | 2010 | n/d | 2,990 € | 4,512 € | sí | -34% | 210.000 km | Marbella | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609942591.htm) |
-| Volkswagen Golf | 2003 | n/d | 1,300 € | 1,900 € | no (mediana) | -32% | 258.000 km | Huerta Nueva | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609940312.htm) |
-| Seat Leon | 2007 | 140 | 3,400 € | 4,950 € | no (mediana) | -31% | 228.000 km | El Acebuchal (Alcala de Guadaira) | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609862284.htm) |
-| Ford Focus | 2008 | n/d | 2,800 € | 4,039 € | sí | -31% | 226.000 km | Móstoles | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609939521.htm) |
-| Citroen C3 | 2008 | n/d | 2,499 € | 3,510 € | sí | -29% | 170.000 km | Bormujos | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c3-609941853.htm) |
-| Seat Leon | 2011 | n/d | 2,850 € | 3,992 € | sí | -29% | 237.000 km | Alhama de Murcia | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609939905.htm) |
-| Citroen C3 | 2014 | n/d | 3,499 € | 4,858 € | sí | -28% | 240.000 km | Móstoles | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c3-609941810.htm) |
-| Seat Leon | 2008 | 105 | 3,499 € | 4,850 € | no (mediana) | -28% | 232.000 km | Alhama de Murcia | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-1-9-tdi-105cv-reference-609905137.htm) |
-| Toyota Corolla | 2006 | n/d | 2,999 € | 4,149 € | sí | -28% | 205.000 km | Basauri | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/toyota-de-segunda-mano/toyota-corolla-609827926.htm) |
-| Dacia Sandero | 2010 | n/d | 2,000 € | 2,738 € | no (mediana) | -27% | 255.000 km | Roquetas de Mar | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/dacia-de-segunda-mano/dacia-sandero-609938474.htm) |
-| Citroen C4 | 2006 | 110 | 2,995 € | 4,071 € | sí | -26% | 142.000 km | Madrid Capital | coches_net | 14.9 d | [Ver anuncio](https://www.coches.net/citroen-c4-16-16v-collection-5p-gasolina-2006-en-madrid-71282802-covo.aspx) |
+| Peugeot 308 | 2010 | n/d | 1,099 € | 4,363 € | sí | -75% | 150.000 km | Córdoba | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-308-609893580.htm) |
+| Volkswagen Golf | 2004 | n/d | 1,250 € | 3,218 € | sí | -61% | 266.000 km | Marbella | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609921180.htm) |
+| Renault Megane | 2007 | n/d | 1,800 € | 4,626 € | sí | -61% | 110.000 km | Valencia | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609862785.htm) |
+| Opel Astra | 2005 | n/d | 1,000 € | 2,499 € | no (mediana) | -60% | 370.000 km | Yeles | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-astra-609874762.htm) |
+| Volkswagen Polo | 2001 | n/d | 800 € | 1,650 € | no (mediana) | -52% | 408.900 km | Arahal | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-polo-609942299.htm) |
+| Ford Focus | 2004 | n/d | 1,700 € | 3,450 € | no (mediana) | -51% | 153.200 km | Jerez de la Frontera | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609890653.htm) |
+| Volkswagen Polo | 2007 | n/d | 1,500 € | 2,998 € | sí | -50% | 265.266 km | Arahal | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-polo-609925032.htm) |
+| Renault Clio | 2007 | n/d | 1,800 € | 3,500 € | no (mediana) | -49% | 230.000 km | Alicante/Alacant | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-clio-609942568.htm) |
+| Seat Ibiza | 2005 | n/d | 1,500 € | 2,656 € | sí | -44% | 196.000 km | Colonia Covibar | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609926951.htm) |
+| Renault Megane | 2005 | n/d | 1,000 € | 1,723 € | sí | -42% | 312.000 km | Paracuellos de Jarama | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609909526.htm) |
+| Peugeot 2008 | 2015 | n/d | 4,300 € | 7,271 € | sí | -41% | 137.000 km | Jerez de la Frontera | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-2008-609942047.htm) |
+| Renault Megane | 2002 | n/d | 1,000 € | 1,690 € | no (mediana) | -41% | 210.000 km | Villafranca de los Barros | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-609913439.htm) |
+| Citroen C4 | 2007 | n/d | 1,499 € | 2,523 € | sí | -41% | 300.000 km | Marmolejo | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609933923.htm) |
+| Ford Focus | 2009 | 90 | 2,500 € | 3,915 € | sí | -36% | 320 km | Miguel Esteban | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609890990.htm) |
+| BMW Serie 1 | 2007 | n/d | 3,000 € | 4,686 € | sí | -36% | 290.000 km | La Solana | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/bmw-de-segunda-mano/bmw-serie-1-609940699.htm) |
+| Citroen C4 | 2007 | 90 | 1,900 € | 2,935 € | sí | -35% | 260.000 km | Baena | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609863409.htm) |
+| Renault Megane | 2002 | n/d | 1,100 € | 1,690 € | no (mediana) | -35% | 170.000 km | Utrera | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-megane-classic-authentique-1-4-1-609944146.htm) |
+| Audi A3 | 2005 | 105 | 1,800 € | 2,743 € | sí | -34% | 480.000 km | Villamiel de Toledo | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/audi-de-segunda-mano/audi-a3-609934879.htm) |
+| Ford Focus | 2005 | 136 | 1,750 € | 2,657 € | sí | -34% | 239.000 km | Puertollano | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-c-max-609939584.htm) |
+| Citroen C4 | 2010 | n/d | 2,990 € | 4,512 € | sí | -34% | 210.000 km | Marbella | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-609942591.htm) |
+| Volkswagen Golf | 2003 | n/d | 1,300 € | 1,900 € | no (mediana) | -32% | 258.000 km | Huerta Nueva | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609940312.htm) |
+| Seat Leon | 2007 | 140 | 3,400 € | 4,950 € | no (mediana) | -31% | 228.000 km | El Acebuchal (Alcala de Guadaira) | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609862284.htm) |
+| Ford Focus | 2008 | n/d | 2,800 € | 4,039 € | sí | -31% | 226.000 km | Móstoles | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-focus-609939521.htm) |
+| Citroen C3 | 2008 | n/d | 2,499 € | 3,510 € | sí | -29% | 170.000 km | Bormujos | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c3-609941853.htm) |
+| Seat Leon | 2011 | n/d | 2,850 € | 3,992 € | sí | -29% | 237.000 km | Alhama de Murcia | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609939905.htm) |
+| Citroen C3 | 2014 | n/d | 3,499 € | 4,858 € | sí | -28% | 240.000 km | Móstoles | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c3-609941810.htm) |
+| Seat Leon | 2008 | 105 | 3,499 € | 4,850 € | no (mediana) | -28% | 232.000 km | Alhama de Murcia | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-1-9-tdi-105cv-reference-609905137.htm) |
+| Dacia Sandero | 2010 | n/d | 2,000 € | 2,738 € | no (mediana) | -27% | 255.000 km | Roquetas de Mar | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/dacia-de-segunda-mano/dacia-sandero-609938474.htm) |
 
 ### Necesita reparación / revisión pendiente
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Opel Astra | 2010 | 110 | 1,400 € | 4,273 € | sí | -67% | 142.000 km | Albacete | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-astra-609939974.htm) |
-| Seat Ibiza | 2009 | 90 | 2,250 € | 4,165 € | sí | -46% | 322.000 km | La Palma del Condado | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609938928.htm) |
-| Seat Ibiza | 2004 | 75 | 1,500 € | 2,436 € | sí | -38% | 228.000 km | Almansa | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609885348.htm) |
+| Opel Astra | 2010 | 110 | 1,400 € | 4,273 € | sí | -67% | 142.000 km | Albacete | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-astra-609939974.htm) |
+| Seat Ibiza | 2009 | 90 | 2,250 € | 4,165 € | sí | -46% | 322.000 km | La Palma del Condado | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609938928.htm) |
+| Seat Ibiza | 2004 | 75 | 1,500 € | 2,436 € | sí | -38% | 228.000 km | Almansa | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-ibiza-609885348.htm) |
 
 ### Para piezas / no arranca / accidentado
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Seat Leon | 2007 | 105 | 1,400 € | 4,950 € | no (mediana) | -72% | 384 km | La Linea de la Concepcion | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609913696.htm) |
-| Peugeot 208 | 2007 | n/d | 1,500 € | 3,886 € | sí | -61% | 179.000 km | Peñafiel | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609901943.htm) |
-| Peugeot 208 | 2007 | 110 | 950 € | 1,603 € | sí | -41% | 370.000 km | Madrid | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609940027.htm) |
+| Seat Leon | 2007 | 105 | 1,400 € | 4,950 € | no (mediana) | -72% | 384 km | La Linea de la Concepcion | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-609913696.htm) |
+| Peugeot 208 | 2007 | n/d | 1,500 € | 3,886 € | sí | -61% | 179.000 km | Peñafiel | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609901943.htm) |
+| Peugeot 208 | 2007 | 110 | 950 € | 1,603 € | sí | -41% | 370.000 km | Madrid | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-207-609940027.htm) |
 
 ---
 
-## Resto de chollos (> 5.000 €, fuera de presupuesto) — 25
+## Resto de chollos (> 5.000 €, fuera de presupuesto) — 26
 
 ### Buen estado / revisado / con garantía
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Ford Fiesta | 2019 | n/d | 8,299 € | 15,600 € | no (mediana) | -47% | 140.000 km | Albal | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-fiesta-1-0-ecoboost-74kw-stline-ss-609919215.htm) |
-| Seat Leon | 2020 | n/d | 13,850 € | 23,948 € | sí | -42% | 49.937 km | Valencia | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-st-1-0-tsi-85kw-stsp-style-609900751.htm) |
-| Volkswagen Polo | 2019 | n/d | 12,750 € | 21,499 € | no (mediana) | -41% | 70.000 km | Alpedrete | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-polo-advance-1-0-tsi-70kw-95c-609887743.htm) |
-| Volkswagen Golf | 2012 | 105 | 5,990 € | 10,026 € | sí | -40% | 100.000 km | Sevilla | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-variant-1-6-tdi-105cv-dp-609934255.htm) |
-| Citroen C4 | 2016 | 110 | 5,700 € | 8,940 € | sí | -36% | 120.000 km | Parla | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-c4-puretech-110-live-edition-609891902.htm) |
-| Dacia Sandero | 2020 | 75 | 7,100 € | 10,790 € | sí | -34% | 100.000 km | Cornella de Llobregat | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/dacia-de-segunda-mano/dacia-sandero-essential-1-0-55kw-75cv-609890036.htm) |
-| Hyundai i30 | 2019 | n/d | 13,900 € | 20,662 € | sí | -33% | 85.000 km | Madrid | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-i30-1-0-tgdi-go-609929079.htm) |
-| Renault Clio | 2022 | 91 | 10,000 € | 14,417 € | sí | -31% | 27.000 km | Ceuta | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-clio-609900435.htm) |
-| Mercedes-Benz Clase A | 2019 | n/d | 18,500 € | 26,322 € | sí | -30% | 119.000 km | Elche | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/mercedes-benz-de-segunda-mano/mercedes-benz-clase-a-609883328.htm) |
-| Volkswagen Tiguan | 2015 | 140 | 10,500 € | 14,608 € | sí | -28% | 92.000 km | Madrid | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-tiguan-cross-2-0-tdi-140cv-bm-609912791.htm) |
-| Peugeot 2008 | 2018 | n/d | 6,870 € | 9,349 € | sí | -27% | 108.000 km | Alcalá de Henares | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-2008-style-1-2l-puretech-81kw-11-609939524.htm) |
-| Skoda Octavia | 2021 | 150 | 21,500 € | 29,209 € | sí | -26% | 79.753 km | Ponteareas | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/skoda-de-segunda-mano/skoda-octavia-combi-2-0-tdi-110kw150cv-d-609895300.htm) |
-| Volkswagen Golf | 2019 | 110 | 12,800 € | 17,370 € | sí | -26% | 112.000 km | Estepona | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609904764.htm) |
-| Opel Corsa | 2020 | n/d | 7,900 € | 10,702 € | sí | -26% | 66.100 km | Riba Roja de Turia | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-corsa-609905177.htm) |
-| Peugeot 2008 | 2017 | n/d | 5,990 € | 8,040 € | sí | -25% | 140.000 km | Alcalá de Henares | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-2008-allure-1-2-puretech-96kw-13-609908498.htm) |
+| Ford Fiesta | 2019 | n/d | 8,299 € | 15,600 € | no (mediana) | -47% | 140.000 km | Albal | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/ford-de-segunda-mano/ford-fiesta-1-0-ecoboost-74kw-stline-ss-609919215.htm) |
+| Seat Leon | 2020 | n/d | 13,850 € | 23,948 € | sí | -42% | 49.937 km | Valencia | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/seat-de-segunda-mano/seat-leon-st-1-0-tsi-85kw-stsp-style-609900751.htm) |
+| Volkswagen Polo | 2019 | n/d | 12,750 € | 21,499 € | no (mediana) | -41% | 70.000 km | Alpedrete | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-polo-advance-1-0-tsi-70kw-95c-609887743.htm) |
+| Volkswagen Golf | 2012 | 105 | 5,990 € | 9,819 € | sí | -39% | 100.000 km | Sevilla | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-variant-1-6-tdi-105cv-dp-609934255.htm) |
+| Citroen C4 | 2016 | 110 | 5,700 € | 8,940 € | sí | -36% | 120.000 km | Parla | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-c4-puretech-110-live-edition-609891902.htm) |
+| Dacia Sandero | 2020 | 75 | 7,100 € | 10,790 € | sí | -34% | 100.000 km | Cornella de Llobregat | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/dacia-de-segunda-mano/dacia-sandero-essential-1-0-55kw-75cv-609890036.htm) |
+| Hyundai i30 | 2019 | n/d | 13,900 € | 20,662 € | sí | -33% | 85.000 km | Madrid | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-i30-1-0-tgdi-go-609929079.htm) |
+| Renault Clio | 2022 | 91 | 10,000 € | 14,417 € | sí | -31% | 27.000 km | Ceuta | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/renault-de-segunda-mano/renault-clio-609900435.htm) |
+| Mercedes-Benz Clase A | 2019 | n/d | 18,500 € | 26,322 € | sí | -30% | 119.000 km | Elche | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/mercedes-benz-de-segunda-mano/mercedes-benz-clase-a-609883328.htm) |
+| Volkswagen Golf | 2019 | 110 | 12,800 € | 18,173 € | sí | -30% | 112.000 km | Estepona | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-609904764.htm) |
+| Volkswagen Tiguan | 2015 | 140 | 10,500 € | 14,608 € | sí | -28% | 92.000 km | Madrid | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-tiguan-cross-2-0-tdi-140cv-bm-609912791.htm) |
+| Peugeot 2008 | 2018 | n/d | 6,870 € | 9,349 € | sí | -27% | 108.000 km | Alcalá de Henares | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-2008-style-1-2l-puretech-81kw-11-609939524.htm) |
+| Skoda Octavia | 2021 | 150 | 21,500 € | 29,209 € | sí | -26% | 79.753 km | Ponteareas | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/skoda-de-segunda-mano/skoda-octavia-combi-2-0-tdi-110kw150cv-d-609895300.htm) |
+| Opel Corsa | 2020 | n/d | 7,900 € | 10,702 € | sí | -26% | 66.100 km | Riba Roja de Turia | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/opel-de-segunda-mano/opel-corsa-609905177.htm) |
+| Peugeot 2008 | 2017 | n/d | 5,990 € | 8,040 € | sí | -25% | 140.000 km | Alcalá de Henares | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-2008-allure-1-2-puretech-96kw-13-609908498.htm) |
 
 ### Estado no especificado por el vendedor
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Volkswagen Golf | 2014 | n/d | 6,000 € | 10,763 € | sí | -44% | 222.000 km | Alcorcón | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609876787.htm) |
-| Dacia Sandero | 2020 | 73 | 7,100 € | 10,790 € | sí | -34% | 100.000 km | Cornellà de Llobregat | coches_net | 14.5 d | [Ver anuncio](https://www.coches.net/dacia-sandero-essential-10-55kw-75cv-5p-gasolina-2020-en-barcelona-71283387-covo.aspx) |
-| Toyota Yaris | 2019 | n/d | 8,700 € | 13,000 € | no (mediana) | -33% | 141.369 km | Almerimar | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/toyota-de-segunda-mano/toyota-yaris-609816805.htm) |
-| Hyundai i30 | 2019 | 120 | 13,900 € | 20,662 € | sí | -33% | 85.000 km | Madrid Capital | coches_net | 14.4 d | [Ver anuncio](https://www.coches.net/hyundai-i30-10-tgdi-go-5p-gasolina-2019-en-madrid-71285260-covo.aspx) |
-| Peugeot 3008 | 2021 | n/d | 13,000 € | 18,690 € | sí | -30% | 2.009 km | Madrid | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-3008-hybrid-609939561.htm) |
-| Nissan Juke | 2017 | 115 | 7,499 € | 10,722 € | sí | -30% | 115.000 km | Sevilla | milanuncios | 15.0 d | [Ver anuncio](https://www.milanuncios.com/nissan-de-segunda-mano/nissan-juke-609816958.htm) |
+| Volkswagen Golf | 2010 | 170 | 6,500 € | 11,685 € | no (mediana) | -44% | 260.000 km | Majadahonda | coches_net | 9.8 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-20-tdi-170cv-dsg-6-vel-gtd-3p-diesel-2010-en-madrid-71310718-covo.aspx) |
+| Volkswagen Golf | 2014 | n/d | 6,000 € | 10,763 € | sí | -44% | 222.000 km | Alcorcón | milanuncios | 14.9 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609876787.htm) |
+| Dacia Sandero | 2020 | 73 | 7,100 € | 10,790 € | sí | -34% | 100.000 km | Cornellà de Llobregat | coches_net | 14.8 d | [Ver anuncio](https://www.coches.net/dacia-sandero-essential-10-55kw-75cv-5p-gasolina-2020-en-barcelona-71283387-covo.aspx) |
+| Volkswagen Golf | 2024 | 245 | 29,490 € | 43,990 € | no (mediana) | -33% | 63.005 km | Alicante / Alacant | coches_net | 6.8 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2021-en-alicante-71336000-covo.aspx) |
+| Hyundai i30 | 2019 | 120 | 13,900 € | 20,662 € | sí | -33% | 85.000 km | Madrid Capital | coches_net | 14.6 d | [Ver anuncio](https://www.coches.net/hyundai-i30-10-tgdi-go-5p-gasolina-2019-en-madrid-71285260-covo.aspx) |
+| Peugeot 3008 | 2021 | n/d | 13,000 € | 18,690 € | sí | -30% | 2.009 km | Madrid | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/peugeot-de-segunda-mano/peugeot-3008-hybrid-609939561.htm) |
+| Volkswagen Golf | 2016 | 110 | 8,500 € | 11,671 € | sí | -27% | 250.000 km | Valladolid | coches_net | 9.5 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-variant-sport-16-tdi-bmt-5p-diesel-2017-en-valladolid-71314328-covo.aspx) |
 
 ### Necesita reparación / revisión pendiente
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Volkswagen Tiguan | 2022 | 130 | 5,499 € | 30,118 € | sí | -82% | 16.094 km | Bellvei | milanuncios | 14.4 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-tiguan-life-1-5-tsi-96kw-130c-609926747.htm) |
-| Hyundai i30 | 2017 | 110 | 6,000 € | 9,191 € | sí | -35% | 260.000 km | Madrid | milanuncios | 14.6 d | [Ver anuncio](https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-i30-609895305.htm) |
-| Citroen C4 | 2019 | 110 | 8,500 € | 12,273 € | sí | -31% | 71.000 km | Barcelona | milanuncios | 14.3 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-cactus-609943396.htm) |
-| Volkswagen Golf | 2014 | 110 | 9,900 € | 13,225 € | sí | -25% | 150.000 km | Urbanizacion la Colina | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609909779.htm) |
+| Volkswagen Tiguan | 2022 | 130 | 5,499 € | 30,118 € | sí | -82% | 16.094 km | Bellvei | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-tiguan-life-1-5-tsi-96kw-130c-609926747.htm) |
+| Hyundai i30 | 2017 | 110 | 6,000 € | 9,191 € | sí | -35% | 260.000 km | Madrid | milanuncios | 14.8 d | [Ver anuncio](https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-i30-609895305.htm) |
+| Citroen C4 | 2019 | 110 | 8,500 € | 12,273 € | sí | -31% | 71.000 km | Barcelona | milanuncios | 14.5 d | [Ver anuncio](https://www.milanuncios.com/citroen-de-segunda-mano/citroen-c4-cactus-609943396.htm) |
+| Volkswagen Golf | 2014 | 110 | 9,900 € | 13,225 € | sí | -25% | 150.000 km | Urbanizacion la Colina | milanuncios | 14.7 d | [Ver anuncio](https://www.milanuncios.com/volkswagen-de-segunda-mano/volkswagen-golf-sportsvan-609909779.htm) |
 
 ---
 
@@ -159,43 +155,43 @@ Se vigilan 41 modelos (top de rotación + modelos extra) en coches.net y Milanun
 
 | Modelo | Anuncios activos | Publicados en <15 días | Chollos |
 |---|---|---|---|
-| Volkswagen Golf | 274 | 96 | 8 |
-| Ford Focus | 284 | 61 | 5 |
-| Citroen C4 | 297 | 54 | 8 |
-| Seat Leon | 274 | 53 | 8 |
+| Volkswagen Golf | 274 | 98 | 11 |
+| Ford Focus | 284 | 60 | 5 |
 | Seat Ibiza | 284 | 53 | 5 |
+| Citroen C4 | 297 | 53 | 7 |
+| Seat Leon | 274 | 48 | 7 |
 | Audi A3 | 282 | 48 | 2 |
-| Renault Clio | 257 | 47 | 2 |
-| Peugeot 208 | 289 | 46 | 4 |
-| Dacia Sandero | 273 | 44 | 4 |
-| Renault Megane | 274 | 43 | 6 |
-| BMW Serie 1 | 282 | 42 | 2 |
-| Mercedes-Benz Clase A | 285 | 42 | 1 |
+| Renault Clio | 257 | 45 | 2 |
+| Peugeot 208 | 289 | 44 | 3 |
+| Dacia Sandero | 273 | 43 | 4 |
+| Renault Megane | 274 | 41 | 6 |
 | Citroen C3 | 263 | 41 | 3 |
-| Opel Corsa | 271 | 39 | 1 |
-| Peugeot 308 | 290 | 39 | 4 |
-| Toyota Yaris | 264 | 36 | 1 |
-| Ford Fiesta | 266 | 35 | 3 |
-| Toyota Corolla | 271 | 32 | 2 |
-| Volkswagen Polo | 241 | 31 | 3 |
-| Nissan Qashqai | 282 | 30 | 1 |
-| Opel Astra | 270 | 27 | 3 |
-| Kia Ceed | 270 | 25 | 0 |
+| BMW Serie 1 | 282 | 41 | 2 |
+| Mercedes-Benz Clase A | 285 | 41 | 1 |
+| Peugeot 308 | 290 | 37 | 4 |
+| Opel Corsa | 271 | 35 | 1 |
+| Toyota Yaris | 264 | 35 | 0 |
+| Toyota Corolla | 271 | 30 | 1 |
+| Ford Fiesta | 266 | 30 | 2 |
+| Nissan Qashqai | 282 | 27 | 1 |
+| Opel Astra | 270 | 26 | 3 |
+| Volkswagen Polo | 241 | 25 | 3 |
+| Kia Ceed | 270 | 23 | 0 |
 | Volkswagen Tiguan | 279 | 21 | 2 |
 | Toyota RAV4 | 280 | 18 | 0 |
-| Opel Mokka | 224 | 15 | 0 |
-| Hyundai i30 | 273 | 15 | 3 |
-| Peugeot 3008 | 286 | 14 | 1 |
 | Renault Captur | 260 | 14 | 0 |
-| Hyundai i20 | 236 | 14 | 0 |
-| Nissan Juke | 228 | 12 | 1 |
-| Kia Sportage | 271 | 11 | 0 |
-| Hyundai Tucson | 271 | 10 | 0 |
+| Hyundai i30 | 273 | 14 | 3 |
+| Opel Mokka | 224 | 13 | 0 |
+| Peugeot 3008 | 286 | 13 | 1 |
+| Hyundai i20 | 236 | 12 | 0 |
+| Nissan Juke | 228 | 11 | 0 |
+| Kia Sportage | 271 | 10 | 0 |
 | Skoda Octavia | 288 | 10 | 1 |
+| Hyundai Tucson | 271 | 8 | 0 |
 | Dacia Duster | 262 | 8 | 0 |
 | Peugeot 2008 | 269 | 6 | 3 |
-| Nissan X-Trail | 272 | 6 | 0 |
-| Chevrolet Captiva | 228 | 4 | 0 |
+| Nissan X-Trail | 272 | 5 | 0 |
+| Chevrolet Captiva | 228 | 3 | 0 |
 | Toyota C-HR | 33 | 2 | 0 |
 | Volkswagen T-Roc | 39 | 1 | 0 |
 | Kia Niro | 38 | 1 | 0 |
