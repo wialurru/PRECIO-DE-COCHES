@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T06:33:00.668378+00:00",
+  "generated_at": "2026-08-29T12:29:53.218794+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,21 +23,21 @@
       "publish_date": "2026-08-18T07:34:08Z",
       "url": "https://www.coches.net/volkswagen-golf-20-tdi-170cv-dsg-6-vel-gtd-3p-diesel-2010-en-madrid-71310718-covo.aspx",
       "first_seen_at": "2026-08-22T18:07:10.147524+00:00",
-      "last_seen_at": "2026-08-29T06:23:01.606479+00:00",
+      "last_seen_at": "2026-08-29T12:20:08.664678+00:00",
       "is_active": 1,
       "hp": 170,
-      "discount_ratio": 0.5562687205819427,
-      "group_median": 11685.0,
-      "reference_price": 11685.0,
+      "discount_ratio": 0.5462184873949579,
+      "group_median": 11900.0,
+      "reference_price": 11900.0,
       "km_adjusted": false,
-      "age_days": 10.957554032152778,
+      "age_days": 11.205384476782408,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 266,
+      "active_listings": 275,
       "recent_listings": 9,
       "deal_count": 1
     },
