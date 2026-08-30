@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-08-30T12:31:03.544197+00:00",
+  "generated_at": "2026-08-30T18:26:42.244803+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71328812",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2024,
-      "price": 22690.0,
-      "km": 40801,
-      "fuel": "Gasolina",
-      "province": "Guipúzcoa",
-      "city": "Oiartzun",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf Life 1.0 TSI",
-      "publish_date": "2026-08-20T09:42:51Z",
-      "url": "https://www.coches.net/volkswagen-golf-life-10-tsi-81kw-110cv-5p-gasolina-2024-en-guipuzcoa-71328812-covo.aspx",
-      "first_seen_at": "2026-08-30T12:20:59.073029+00:00",
-      "last_seen_at": "2026-08-30T12:20:59.073029+00:00",
-      "is_active": 1,
-      "hp": 110,
-      "discount_ratio": 0.6684342318456327,
-      "group_median": 33945.0,
-      "reference_price": 33945.0,
-      "km_adjusted": false,
-      "age_days": 10.116811854131944,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 275,
-      "recent_listings": 8,
-      "deal_count": 1
+      "active_listings": 274,
+      "recent_listings": 12,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
