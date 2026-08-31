@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T06:44:24.266149+00:00",
+  "generated_at": "2026-08-31T12:35:15.496028+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,21 +23,21 @@
       "publish_date": "2026-08-24T21:41:02Z",
       "url": "https://www.coches.net/volkswagen-golf-life-20-tdi-85kw-115cv-dsg-5p-diesel-2024-en-murcia-71356657-covo.aspx",
       "first_seen_at": "2026-08-31T00:47:18.033735+00:00",
-      "last_seen_at": "2026-08-31T06:34:25.450392+00:00",
+      "last_seen_at": "2026-08-31T12:25:22.751264+00:00",
       "is_active": 1,
       "hp": 115,
       "discount_ratio": 0.7337363270005757,
       "group_median": 34740.0,
       "reference_price": 34740.0,
       "km_adjusted": false,
-      "age_days": 6.377341043391204,
+      "age_days": 6.620989537361111,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 275,
+      "active_listings": 272,
       "recent_listings": 13,
       "deal_count": 1
     },
