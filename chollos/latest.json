@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-01T12:33:38.682355+00:00",
+  "generated_at": "2026-09-01T18:29:33.252636+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71381826",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2019,
+      "price": 11390.0,
+      "km": 134989,
+      "fuel": "Gasolina",
+      "province": "Madrid",
+      "city": "Aranjuez",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Advance 1.0 TSI Variant",
+      "publish_date": "2026-08-28T09:44:38Z",
+      "url": "https://www.coches.net/volkswagen-golf-advance-10-tsi-85kw-115cv-variant-5p-gasolina-2019-en-madrid-71381826-covo.aspx",
+      "first_seen_at": "2026-09-01T18:19:32.639072+00:00",
+      "last_seen_at": "2026-09-01T18:19:32.639072+00:00",
+      "is_active": 1,
+      "hp": 115,
+      "discount_ratio": 0.7318507757806869,
+      "group_median": 14744.5,
+      "reference_price": 15563.28199263019,
+      "km_adjusted": true,
+      "age_days": 4.364528386990741,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 277,
       "recent_listings": 12,
-      "deal_count": 0
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
