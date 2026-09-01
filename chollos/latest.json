@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-08-31T18:29:35.666097+00:00",
+  "generated_at": "2026-09-01T01:01:41.011249+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71336030",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 29490.0,
+      "km": 63005,
+      "fuel": "Gasolina",
+      "province": "Málaga",
+      "city": "Málaga Capital",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf GTI 2.0 TSI DSG",
+      "publish_date": "2026-08-21T09:15:02Z",
+      "url": "https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2021-en-malaga-71336030-covo.aspx",
+      "first_seen_at": "2026-08-30T18:16:41.277183+00:00",
+      "last_seen_at": "2026-09-01T00:51:25.316713+00:00",
+      "is_active": 1,
+      "hp": 245,
+      "discount_ratio": 0.7065165309056062,
+      "group_median": 41740.0,
+      "reference_price": 41740.0,
+      "km_adjusted": false,
+      "age_days": 10.657395963530092,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 278,
-      "recent_listings": 17,
-      "deal_count": 0
+      "recent_listings": 15,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
