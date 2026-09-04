@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-04T00:50:45.104501+00:00",
+  "generated_at": "2026-09-04T06:36:43.803555+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71335928",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 29490.0,
+      "km": 63005,
+      "fuel": "Gasolina",
+      "province": "Valencia",
+      "city": "Albal",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf GTI 2.0 TSI DSG",
+      "publish_date": "2026-08-21T09:08:55Z",
+      "url": "https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2021-en-valencia-71335928-covo.aspx",
+      "first_seen_at": "2026-09-04T06:26:41.774962+00:00",
+      "last_seen_at": "2026-09-04T06:26:41.774962+00:00",
+      "is_active": 1,
+      "hp": 245,
+      "discount_ratio": 0.7065165309056062,
+      "group_median": 41740.0,
+      "reference_price": 41740.0,
+      "km_adjusted": false,
+      "age_days": 13.89431485596065,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 277,
-      "recent_listings": 14,
-      "deal_count": 0
+      "recent_listings": 17,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
