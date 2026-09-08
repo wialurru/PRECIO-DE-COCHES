@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-07T18:28:39.410895+00:00",
+  "generated_at": "2026-09-08T00:53:04.993976+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71359474",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 23490.0,
+      "km": 43485,
+      "fuel": "Gasolina",
+      "province": "Madrid",
+      "city": "Madrid Capital",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Golf 1.5 TSI",
+      "publish_date": "2026-08-25T12:02:48Z",
+      "url": "https://www.coches.net/volkswagen-golf-golf-15-tsi-85kw-115cv-5p-gasolina-2025-en-madrid-71359474-covo.aspx",
+      "first_seen_at": "2026-08-26T18:41:19.662305+00:00",
+      "last_seen_at": "2026-09-08T00:43:13.421579+00:00",
+      "is_active": 1,
+      "hp": 115,
+      "discount_ratio": 0.692001767565179,
+      "group_median": 33945.0,
+      "reference_price": 33945.0,
+      "km_adjusted": false,
+      "age_days": 13.53491891175926,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 280,
-      "recent_listings": 18,
-      "deal_count": 0
+      "recent_listings": 14,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
