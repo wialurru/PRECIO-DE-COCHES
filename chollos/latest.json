@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:34:17.900787+00:00",
+  "generated_at": "2026-09-08T18:29:44.784359+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -8,7 +8,7 @@
     {
       "model": "Volkswagen Golf",
       "active_listings": 280,
-      "recent_listings": 15,
+      "recent_listings": 17,
       "deal_count": 0
     },
     {
