@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-09-09T00:52:44.372105+00:00",
+  "generated_at": "2026-09-09T06:37:32.482134+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71468416",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2016,
-      "price": 8500.0,
-      "km": 250000,
-      "fuel": "Diésel",
-      "province": "Valladolid",
-      "city": "Valladolid",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf Variant Sport 1.6 TDI BMT",
-      "publish_date": "2026-09-08T16:11:33Z",
-      "url": "https://www.coches.net/volkswagen-golf-variant-sport-16-tdi-bmt-5p-diesel-2017-en-valladolid-71468416-covo.aspx",
-      "first_seen_at": "2026-09-09T00:42:52.036563+00:00",
-      "last_seen_at": "2026-09-09T00:42:52.036563+00:00",
-      "is_active": 1,
-      "hp": 110,
-      "discount_ratio": 0.7286467912426705,
-      "group_median": 12240.0,
-      "reference_price": 11665.46000360981,
-      "km_adjusted": true,
-      "age_days": 0.3619371771412037,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 278,
-      "recent_listings": 19,
-      "deal_count": 1
+      "active_listings": 277,
+      "recent_listings": 16,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
