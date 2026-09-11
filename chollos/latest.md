@@ -1,6 +1,6 @@
 # Chollos detectados — coches de segunda mano (España)
 
-Última actualización: 2026-09-11 00:51 UTC
+Última actualización: 2026-09-11 06:36 UTC
 
 Se vigilan 41 modelos (top de rotación + modelos extra) en coches.net y Milanuncios. Se considera **chollo** un anuncio activo, publicado hace 15 días o menos, con precio igual o inferior al 75% del precio esperado para su grupo (mismo modelo vigilado + año + rango de potencia, para no mezclar versiones básicas con las de gama alta -- p.ej. un Audi A3 116cv con un A3 RS3 400cv), exigiendo al menos 4 anuncios comparables en ese grupo. Cuando hay suficientes anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta además por km (un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana.
 
@@ -18,9 +18,14 @@ Ninguno en este barrido.
 
 ---
 
-## Resto de chollos (> 5.000 €, fuera de presupuesto) — 0
+## Resto de chollos (> 5.000 €, fuera de presupuesto) — 2
 
-Ninguno en este barrido.
+### Estado no especificado por el vendedor
+
+| Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Volkswagen Golf | 2024 | 245 | 29,490 € | 41,740 € | no (mediana) | -29% | 63.005 km | Murcia | coches_net | 0.6 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2021-en-murcia-71485960-covo.aspx) |
+| Volkswagen Golf | 2017 | 115 | 9,499 € | 13,043 € | sí | -27% | 165.827 km | Humanes de Madrid | coches_net | 2.6 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-advance-16-tdi-85kw-115cv-variant-5p-diesel-2018-en-madrid-71469111-covo.aspx) |
 
 ---
 
@@ -28,7 +33,7 @@ Ninguno en este barrido.
 
 | Modelo | Anuncios activos | Publicados en <15 días | Chollos |
 |---|---|---|---|
-| Volkswagen Golf | 276 | 15 | 0 |
+| Volkswagen Golf | 278 | 18 | 2 |
 | Volkswagen Polo | 241 | 0 | 0 |
 | Volkswagen Tiguan | 279 | 0 | 0 |
 | Volkswagen T-Roc | 39 | 0 | 0 |
