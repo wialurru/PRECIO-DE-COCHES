@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-14T12:34:22.848535+00:00",
+  "generated_at": "2026-09-14T18:27:55.095816+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71482702",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2019,
+      "price": 14680.0,
+      "km": 63842,
+      "fuel": "Gasolina",
+      "province": "Málaga",
+      "city": "Málaga Capital",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Ready2Go 1.0 TSI",
+      "publish_date": "2026-09-10T10:31:00Z",
+      "url": "https://www.coches.net/volkswagen-golf-ready2go-10-tsi-85kw-115cv-5p-gasolina-2019-en-malaga-71482702-covo.aspx",
+      "first_seen_at": "2026-09-14T18:18:05.124768+00:00",
+      "last_seen_at": "2026-09-14T18:18:05.124768+00:00",
+      "is_active": 1,
+      "hp": 115,
+      "discount_ratio": 0.7305992362209849,
+      "group_median": 14680.0,
+      "reference_price": 20093.095191191427,
+      "km_adjusted": true,
+      "age_days": 4.331193238611111,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 272,
-      "recent_listings": 13,
-      "deal_count": 0
+      "active_listings": 274,
+      "recent_listings": 20,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
