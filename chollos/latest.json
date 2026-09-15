@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-15T06:38:16.304065+00:00",
+  "generated_at": "2026-09-15T12:33:29.988159+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71405689",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2014,
+      "price": 12490.0,
+      "km": 240000,
+      "fuel": "Diésel",
+      "province": "Barcelona",
+      "city": "Parets del Vallès",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf GTD 2.0 TDI DSG BMT",
+      "publish_date": "2026-08-31T20:20:51Z",
+      "url": "https://www.coches.net/volkswagen-golf-gtd-20-tdi-184cv-dsg-bmt-3p-diesel-2015-en-barcelona-71405689-covo.aspx",
+      "first_seen_at": "2026-09-15T12:23:16.850277+00:00",
+      "last_seen_at": "2026-09-15T12:23:16.850277+00:00",
+      "is_active": 1,
+      "hp": 184,
+      "discount_ratio": 0.686282590181049,
+      "group_median": 18199.5,
+      "reference_price": 18199.5,
+      "km_adjusted": false,
+      "age_days": 14.675451251840277,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 276,
-      "recent_listings": 20,
-      "deal_count": 0
+      "active_listings": 282,
+      "recent_listings": 21,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
