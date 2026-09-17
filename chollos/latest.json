@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-09-17T12:33:53.155378+00:00",
+  "generated_at": "2026-09-17T18:29:37.297064+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71497772",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2013,
-      "price": 5900.0,
-      "km": 225000,
-      "fuel": "Gasolina",
-      "province": "Salamanca",
-      "city": "Salamanca",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": null,
-      "title": "VOLKSWAGEN Golf 1.2 TSI Advance Rabbit",
-      "publish_date": "2026-09-12T10:22:39Z",
-      "url": "https://www.coches.net/volkswagen-golf-12-tsi-105cv-advance-rabbit-5p-gasolina-2013-en-salamanca-71497772-covo.aspx",
-      "first_seen_at": "2026-09-16T12:24:05.897294+00:00",
-      "last_seen_at": "2026-09-17T12:23:58.595931+00:00",
-      "is_active": 1,
-      "hp": 105,
-      "discount_ratio": 0.7341381795856444,
-      "group_median": 7990.0,
-      "reference_price": 8036.634197842734,
-      "km_adjusted": true,
-      "age_days": 5.09113605761574,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 274,
-      "recent_listings": 13,
-      "deal_count": 1
+      "active_listings": 278,
+      "recent_listings": 14,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
