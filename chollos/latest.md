@@ -1,6 +1,6 @@
 # Chollos detectados — coches de segunda mano (España)
 
-Última actualización: 2026-09-17 06:38 UTC
+Última actualización: 2026-09-17 12:33 UTC
 
 Se vigilan 41 modelos (top de rotación + modelos extra) en coches.net y Milanuncios. Se considera **chollo** un anuncio activo, publicado hace 15 días o menos, con precio igual o inferior al 75% del precio esperado para su grupo (mismo modelo vigilado + año + rango de potencia, para no mezclar versiones básicas con las de gama alta -- p.ej. un Audi A3 116cv con un A3 RS3 400cv), exigiendo al menos 4 anuncios comparables en ese grupo. Cuando hay suficientes anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta además por km (un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana.
 
@@ -24,7 +24,7 @@ Ninguno en este barrido.
 
 | Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Volkswagen Golf | 2024 | 245 | 28,990 € | 41,740 € | no (mediana) | -31% | 63.005 km | Murcia | coches_net | 1.5 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2021-en-murcia-71520375-covo.aspx) |
+| Volkswagen Golf | 2013 | 105 | 5,900 € | 8,037 € | sí | -27% | 225.000 km | Salamanca | coches_net | 5.1 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-12-tsi-105cv-advance-rabbit-5p-gasolina-2013-en-salamanca-71497772-covo.aspx) |
 
 ---
 
@@ -32,7 +32,7 @@ Ninguno en este barrido.
 
 | Modelo | Anuncios activos | Publicados en <15 días | Chollos |
 |---|---|---|---|
-| Volkswagen Golf | 276 | 13 | 1 |
+| Volkswagen Golf | 274 | 13 | 1 |
 | Volkswagen Polo | 241 | 0 | 0 |
 | Volkswagen Tiguan | 279 | 0 | 0 |
 | Volkswagen T-Roc | 39 | 0 | 0 |
