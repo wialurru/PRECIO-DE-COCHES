@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-17T00:52:10.724401+00:00",
+  "generated_at": "2026-09-17T06:38:00.990324+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71520375",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 28990.0,
+      "km": 63005,
+      "fuel": "Gasolina",
+      "province": "Murcia",
+      "city": "Murcia",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf GTI 2.0 TSI DSG",
+      "publish_date": "2026-09-15T17:48:50Z",
+      "url": "https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2021-en-murcia-71520375-covo.aspx",
+      "first_seen_at": "2026-09-16T18:18:28.798752+00:00",
+      "last_seen_at": "2026-09-17T06:28:05.827900+00:00",
+      "is_active": 1,
+      "hp": 245,
+      "discount_ratio": 0.6945376137997125,
+      "group_median": 41740.0,
+      "reference_price": 41740.0,
+      "km_adjusted": false,
+      "age_days": 1.534154980601852,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 275,
-      "recent_listings": 12,
-      "deal_count": 0
+      "active_listings": 276,
+      "recent_listings": 13,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
