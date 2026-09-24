@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-23T18:30:37.463119+00:00",
+  "generated_at": "2026-09-24T00:52:07.982577+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71568604",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2015,
+      "price": 8900.0,
+      "km": 187000,
+      "fuel": "Diésel",
+      "province": "Sevilla",
+      "city": "Mairena del Alcor",
+      "seller_type": "private",
+      "has_warranty": 0,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Advance 1.6 TDI BMT",
+      "publish_date": "2026-09-22T10:33:35Z",
+      "url": "https://www.coches.net/volkswagen-golf-advance-16-tdi-105cv-bmt-5p-diesel-2015-en-sevilla-71568604-covo.aspx",
+      "first_seen_at": "2026-09-24T00:42:15.604624+00:00",
+      "last_seen_at": "2026-09-24T00:42:15.604624+00:00",
+      "is_active": 1,
+      "hp": 105,
+      "discount_ratio": 0.6876844602724448,
+      "group_median": 12500.0,
+      "reference_price": 12941.982135926155,
+      "km_adjusted": true,
+      "age_days": 1.596215076122685,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 275,
-      "recent_listings": 8,
-      "deal_count": 0
+      "recent_listings": 9,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
