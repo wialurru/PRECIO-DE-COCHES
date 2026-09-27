@@ -1,6 +1,6 @@
 # Chollos detectados — coches de segunda mano (España)
 
-Última actualización: 2026-09-27 06:36 UTC
+Última actualización: 2026-09-27 12:32 UTC
 
 Se vigilan 41 modelos (top de rotación + modelos extra) en coches.net y Milanuncios. Se considera **chollo** un anuncio activo, publicado hace 15 días o menos, con precio igual o inferior al 75% del precio esperado para su grupo (mismo modelo vigilado + año + rango de potencia, para no mezclar versiones básicas con las de gama alta -- p.ej. un Audi A3 116cv con un A3 RS3 400cv), exigiendo al menos 4 anuncios comparables en ese grupo. Cuando hay suficientes anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta además por km (un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana.
 
@@ -12,9 +12,13 @@ Ninguno en este barrido.
 
 ---
 
-## Dentro de presupuesto, fuera de Cataluña — 0
+## Dentro de presupuesto, fuera de Cataluña — 1
 
-Ninguno en este barrido.
+### Estado no especificado por el vendedor
+
+| Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Volkswagen Golf | 2008 | 105 | 2,999 € | 4,829 € | sí | -38% | 270.000 km | Leganés | coches_net | 1.7 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-19-tdi-105cv-highline-5p-diesel-2008-en-madrid-71601145-covo.aspx) |
 
 ---
 
@@ -28,7 +32,7 @@ Ninguno en este barrido.
 
 | Modelo | Anuncios activos | Publicados en <15 días | Chollos |
 |---|---|---|---|
-| Volkswagen Golf | 280 | 14 | 0 |
+| Volkswagen Golf | 281 | 11 | 1 |
 | Volkswagen Polo | 241 | 0 | 0 |
 | Volkswagen Tiguan | 279 | 0 | 0 |
 | Volkswagen T-Roc | 39 | 0 | 0 |

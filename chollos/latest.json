@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-09-27T06:36:49.229899+00:00",
+  "generated_at": "2026-09-27T12:32:38.426304+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71601145",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2008,
+      "price": 2999.0,
+      "km": 270000,
+      "fuel": "Diésel",
+      "province": "Madrid",
+      "city": "Leganés",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf 1.9 TDI Highline",
+      "publish_date": "2026-09-25T20:08:19Z",
+      "url": "https://www.coches.net/volkswagen-golf-19-tdi-105cv-highline-5p-diesel-2008-en-madrid-71601145-covo.aspx",
+      "first_seen_at": "2026-09-27T12:22:38.485521+00:00",
+      "last_seen_at": "2026-09-27T12:22:38.485521+00:00",
+      "is_active": 1,
+      "hp": 105,
+      "discount_ratio": 0.6210151396852637,
+      "group_median": 5900.0,
+      "reference_price": 4829.189835081833,
+      "km_adjusted": true,
+      "age_days": 1.6835581748148147,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 280,
-      "recent_listings": 14,
-      "deal_count": 0
+      "active_listings": 281,
+      "recent_listings": 11,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
