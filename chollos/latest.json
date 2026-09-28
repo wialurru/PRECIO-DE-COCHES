@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:59:52.703532+00:00",
+  "generated_at": "2026-09-28T06:48:55.132541+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,14 +23,14 @@
       "publish_date": "2026-09-25T20:08:19Z",
       "url": "https://www.coches.net/volkswagen-golf-19-tdi-105cv-highline-5p-diesel-2008-en-madrid-71601145-covo.aspx",
       "first_seen_at": "2026-09-27T12:22:38.485521+00:00",
-      "last_seen_at": "2026-09-28T00:49:59.826408+00:00",
+      "last_seen_at": "2026-09-28T06:38:53.760456+00:00",
       "is_active": 1,
       "hp": 105,
-      "discount_ratio": 0.6210151396852637,
-      "group_median": 5900.0,
-      "reference_price": 4829.189835081833,
+      "discount_ratio": 0.5995103691142339,
+      "group_median": 5949.5,
+      "reference_price": 5002.415561937602,
       "km_adjusted": true,
-      "age_days": 2.2024734205092593,
+      "age_days": 2.444862645150463,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
@@ -38,7 +38,7 @@
     {
       "model": "Volkswagen Golf",
       "active_listings": 281,
-      "recent_listings": 11,
+      "recent_listings": 10,
       "deal_count": 1
     },
     {
