@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-09-30T18:30:22.269548+00:00",
+  "generated_at": "2026-10-01T01:03:38.719974+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71595607",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2020,
-      "price": 12990.0,
-      "km": 110000,
-      "fuel": "Eléctrico",
-      "province": "Ciudad Real",
-      "city": "Ciudad Real",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf eGolf ePower",
-      "publish_date": "2026-09-25T10:10:33Z",
-      "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-ciudad-real-71595607-covo.aspx",
-      "first_seen_at": "2026-09-30T18:20:24.985304+00:00",
-      "last_seen_at": "2026-09-30T18:20:24.985304+00:00",
-      "is_active": 1,
-      "hp": 136,
-      "discount_ratio": 0.6952640851342087,
-      "group_median": 17990.0,
-      "reference_price": 18683.548133357854,
-      "km_adjusted": true,
-      "age_days": 5.347098027175926,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 276,
-      "recent_listings": 10,
-      "deal_count": 1
+      "active_listings": 275,
+      "recent_listings": 7,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
