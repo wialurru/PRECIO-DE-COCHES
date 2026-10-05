@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-10-05T12:37:18.134241+00:00",
+  "generated_at": "2026-10-05T18:31:33.563423+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71557213",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 25490.0,
+      "km": 85163,
+      "fuel": "Diésel",
+      "province": "Murcia",
+      "city": "Beniel",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Life 2.0 TDI DSG",
+      "publish_date": "2026-09-20T18:48:13Z",
+      "url": "https://www.coches.net/volkswagen-golf-life-20-tdi-85kw-115cv-dsg-5p-diesel-2024-en-murcia-71557213-covo.aspx",
+      "first_seen_at": "2026-09-28T00:49:59.826408+00:00",
+      "last_seen_at": "2026-10-05T18:21:37.120629+00:00",
+      "is_active": 1,
+      "hp": 115,
+      "discount_ratio": 0.7337363270005757,
+      "group_median": 34740.0,
+      "reference_price": 34740.0,
+      "km_adjusted": false,
+      "age_days": 14.988432447025463,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 279,
+      "active_listings": 281,
       "recent_listings": 18,
-      "deal_count": 0
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
