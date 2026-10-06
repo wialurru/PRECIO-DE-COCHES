@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-10-06T06:38:25.624897+00:00",
+  "generated_at": "2026-10-06T12:34:36.913070+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71588119",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2021,
-      "price": 24190.0,
-      "km": 59231,
-      "fuel": "Híbrido enchufable",
-      "province": "Valencia",
-      "city": "Albal",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf GTE 1.4 TSI DSG",
-      "publish_date": "2026-09-24T11:55:28Z",
-      "url": "https://www.coches.net/volkswagen-golf-gte-14-tsi-180kw-245cv-dsg-5p-electrico-hibrido-2021-en-valencia-71588119-covo.aspx",
-      "first_seen_at": "2026-09-25T12:24:15.550533+00:00",
-      "last_seen_at": "2026-10-06T06:28:31.395765+00:00",
-      "is_active": 1,
-      "hp": 245,
-      "discount_ratio": 0.7395487114891578,
-      "group_median": 30990.0,
-      "reference_price": 32709.136834666286,
-      "km_adjusted": true,
-      "age_days": 11.779833621493056,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 281,
-      "recent_listings": 18,
-      "deal_count": 1
+      "active_listings": 282,
+      "recent_listings": 16,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
