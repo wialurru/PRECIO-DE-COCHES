@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-10-07T12:36:07.161278+00:00",
+  "generated_at": "2026-10-07T18:31:15.292949+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71589314",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 25900.0,
+      "km": 17830,
+      "fuel": "Híbrido",
+      "province": "Valencia",
+      "city": "Manises",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Style 1.5 eTSI 150CVDSG",
+      "publish_date": "2026-09-24T13:35:42Z",
+      "url": "https://www.coches.net/volkswagen-golf-style-15-etsi-110kw-150cvdsg-5p-electrico-hibrido-2025-en-valencia-71589314-covo.aspx",
+      "first_seen_at": "2026-09-25T12:24:15.550533+00:00",
+      "last_seen_at": "2026-10-07T18:21:06.907519+00:00",
+      "is_active": 1,
+      "hp": 150,
+      "discount_ratio": 0.7411646873658606,
+      "group_median": 34945.0,
+      "reference_price": 34945.0,
+      "km_adjusted": false,
+      "age_days": 13.20524644616898,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 282,
-      "recent_listings": 17,
-      "deal_count": 0
+      "active_listings": 276,
+      "recent_listings": 14,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
