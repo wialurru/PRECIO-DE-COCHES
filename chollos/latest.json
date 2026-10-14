@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-10-14T00:48:38.085756+00:00",
+  "generated_at": "2026-10-14T06:37:26.306953+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71698884",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 28999.0,
+      "km": 24000,
+      "fuel": "Gasolina",
+      "province": "Madrid",
+      "city": "Coslada",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf GTI 2.0 TSI DSG",
+      "publish_date": "2026-10-07T22:02:02Z",
+      "url": "https://www.coches.net/volkswagen-golf-gti-20-tsi-180kw-245cv-dsg-5p-gasolina-2024-en-madrid-71698884-covo.aspx",
+      "first_seen_at": "2026-10-10T00:47:02.605929+00:00",
+      "last_seen_at": "2026-10-14T06:26:54.672001+00:00",
+      "is_active": 1,
+      "hp": 245,
+      "discount_ratio": 0.6947532343076186,
+      "group_median": 41740.0,
+      "reference_price": 41740.0,
+      "km_adjusted": false,
+      "age_days": 6.357920219363426,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 279,
-      "recent_listings": 14,
-      "deal_count": 0
+      "active_listings": 281,
+      "recent_listings": 16,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
