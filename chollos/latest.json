@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-10-21T00:49:31.267312+00:00",
+  "generated_at": "2026-10-21T06:36:48.039361+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71791016",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2024,
-      "price": 24900.0,
-      "km": 12300,
-      "fuel": "Híbrido",
-      "province": "Lleida",
-      "city": "Lleida",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf Life 1.5 eTSI DSG Variant",
-      "publish_date": "2026-10-20T15:04:24Z",
-      "url": "https://www.coches.net/volkswagen-golf-life-15-etsi-85kw-115cv-dsg-variant-5p-electrico-hibrido-2024-en-lleida-71791016-covo.aspx",
-      "first_seen_at": "2026-10-21T00:39:39.355488+00:00",
-      "last_seen_at": "2026-10-21T00:39:39.355488+00:00",
-      "is_active": 1,
-      "hp": 116,
-      "discount_ratio": 0.7228915662650602,
-      "group_median": 34445.0,
-      "reference_price": 34445.0,
-      "km_adjusted": false,
-      "age_days": 0.40633411240740747,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 280,
-      "recent_listings": 15,
-      "deal_count": 1
+      "recent_listings": 11,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
