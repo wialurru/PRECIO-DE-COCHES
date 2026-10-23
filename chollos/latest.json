@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:36:39.215944+00:00",
+  "generated_at": "2026-10-23T12:31:58.722018+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,14 +23,14 @@
       "publish_date": "2026-10-20T16:01:53Z",
       "url": "https://www.coches.net/volkswagen-golf-life-10-etsi-81kw-110cv-dsg-5p-electrico-hibrido-2024-en-madrid-71791420-covo.aspx",
       "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
-      "last_seen_at": "2026-10-23T06:26:39.566779+00:00",
+      "last_seen_at": "2026-10-23T12:22:00.229426+00:00",
       "is_active": 1,
       "hp": 110,
-      "discount_ratio": 0.5447046693180144,
-      "group_median": 33945.0,
-      "reference_price": 33945.0,
+      "discount_ratio": 0.616538846282094,
+      "group_median": 29990.0,
+      "reference_price": 29990.0,
       "km_adjusted": false,
-      "age_days": 2.6074793512037036,
+      "age_days": 2.8542328937268517,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -52,22 +52,22 @@
       "publish_date": "2026-10-16T19:12:43Z",
       "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-madrid-71765877-covo.aspx",
       "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
-      "last_seen_at": "2026-10-23T06:26:39.566779+00:00",
+      "last_seen_at": "2026-10-23T12:22:00.229426+00:00",
       "is_active": 1,
       "hp": 136,
-      "discount_ratio": 0.694327960133538,
-      "group_median": 17720.0,
-      "reference_price": 18708.738155239596,
+      "discount_ratio": 0.717169346206818,
+      "group_median": 16900.0,
+      "reference_price": 18112.87678245792,
       "km_adjusted": true,
-      "age_days": 6.474956203055556,
+      "age_days": 6.721709745578703,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 280,
-      "recent_listings": 12,
+      "active_listings": 283,
+      "recent_listings": 18,
       "deal_count": 2
     },
     {
