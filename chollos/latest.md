@@ -1,6 +1,6 @@
 # Chollos detectados — coches de segunda mano (España)
 
-Última actualización: 2026-10-23 12:31 UTC
+Última actualización: 2026-10-23 18:28 UTC
 
 Se vigilan 41 modelos (top de rotación + modelos extra) en coches.net y Milanuncios. Se considera **chollo** un anuncio activo, publicado hace 15 días o menos, con precio igual o inferior al 75% del precio esperado para su grupo (mismo modelo vigilado + año + rango de potencia, para no mezclar versiones básicas con las de gama alta -- p.ej. un Audi A3 116cv con un A3 RS3 400cv), exigiendo al menos 4 anuncios comparables en ese grupo. Cuando hay suficientes anuncios con kilometraje conocido en el grupo, el precio esperado se ajusta además por km (un coche con más kilómetros se compara contra lo que cabe esperar para ese kilometraje, no contra la mediana bruta del grupo); si no hay datos suficientes, se usa la mediana.
 
@@ -18,14 +18,9 @@ Ninguno en este barrido.
 
 ---
 
-## Resto de chollos (> 5.000 €, fuera de presupuesto) — 2
+## Resto de chollos (> 5.000 €, fuera de presupuesto) — 0
 
-### Estado no especificado por el vendedor
-
-| Modelo | Año | CV | Precio | Precio esperado | Ajustado por km | Descuento | Km | Ubicación | Fuente | Publicado hace | Enlace |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| Volkswagen Golf | 2024 | 110 | 18,490 € | 29,990 € | no (mediana) | -38% | 135.300 km | Valdemoro | coches_net | 2.9 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-life-10-etsi-81kw-110cv-dsg-5p-electrico-hibrido-2024-en-madrid-71791420-covo.aspx) |
-| Volkswagen Golf | 2020 | 136 | 12,990 € | 18,113 € | sí | -28% | 107.500 km | Valdemoro | coches_net | 6.7 d | [Ver anuncio](https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-madrid-71765877-covo.aspx) |
+Ninguno en este barrido.
 
 ---
 
@@ -33,7 +28,7 @@ Ninguno en este barrido.
 
 | Modelo | Anuncios activos | Publicados en <15 días | Chollos |
 |---|---|---|---|
-| Volkswagen Golf | 283 | 18 | 2 |
+| Volkswagen Golf | 279 | 13 | 0 |
 | Volkswagen Polo | 241 | 0 | 0 |
 | Volkswagen Tiguan | 279 | 0 | 0 |
 | Volkswagen T-Roc | 39 | 0 | 0 |
