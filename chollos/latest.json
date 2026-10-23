@@ -1,9 +1,38 @@
 {
-  "generated_at": "2026-10-23T00:51:19.608097+00:00",
+  "generated_at": "2026-10-23T06:36:39.215944+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
   "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71791420",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2024,
+      "price": 18490.0,
+      "km": 135300,
+      "fuel": "Híbrido",
+      "province": "Madrid",
+      "city": "Valdemoro",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf Life 1.0 eTSI DSG",
+      "publish_date": "2026-10-20T16:01:53Z",
+      "url": "https://www.coches.net/volkswagen-golf-life-10-etsi-81kw-110cv-dsg-5p-electrico-hibrido-2024-en-madrid-71791420-covo.aspx",
+      "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
+      "last_seen_at": "2026-10-23T06:26:39.566779+00:00",
+      "is_active": 1,
+      "hp": 110,
+      "discount_ratio": 0.5447046693180144,
+      "group_median": 33945.0,
+      "reference_price": 33945.0,
+      "km_adjusted": false,
+      "age_days": 2.6074793512037036,
+      "condition": "Estado no especificado por el vendedor"
+    },
     {
       "source": "coches_net",
       "source_id": "71765877",
@@ -23,14 +52,14 @@
       "publish_date": "2026-10-16T19:12:43Z",
       "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-madrid-71765877-covo.aspx",
       "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
-      "last_seen_at": "2026-10-23T00:41:21.973468+00:00",
+      "last_seen_at": "2026-10-23T06:26:39.566779+00:00",
       "is_active": 1,
       "hp": 136,
-      "discount_ratio": 0.6964943436875395,
-      "group_median": 17990.0,
-      "reference_price": 18650.546293348736,
+      "discount_ratio": 0.694327960133538,
+      "group_median": 17720.0,
+      "reference_price": 18708.738155239596,
       "km_adjusted": true,
-      "age_days": 6.235145927048611,
+      "age_days": 6.474956203055556,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
@@ -38,8 +67,8 @@
     {
       "model": "Volkswagen Golf",
       "active_listings": 280,
-      "recent_listings": 11,
-      "deal_count": 1
+      "recent_listings": 12,
+      "deal_count": 2
     },
     {
       "model": "Volkswagen Polo",
