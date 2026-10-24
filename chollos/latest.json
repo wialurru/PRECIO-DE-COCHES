@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-10-24T12:30:06.060440+00:00",
+  "generated_at": "2026-10-24T18:26:37.933303+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71782760",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2020,
-      "price": 10990.0,
-      "km": 171000,
-      "fuel": "Diésel",
-      "province": "Madrid",
-      "city": "Humanes de Madrid",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf Advance 1.6 TDI Variant",
-      "publish_date": "2026-10-19T16:58:55Z",
-      "url": "https://www.coches.net/volkswagen-golf-advance-16-tdi-85kw-115cv-variant-5p-diesel-2020-en-madrid-71782760-covo.aspx",
-      "first_seen_at": "2026-10-24T12:19:59.139455+00:00",
-      "last_seen_at": "2026-10-24T12:19:59.139455+00:00",
-      "is_active": 1,
-      "hp": 115,
-      "discount_ratio": 0.6502464799640642,
-      "group_median": 18240.0,
-      "reference_price": 16901.28334198343,
-      "km_adjusted": true,
-      "age_days": 4.813322458796296,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 281,
-      "recent_listings": 10,
-      "deal_count": 1
+      "active_listings": 280,
+      "recent_listings": 11,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
