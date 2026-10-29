@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:41:06.755222+00:00",
+  "generated_at": "2026-10-29T06:29:53.246361+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,14 +23,14 @@
       "publish_date": "2026-10-20T16:01:53Z",
       "url": "https://www.coches.net/volkswagen-golf-life-10-etsi-81kw-110cv-dsg-5p-electrico-hibrido-2024-en-madrid-71791420-covo.aspx",
       "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
-      "last_seen_at": "2026-10-29T00:31:11.265019+00:00",
+      "last_seen_at": "2026-10-29T06:19:56.726566+00:00",
       "is_active": 1,
       "hp": 110,
       "discount_ratio": 0.5447046693180144,
       "group_median": 33945.0,
       "reference_price": 33945.0,
       "km_adjusted": false,
-      "age_days": 8.360575870624999,
+      "age_days": 8.602780629178241,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -52,22 +52,22 @@
       "publish_date": "2026-10-16T19:12:43Z",
       "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-madrid-71765877-covo.aspx",
       "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
-      "last_seen_at": "2026-10-29T00:31:11.265019+00:00",
+      "last_seen_at": "2026-10-29T06:19:56.726566+00:00",
       "is_active": 1,
       "hp": 136,
-      "discount_ratio": 0.7158670901769809,
-      "group_median": 16990.0,
-      "reference_price": 18145.826478471772,
+      "discount_ratio": 0.7068385858968728,
+      "group_median": 17445.0,
+      "reference_price": 18377.604532607154,
       "km_adjusted": true,
-      "age_days": 12.228052722476852,
+      "age_days": 12.470257481030092,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 271,
-      "recent_listings": 15,
+      "active_listings": 269,
+      "recent_listings": 16,
       "deal_count": 2
     },
     {
