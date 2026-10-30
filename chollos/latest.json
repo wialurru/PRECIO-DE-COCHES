@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:41:39.575188+00:00",
+  "generated_at": "2026-10-30T06:29:48.561411+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,14 +23,14 @@
       "publish_date": "2026-10-16T19:12:43Z",
       "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-madrid-71765877-covo.aspx",
       "first_seen_at": "2026-10-22T18:18:37.825641+00:00",
-      "last_seen_at": "2026-10-30T00:31:52.894401+00:00",
+      "last_seen_at": "2026-10-30T06:19:52.870432+00:00",
       "is_active": 1,
       "hp": 136,
-      "discount_ratio": 0.7089806980692335,
-      "group_median": 17445.0,
-      "reference_price": 18322.078492934514,
+      "discount_ratio": 0.6983397906400948,
+      "group_median": 17990.0,
+      "reference_price": 18601.259979892355,
       "km_adjusted": true,
-      "age_days": 13.228432583194444,
+      "age_days": 13.470203257071761,
       "condition": "Estado no especificado por el vendedor"
     },
     {
@@ -52,22 +52,22 @@
       "publish_date": "2026-10-21T17:39:28Z",
       "url": "https://www.coches.net/volkswagen-golf-advance-20-tdi-110kw150cv-dsg-variant-5p-diesel-2020-en-madrid-71801664-covo.aspx",
       "first_seen_at": "2026-10-28T18:14:39.597149+00:00",
-      "last_seen_at": "2026-10-30T00:31:52.894401+00:00",
+      "last_seen_at": "2026-10-30T06:19:52.870432+00:00",
       "is_active": 1,
       "hp": 150,
-      "discount_ratio": 0.7386154217720794,
-      "group_median": 17445.0,
-      "reference_price": 16097.687171862211,
+      "discount_ratio": 0.7259943656058028,
+      "group_median": 17990.0,
+      "reference_price": 16377.537572317717,
       "km_adjusted": true,
-      "age_days": 8.293189527638889,
+      "age_days": 8.534960201516203,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 275,
-      "recent_listings": 16,
+      "active_listings": 276,
+      "recent_listings": 14,
       "deal_count": 2
     },
     {
