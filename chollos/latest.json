@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-10-31T00:36:16.776568+00:00",
+  "generated_at": "2026-10-31T06:25:11.440643+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71840979",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2019,
+      "price": 14490.0,
+      "km": 71848,
+      "fuel": "Eléctrico",
+      "province": "Valencia",
+      "city": "Albal",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf eGolf ePower",
+      "publish_date": "2026-10-27T09:56:43Z",
+      "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-valencia-71840979-covo.aspx",
+      "first_seen_at": "2026-10-31T06:15:13.112219+00:00",
+      "last_seen_at": "2026-10-31T06:15:13.112219+00:00",
+      "is_active": 1,
+      "hp": 136,
+      "discount_ratio": 0.7337406334092798,
+      "group_median": 14244.5,
+      "reference_price": 19748.122620214075,
+      "km_adjusted": true,
+      "age_days": 3.8531069518865744,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
-      "active_listings": 280,
-      "recent_listings": 12,
-      "deal_count": 0
+      "active_listings": 276,
+      "recent_listings": 11,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
