@@ -1,15 +1,45 @@
 {
-  "generated_at": "2026-11-01T00:42:18.911291+00:00",
+  "generated_at": "2026-11-01T06:26:10.796262+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [],
+  "deals": [
+    {
+      "source": "coches_net",
+      "source_id": "71813120",
+      "display_model": "Volkswagen Golf",
+      "make": "VOLKSWAGEN",
+      "model": "Golf",
+      "year": 2011,
+      "price": 5500.0,
+      "km": 295000,
+      "fuel": "Diésel",
+      "province": "Madrid",
+      "city": "Madrid Capital",
+      "seller_type": "professional",
+      "has_warranty": 1,
+      "description": null,
+      "title": "VOLKSWAGEN Golf 1.6 TDI 105 Advance BlueMotion Tech",
+      "publish_date": "2026-10-22T21:47:49Z",
+      "url": "https://www.coches.net/volkswagen-golf-16-tdi-105-advance-bluemotion-tech-5p-diesel-2012-en-madrid-71813120-covo.aspx",
+      "first_seen_at": "2026-11-01T06:16:17.766626+00:00",
+      "last_seen_at": "2026-11-01T06:16:17.766626+00:00",
+      "is_active": 1,
+      "hp": 105,
+      "discount_ratio": 0.6962025316455697,
+      "group_median": 7900.0,
+      "reference_price": 7900.0,
+      "km_adjusted": false,
+      "age_days": 9.359974493773148,
+      "condition": "Estado no especificado por el vendedor"
+    }
+  ],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 272,
-      "recent_listings": 14,
-      "deal_count": 0
+      "recent_listings": 15,
+      "deal_count": 1
     },
     {
       "model": "Volkswagen Polo",
