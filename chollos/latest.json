@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:22:34.481882+00:00",
+  "generated_at": "2026-11-03T00:36:18.154059+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -23,14 +23,14 @@
       "publish_date": "2026-10-22T09:03:24Z",
       "url": "https://www.coches.net/volkswagen-golf-gtd-20-tdi-184cv-dsg-bmt-3p-diesel-2015-en-barcelona-71805559-covo.aspx",
       "first_seen_at": "2026-10-25T18:16:54.344909+00:00",
-      "last_seen_at": "2026-11-02T18:12:35.203192+00:00",
+      "last_seen_at": "2026-11-03T00:26:20.350285+00:00",
       "is_active": 1,
       "hp": 184,
-      "discount_ratio": 0.686282590181049,
-      "group_median": 18199.5,
-      "reference_price": 18199.5,
+      "discount_ratio": 0.5703456778848349,
+      "group_median": 21899.0,
+      "reference_price": 21899.0,
       "km_adjusted": false,
-      "age_days": 11.388315762523147,
+      "age_days": 11.6478490053125,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
@@ -38,7 +38,7 @@
     {
       "model": "Volkswagen Golf",
       "active_listings": 280,
-      "recent_listings": 13,
+      "recent_listings": 15,
       "deal_count": 1
     },
     {
