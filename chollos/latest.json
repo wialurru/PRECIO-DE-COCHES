@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-11-04T12:25:00.820719+00:00",
+  "generated_at": "2026-11-04T18:21:52.845760+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71824650",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2015,
-      "price": 5500.0,
-      "km": 317000,
-      "fuel": "Diésel",
-      "province": "Almería",
-      "city": "Roquetas de Mar",
-      "seller_type": "private",
-      "has_warranty": 0,
-      "description": null,
-      "title": "VOLKSWAGEN Golf Variant Business Navi 1.6 TDI 110 BMT",
-      "publish_date": "2026-10-24T16:39:10Z",
-      "url": "https://www.coches.net/volkswagen-golf-variant-business--navi-16-tdi-110-bmt-5p-diesel-2015-en-almeria-71824650-covo.aspx",
-      "first_seen_at": "2026-10-24T18:16:46.206638+00:00",
-      "last_seen_at": "2026-11-04T12:14:53.566035+00:00",
-      "is_active": 1,
-      "hp": 110,
-      "discount_ratio": 0.6899903585141001,
-      "group_median": 13595.0,
-      "reference_price": 7971.1258746343865,
-      "km_adjusted": true,
-      "age_days": 10.82350486943287,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 279,
-      "recent_listings": 16,
-      "deal_count": 1
+      "recent_listings": 19,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
