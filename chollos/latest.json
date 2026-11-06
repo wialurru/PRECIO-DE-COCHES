@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:37:10.360321+00:00",
+  "generated_at": "2026-11-06T06:28:12.556134+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
@@ -30,7 +30,7 @@
       "group_median": 14490.0,
       "reference_price": 19664.093024999478,
       "km_adjusted": true,
-      "age_days": 9.632481022233796,
+      "age_days": 9.87625643673611,
       "condition": "Estado no especificado por el vendedor"
     }
   ],
