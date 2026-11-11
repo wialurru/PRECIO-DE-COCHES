@@ -1,45 +1,15 @@
 {
-  "generated_at": "2026-11-11T06:26:44.680146+00:00",
+  "generated_at": "2026-11-11T12:25:08.928415+00:00",
   "max_age_days": 15,
   "discount_ratio": 0.75,
   "max_budget_eur": 5000,
-  "deals": [
-    {
-      "source": "coches_net",
-      "source_id": "71840485",
-      "display_model": "Volkswagen Golf",
-      "make": "VOLKSWAGEN",
-      "model": "Golf",
-      "year": 2019,
-      "price": 14490.0,
-      "km": 71848,
-      "fuel": "Eléctrico",
-      "province": "Madrid",
-      "city": "Madrid Capital",
-      "seller_type": "professional",
-      "has_warranty": 1,
-      "description": null,
-      "title": "VOLKSWAGEN Golf eGolf ePower",
-      "publish_date": "2026-10-27T09:26:24Z",
-      "url": "https://www.coches.net/volkswagen-golf-egolf-epower-100-kw-136cv-5p-electrico-hibrido-2020-en-madrid-71840485-covo.aspx",
-      "first_seen_at": "2026-11-05T12:15:09.068924+00:00",
-      "last_seen_at": "2026-11-05T12:15:09.068924+00:00",
-      "is_active": 1,
-      "hp": 136,
-      "discount_ratio": 0.7368760909327718,
-      "group_median": 14490.0,
-      "reference_price": 19664.093024999478,
-      "km_adjusted": true,
-      "age_days": 14.875239353541668,
-      "condition": "Estado no especificado por el vendedor"
-    }
-  ],
+  "deals": [],
   "models": [
     {
       "model": "Volkswagen Golf",
       "active_listings": 274,
-      "recent_listings": 9,
-      "deal_count": 1
+      "recent_listings": 7,
+      "deal_count": 0
     },
     {
       "model": "Volkswagen Polo",
